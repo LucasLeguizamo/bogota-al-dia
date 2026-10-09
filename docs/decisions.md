@@ -60,3 +60,38 @@
 **Decisión**: Generar sitemap.xml manualmente como endpoint Astro.
 
 **Razón**: El plugin @astrojs/sitemap falló con error de reduce(). La solución manual funciona y genera 307 URLs.
+
+## 2026-10-09: Build output (dist/)
+
+**Decisión**: No commitear dist/. Vercel hace build desde source.
+
+**Razón**:
+- Vercel detecta Astro automáticamente y ejecuta `pnpm run build`
+- Commitear dist/ duplica archivos y complica diffs
+- El workflow de actualización de datos solo commitea cambios en `data/`
+
+## 2026-10-09: Códigos de frecuencia sin descripción oficial
+
+**Decisión**: Etiquetar claramente los códigos sin descripción oficial.
+
+**Evidencia**: La API de UAESP (metadata en MapServer/5) solo tiene labels numéricos (1, 2, 6, etc.) sin descripciones textuales. El diccionario de datos PDF existe pero no está accesible para parsing automático.
+
+**Implementación**:
+- Campo `frecuencia.oficial: boolean` en el schema y datos
+- Códigos sin descripción muestran "Código X (sin descripción oficial)"
+- UI muestra indicador ⚠ para frecuencias no oficiales
+
+## 2026-10-09: Alertas de TransMilenio
+
+**Decisión**: Sección marcada como "pendiente" sin datos fabricados.
+
+**Investigación**:
+- datosabiertos.bogota.gov.co: Sin dataset de alertas tiempo real
+- transmilenio.gov.co: robots.txt bloquea scraping
+- GTFS: Solo estático, sin GTFS-RT
+- X API: Requiere suscripción de pago
+
+**Implementación**: Página /alertas/ con:
+- Mensaje claro de "sección pendiente"
+- Enlaces a canales oficiales (X, web, app)
+- Explicación técnica de por qué no hay datos

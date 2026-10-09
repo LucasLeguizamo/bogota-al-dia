@@ -71,9 +71,27 @@ Los 5 operadores de ASE (Áreas de Servicio Exclusivo):
 - **Estado**: Pendiente verificar disponibilidad del archivo ZIP
 - **Contenido esperado**: routes.txt, stops.txt, trips.txt, stop_times.txt, calendar.txt
 
-### Alertas de Servicio
-- **Fuente pendiente**: Buscar API de alertas en transmilenio.gov.co
-- **Alternativa**: @TransMilenio en X (antes Twitter) - solo para monitoreo manual
+### Alertas de Servicio (PENDIENTE)
+
+**Estado**: No hay API pública estructurada disponible.
+
+**Canales oficiales identificados**:
+
+| Canal | URL | Formato | Acceso programático |
+|-------|-----|---------|---------------------|
+| Web TransMilenio | transmilenio.gov.co/publicaciones | HTML | No permitido (robots.txt bloquea) |
+| X @TransMilenio | x.com/TransMilenio | Posts | Requiere API X (de pago) |
+| X @SectorMovilidad | x.com/SectorMovilidad | Posts | Requiere API X (de pago) |
+| App TransMi | Google Play/App Store | Móvil | Sin API pública |
+| GTFS-RT | No encontrado | - | - |
+
+**Investigación realizada**:
+1. datosabiertos.bogota.gov.co: Sin dataset de alertas en tiempo real
+2. transmilenio.gov.co/robots.txt: Disallow para múltiples rutas
+3. GTFS de TransMilenio: Solo datos estáticos (rutas, paradas), sin GTFS-RT
+
+**Conclusión**: Las alertas deberán agregarse manualmente o cuando exista una API oficial.
+La sección de alertas en el sitio está claramente marcada como "pendiente".
 
 ## Datos Geográficos de Referencia
 

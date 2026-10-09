@@ -42,11 +42,15 @@
             "type": "string",
             "enum": ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
           },
-          "description": "Días de recolección"
+          "description": "Días de recolección (vacío si código sin descripción oficial)"
         },
         "descripcion": {
           "type": "string",
           "description": "Descripción legible de la frecuencia"
+        },
+        "oficial": {
+          "type": "boolean",
+          "description": "true si la descripción está confirmada en fuente oficial"
         }
       }
     },

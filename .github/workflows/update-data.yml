@@ -36,10 +36,14 @@ jobs:
       - name: Check for changes
         id: check
         run: |
+          # Idempotencia: solo commitear si hay cambios reales en los datos
           if git diff --quiet data/; then
             echo "changed=false" >> $GITHUB_OUTPUT
+            echo "✓ Sin cambios en los datos"
           else
             echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Cambios detectados:"
+            git diff --stat data/
           fi
 
       - name: Commit and push
@@ -48,5 +52,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git commit -m "chore: actualizar datos $(date +%Y-%m-%d)"
+          # Mensaje incluye resumen de cambios
+          CHANGES=$(git diff --cached --stat data/ | tail -1)
+          git commit -m "chore: actualizar datos $(date +%Y-%m-%d)
+
+          $CHANGES"
           git push
+          echo "✓ Datos actualizados y pusheados"
+
+      - name: No changes
+        if: steps.check.outputs.changed == 'false'
+        run: echo "✓ Ejecución idempotente - sin cambios que commitear"

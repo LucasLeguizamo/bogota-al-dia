@@ -1,34 +1,33 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 
-const ejemploBuscarEstacion = `{
-  "name": "buscar_estacion",
-  "arguments": {
-    "query": "Portal Suba"
-  }
-}`;
-
-const ejemploBuscarRuta = `{
-  "name": "buscar_ruta",
-  "arguments": {
-    "codigo": "B23"
-  }
-}`;
-
-const ejemploRecoleccion = `{
-  "name": "horario_recoleccion",
-  "arguments": {
-    "localidad": "Suba"
-  }
-}`;
-
-const ejemploConfig = `{
-  "mcpServers": {
-    "bogota-al-dia": {
-      "url": "https://bogota-al-dia.vercel.app/mcp"
+const ejemploBuscarEstacion = `curl -X POST https://bogota-al-dia.vercel.app/api/mcp \\
+  -H "Content-Type: application/json" \\
+  -d '{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "tools/call",
+    "params": {
+      "name": "estaciones_transmilenio",
+      "arguments": { "query": "portal" }
     }
-  }
-}`;
+  }'`;
+
+const ejemploRecoleccion = `curl -X POST https://bogota-al-dia.vercel.app/api/mcp \\
+  -H "Content-Type: application/json" \\
+  -d '{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "tools/call",
+    "params": {
+      "name": "recoleccion_por_zona",
+      "arguments": { "localidad": "suba" }
+    }
+  }'`;
+
+const ejemploListTools = `curl -X POST https://bogota-al-dia.vercel.app/api/mcp \\
+  -H "Content-Type: application/json" \\
+  -d '{"jsonrpc": "2.0", "id": 1, "method": "tools/list"}'`;
 ---
 
 <Layout 
@@ -41,10 +40,13 @@ const ejemploConfig = `{
   <section aria-labelledby="conexion-heading">
     <h2 id="conexion-heading">Conexión</h2>
     <div class="card">
-      <p><strong>Endpoint:</strong> <code>https://bogota-al-dia.vercel.app/mcp</code></p>
-      <p><strong>Protocolo:</strong> Streamable HTTP</p>
+      <p><strong>Endpoint:</strong> <code>https://bogota-al-dia.vercel.app/api/mcp</code></p>
+      <p><strong>Protocolo:</strong> JSON-RPC 2.0 sobre HTTP POST</p>
       <p><strong>Autenticación:</strong> No requerida</p>
-      <p><a href="/server.json">Ver server.json →</a></p>
+      <p>
+        <a href="/server.json">server.json</a> · 
+        <a href="/mcp/server-card.json">server-card.json</a>
+      </p>
     </div>
   </section>
   
@@ -52,35 +54,41 @@ const ejemploConfig = `{
     <h2 id="herramientas-heading">Herramientas Disponibles</h2>
     
     <article class="card">
-      <h3>buscar_estacion</h3>
-      <p>Busca una estación de TransMilenio por nombre o código.</p>
+      <h3>estaciones_transmilenio</h3>
+      <p>Lista o busca estaciones de TransMilenio por nombre, código o troncal.</p>
+      <p><strong>Parámetros:</strong> query (opcional), limit (opcional, default: 10)</p>
+    </article>
+    
+    <article class="card">
+      <h3>rutas_transmilenio</h3>
+      <p>Lista o busca rutas de TransMilenio por código.</p>
+      <p><strong>Parámetros:</strong> codigo (opcional), limit (opcional, default: 10)</p>
+    </article>
+    
+    <article class="card">
+      <h3>recoleccion_por_zona</h3>
+      <p>Consulta horarios de recolección de basura por localidad.</p>
+      <p><strong>Parámetros:</strong> localidad (nombre) o codigo (1-20)</p>
+    </article>
+  </section>
+  
+  <section aria-labelledby="ejemplos-heading">
+    <h2 id="ejemplos-heading">Ejemplos</h2>
+    
+    <article class="card">
+      <h3>Listar herramientas</h3>
+      <pre><code>{ejemploListTools}</code></pre>
+    </article>
+    
+    <article class="card">
+      <h3>Buscar estaciones</h3>
       <pre><code>{ejemploBuscarEstacion}</code></pre>
     </article>
     
     <article class="card">
-      <h3>buscar_ruta</h3>
-      <p>Busca una ruta de TransMilenio por código.</p>
-      <pre><code>{ejemploBuscarRuta}</code></pre>
-    </article>
-    
-    <article class="card">
-      <h3>horario_recoleccion</h3>
-      <p>Consulta horarios de recolección de basura por localidad.</p>
+      <h3>Consultar recolección</h3>
       <pre><code>{ejemploRecoleccion}</code></pre>
     </article>
-    
-    <article class="card">
-      <h3>listar_localidades</h3>
-      <p>Lista todas las localidades de Bogotá con información de recolección.</p>
-    </article>
-  </section>
-  
-  <section aria-labelledby="ejemplo-heading">
-    <h2 id="ejemplo-heading">Ejemplo de Uso</h2>
-    <div class="card">
-      <p>Configuración para Claude Desktop (config.json):</p>
-      <pre><code>{ejemploConfig}</code></pre>
-    </div>
   </section>
   
   <section aria-labelledby="recursos-heading">
@@ -88,7 +96,8 @@ const ejemploConfig = `{
     <div class="card">
       <ul>
         <li><a href="/server.json">server.json - MCP Server Manifest</a></li>
-        <li><a href="/.well-known/mcp/server-card.json">server-card.json</a></li>
+        <li><a href="/mcp/server-card.json">server-card.json - Server Card</a></li>
+        <li><a href="/.well-known/mcp/server-card.json">.well-known/mcp/server-card.json</a></li>
         <li><a href="/openapi.json">OpenAPI Specification</a></li>
         <li><a href="/llms.txt">llms.txt</a></li>
       </ul>
@@ -103,7 +112,9 @@ const ejemploConfig = `{
     padding: 1rem;
     border-radius: 4px;
     overflow-x: auto;
-    font-size: 0.875rem;
+    font-size: 0.75rem;
+    white-space: pre-wrap;
+    word-break: break-all;
   }
   code {
     font-family: 'SF Mono', Monaco, Consolas, monospace;

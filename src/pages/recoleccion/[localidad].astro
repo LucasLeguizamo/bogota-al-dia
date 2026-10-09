@@ -43,7 +43,10 @@ const { localidad, zonas } = Astro.props;
         {zonas.map(zona => (
           <tr>
             <td>{zona.codigo_macroruta}</td>
-            <td>{zona.frecuencia.descripcion}</td>
+            <td>
+              {zona.frecuencia.descripcion}
+              {!zona.frecuencia.oficial && <span class="badge badge-warning" title="Sin descripción oficial en fuente UAESP">⚠</span>}
+            </td>
             <td>{zona.horario_inicio} - {zona.horario_fin}</td>
             <td>{zona.vigencia || '-'}</td>
           </tr>

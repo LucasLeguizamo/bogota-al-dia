@@ -32,6 +32,7 @@ interface ZonaNormalizada {
     codigo: string;
     dias: string[];
     descripcion: string;
+    oficial: boolean;
   };
   horario_inicio: string;
   horario_fin: string;
@@ -63,15 +64,26 @@ const LOCALIDADES: Record<string, string> = {
   '20': 'Sumapaz'
 };
 
-const FRECUENCIA_MAP: Record<string, { dias: string[]; descripcion: string }> = {
-  '1': { dias: ['lunes', 'miercoles', 'viernes'], descripcion: 'Lunes, miércoles y viernes' },
-  '2': { dias: ['martes', 'jueves', 'sabado'], descripcion: 'Martes, jueves y sábado' },
-  '3': { dias: ['lunes', 'miercoles', 'viernes', 'domingo'], descripcion: 'Lunes, miércoles, viernes y domingo' },
-  '4': { dias: ['martes', 'jueves', 'sabado', 'domingo'], descripcion: 'Martes, jueves, sábado y domingo' },
-  '5': { dias: ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado'], descripcion: 'Lunes a sábado' },
-  '6': { dias: ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'], descripcion: 'Todos los días' },
-  '7': { dias: ['domingo'], descripcion: 'Solo domingos' }
+// Frecuencias confirmadas por observación de patrones en datos UAESP
+// Códigos sin descripción oficial documentada en metadata de la API
+const FRECUENCIA_MAP: Record<string, { dias: string[]; descripcion: string; oficial: boolean }> = {
+  '1': { dias: ['lunes', 'miercoles', 'viernes'], descripcion: 'Lunes, miércoles y viernes', oficial: true },
+  '2': { dias: ['martes', 'jueves', 'sabado'], descripcion: 'Martes, jueves y sábado', oficial: true },
+  '3': { dias: ['lunes', 'miercoles', 'viernes', 'domingo'], descripcion: 'Lunes, miércoles, viernes y domingo', oficial: false },
+  '6': { dias: ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'], descripcion: 'Todos los días', oficial: true },
+  '7': { dias: ['domingo'], descripcion: 'Solo domingos', oficial: false }
 };
+
+function getFrecuenciaInfo(codigo: string): { dias: string[]; descripcion: string; oficial: boolean } {
+  if (FRECUENCIA_MAP[codigo]) {
+    return FRECUENCIA_MAP[codigo];
+  }
+  return {
+    dias: [],
+    descripcion: `Código ${codigo} (sin descripción oficial)`,
+    oficial: false
+  };
+}
 
 function formatHora(horaInt: number): string {
   if (!horaInt && horaInt !== 0) return '00:00';
@@ -118,10 +130,7 @@ function normalizeZona(feature: ArcGISFeature): ZonaNormalizada {
   const attr = feature.attributes;
   const now = new Date().toISOString();
 
-  const frecInfo = FRECUENCIA_MAP[attr.IDFRECUE_] || {
-    dias: [],
-    descripcion: `Frecuencia código ${attr.IDFRECUE_}`
-  };
+  const frecInfo = getFrecuenciaInfo(attr.IDFRECUE_ || '');
 
   const localidadCodigo = (attr.LOCALIDAD || '').trim();
   
@@ -135,7 +144,8 @@ function normalizeZona(feature: ArcGISFeature): ZonaNormalizada {
     frecuencia: {
       codigo: attr.IDFRECUE_ || '',
       dias: frecInfo.dias,
-      descripcion: frecInfo.descripcion
+      descripcion: frecInfo.descripcion,
+      oficial: frecInfo.oficial
     },
     horario_inicio: formatHora(attr.HORAINICIO1),
     horario_fin: formatHora(attr.HORAFIN1),

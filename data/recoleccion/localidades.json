@@ -5,11 +5,11 @@
       "codigo": "15",
       "total_zonas": 5,
       "frecuencias": [
-        "Frecuencia código 13",
+        "Código 13 (sin descripción oficial)",
         "Martes, jueves y sábado",
-        "Frecuencia código 8",
-        "Frecuencia código 10",
-        "Frecuencia código 11"
+        "Código 8 (sin descripción oficial)",
+        "Código 10 (sin descripción oficial)",
+        "Código 11 (sin descripción oficial)"
       ]
     },
     {
@@ -28,7 +28,7 @@
       "total_zonas": 3,
       "frecuencias": [
         "Lunes, miércoles y viernes",
-        "Frecuencia código 9"
+        "Código 9 (sin descripción oficial)"
       ]
     },
     {
@@ -39,8 +39,8 @@
         "Lunes, miércoles y viernes",
         "Martes, jueves y sábado",
         "Todos los días",
-        "Frecuencia código 13",
-        "Frecuencia código 10"
+        "Código 13 (sin descripción oficial)",
+        "Código 10 (sin descripción oficial)"
       ]
     },
     {
@@ -68,7 +68,7 @@
       "frecuencias": [
         "Martes, jueves y sábado",
         "Lunes, miércoles y viernes",
-        "Frecuencia código 13"
+        "Código 13 (sin descripción oficial)"
       ]
     },
     {
@@ -86,7 +86,7 @@
       "total_zonas": 6,
       "frecuencias": [
         "Todos los días",
-        "Frecuencia código 13"
+        "Código 13 (sin descripción oficial)"
       ]
     },
     {
@@ -103,7 +103,7 @@
       "total_zonas": 5,
       "frecuencias": [
         "Todos los días",
-        "Frecuencia código 15",
+        "Código 15 (sin descripción oficial)",
         "Martes, jueves y sábado"
       ]
     },
@@ -113,7 +113,7 @@
       "total_zonas": 2,
       "frecuencias": [
         "Solo domingos",
-        "Frecuencia código 12"
+        "Código 12 (sin descripción oficial)"
       ]
     },
     {
@@ -124,7 +124,7 @@
         "Lunes, miércoles y viernes",
         "Martes, jueves y sábado",
         "Todos los días",
-        "Frecuencia código 13"
+        "Código 13 (sin descripción oficial)"
       ]
     },
     {
@@ -135,8 +135,8 @@
         "Lunes, miércoles, viernes y domingo",
         "Martes, jueves y sábado",
         "Todos los días",
-        "Frecuencia código 13",
-        "Frecuencia código 11"
+        "Código 13 (sin descripción oficial)",
+        "Código 11 (sin descripción oficial)"
       ]
     },
     {
@@ -145,12 +145,12 @@
       "total_zonas": 17,
       "frecuencias": [
         "Solo domingos",
-        "Frecuencia código 8",
+        "Código 8 (sin descripción oficial)",
         "Lunes, miércoles y viernes",
         "Martes, jueves y sábado",
-        "Frecuencia código 14",
-        "Frecuencia código 19",
-        "Frecuencia código 13",
+        "Código 14 (sin descripción oficial)",
+        "Código 19 (sin descripción oficial)",
+        "Código 13 (sin descripción oficial)",
         "Todos los días"
       ]
     },
@@ -159,7 +159,7 @@
       "codigo": "20",
       "total_zonas": 1,
       "frecuencias": [
-        "Frecuencia código 9"
+        "Código 9 (sin descripción oficial)"
       ]
     },
     {
@@ -167,14 +167,14 @@
       "codigo": "13",
       "total_zonas": 11,
       "frecuencias": [
-        "Frecuencia código 15",
-        "Frecuencia código 13",
+        "Código 15 (sin descripción oficial)",
+        "Código 13 (sin descripción oficial)",
         "Solo domingos",
-        "Frecuencia código 8",
-        "Frecuencia código 9",
-        "Frecuencia código 10",
-        "Frecuencia código 11",
-        "Frecuencia código 12",
+        "Código 8 (sin descripción oficial)",
+        "Código 9 (sin descripción oficial)",
+        "Código 10 (sin descripción oficial)",
+        "Código 11 (sin descripción oficial)",
+        "Código 12 (sin descripción oficial)",
         "Todos los días"
       ]
     },
@@ -185,9 +185,9 @@
       "frecuencias": [
         "Martes, jueves y sábado",
         "Todos los días",
-        "Frecuencia código 13",
-        "Frecuencia código 10",
-        "Frecuencia código 22"
+        "Código 13 (sin descripción oficial)",
+        "Código 10 (sin descripción oficial)",
+        "Código 22 (sin descripción oficial)"
       ]
     },
     {
@@ -197,11 +197,11 @@
       "frecuencias": [
         "Lunes, miércoles y viernes",
         "Todos los días",
-        "Frecuencia código 13",
-        "Frecuencia código 8",
-        "Frecuencia código 23"
+        "Código 13 (sin descripción oficial)",
+        "Código 8 (sin descripción oficial)",
+        "Código 23 (sin descripción oficial)"
       ]
     }
   ],
-  "generado": "2026-10-09T01:17:57.129Z"
+  "generado": "2026-10-09T01:24:46.142Z"
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "../schemas/zona-recoleccion.schema.json",
-  "generado": "2026-10-09T01:17:57.128Z",
+  "generado": "2026-10-09T01:24:46.141Z",
   "total": 115,
   "localidades": 19,
   "fuente": "https://serviciosgis.catastrobogota.gov.co/arcgis/rest/services/serviciospublicos/aseobogota/MapServer/5",
@@ -16,13 +16,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-R2332-58",
@@ -38,13 +39,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "18:30",
       "horario_fin": "04:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-RB2112-71",
@@ -56,13 +58,14 @@
       "frecuencia": {
         "codigo": "8",
         "dias": [],
-        "descripcion": "Frecuencia código 8"
+        "descripcion": "Código 8 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "09:30",
       "horario_fin": "18:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-RB2114-72",
@@ -74,13 +77,14 @@
       "frecuencia": {
         "codigo": "10",
         "dias": [],
-        "descripcion": "Frecuencia código 10"
+        "descripcion": "Código 10 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "09:30",
       "horario_fin": "18:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-RB2115-73",
@@ -92,13 +96,14 @@
       "frecuencia": {
         "codigo": "11",
         "dias": [],
-        "descripcion": "Frecuencia código 11"
+        "descripcion": "Código 11 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "09:30",
       "horario_fin": "18:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-123456N-96",
@@ -118,13 +123,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "03:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-135N-98",
@@ -140,13 +146,14 @@
           "miercoles",
           "viernes"
         ],
-        "descripcion": "Lunes, miércoles y viernes"
+        "descripcion": "Lunes, miércoles y viernes",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "03:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-246N-95",
@@ -162,13 +169,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "03:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-R2131-51",
@@ -184,13 +192,14 @@
           "miercoles",
           "viernes"
         ],
-        "descripcion": "Lunes, miércoles y viernes"
+        "descripcion": "Lunes, miércoles y viernes",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-R2331-52",
@@ -206,13 +215,14 @@
           "miercoles",
           "viernes"
         ],
-        "descripcion": "Lunes, miércoles y viernes"
+        "descripcion": "Lunes, miércoles y viernes",
+        "oficial": true
       },
       "horario_inicio": "18:30",
       "horario_fin": "04:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-RB2113-64",
@@ -224,13 +234,14 @@
       "frecuencia": {
         "codigo": "9",
         "dias": [],
-        "descripcion": "Frecuencia código 9"
+        "descripcion": "Código 9 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "09:30",
       "horario_fin": "18:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-02-13",
@@ -246,13 +257,14 @@
           "miercoles",
           "viernes"
         ],
-        "descripcion": "Lunes, miércoles y viernes"
+        "descripcion": "Lunes, miércoles y viernes",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-03-14",
@@ -268,13 +280,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-04-18",
@@ -290,13 +303,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-06-22",
@@ -316,13 +330,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "14:00",
       "horario_fin": "00:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-08-8",
@@ -342,13 +357,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "22:00",
       "horario_fin": "08:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-09-30",
@@ -360,13 +376,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-11-37",
@@ -378,13 +395,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-13-43",
@@ -396,13 +414,14 @@
       "frecuencia": {
         "codigo": "10",
         "dias": [],
-        "descripcion": "Frecuencia código 10"
+        "descripcion": "Código 10 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "05:00",
       "horario_fin": "15:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-14-45",
@@ -418,13 +437,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-GG2131-60",
@@ -440,13 +460,14 @@
           "miercoles",
           "viernes"
         ],
-        "descripcion": "Lunes, miércoles y viernes"
+        "descripcion": "Lunes, miércoles y viernes",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-123456D-94",
@@ -466,13 +487,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "15:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-123456N-97",
@@ -492,13 +514,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "03:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-135D-91",
@@ -514,13 +537,14 @@
           "miercoles",
           "viernes"
         ],
-        "descripcion": "Lunes, miércoles y viernes"
+        "descripcion": "Lunes, miércoles y viernes",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "15:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-135N-93",
@@ -536,13 +560,14 @@
           "miercoles",
           "viernes"
         ],
-        "descripcion": "Lunes, miércoles y viernes"
+        "descripcion": "Lunes, miércoles y viernes",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "03:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-246D-92",
@@ -558,13 +583,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "15:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-246N-90",
@@ -580,13 +606,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "03:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-10-86",
@@ -602,13 +629,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "14:00",
       "horario_fin": "00:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-10-87",
@@ -624,13 +652,14 @@
           "miercoles",
           "viernes"
         ],
-        "descripcion": "Lunes, miércoles y viernes"
+        "descripcion": "Lunes, miércoles y viernes",
+        "oficial": true
       },
       "horario_inicio": "14:00",
       "horario_fin": "00:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-10-88",
@@ -642,13 +671,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "14:00",
       "horario_fin": "00:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-13-89",
@@ -664,13 +694,14 @@
           "miercoles",
           "viernes"
         ],
-        "descripcion": "Lunes, miércoles y viernes"
+        "descripcion": "Lunes, miércoles y viernes",
+        "oficial": true
       },
       "horario_inicio": "05:00",
       "horario_fin": "15:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-11-81",
@@ -686,13 +717,14 @@
           "miercoles",
           "viernes"
         ],
-        "descripcion": "Lunes, miércoles y viernes"
+        "descripcion": "Lunes, miércoles y viernes",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-12-82",
@@ -708,13 +740,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "22:00",
       "horario_fin": "08:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-14-83",
@@ -730,13 +763,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-15-85",
@@ -752,13 +786,14 @@
           "miercoles",
           "viernes"
         ],
-        "descripcion": "Lunes, miércoles y viernes"
+        "descripcion": "Lunes, miércoles y viernes",
+        "oficial": true
       },
       "horario_inicio": "05:00",
       "horario_fin": "15:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-16-84",
@@ -774,13 +809,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "13:00",
       "horario_fin": "21:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-05-5",
@@ -800,13 +836,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-06-21",
@@ -826,13 +863,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "14:00",
       "horario_fin": "00:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-08-7",
@@ -852,13 +890,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "22:00",
       "horario_fin": "08:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-09-29",
@@ -870,13 +909,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-10-34",
@@ -888,13 +928,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "14:00",
       "horario_fin": "00:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-12-40",
@@ -906,13 +947,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "22:00",
       "horario_fin": "08:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-R2161-54",
@@ -932,13 +974,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-R2261-55",
@@ -958,13 +1001,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "14:00",
       "horario_fin": "23:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-R2361-56",
@@ -984,13 +1028,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "18:30",
       "horario_fin": "04:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-GG2161-61",
@@ -1010,13 +1055,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-GG2171-62",
@@ -1028,13 +1074,14 @@
       "frecuencia": {
         "codigo": "15",
         "dias": [],
-        "descripcion": "Frecuencia código 15"
+        "descripcion": "Código 15 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-R2132-59",
@@ -1050,13 +1097,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-RB2171-76",
@@ -1068,13 +1116,14 @@
       "frecuencia": {
         "codigo": "15",
         "dias": [],
-        "descripcion": "Frecuencia código 15"
+        "descripcion": "Código 15 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-RB2371-77",
@@ -1086,13 +1135,14 @@
       "frecuencia": {
         "codigo": "15",
         "dias": [],
-        "descripcion": "Frecuencia código 15"
+        "descripcion": "Código 15 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "18:30",
       "horario_fin": "04:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-RB2111-74",
@@ -1106,13 +1156,14 @@
         "dias": [
           "domingo"
         ],
-        "descripcion": "Solo domingos"
+        "descripcion": "Solo domingos",
+        "oficial": false
       },
       "horario_inicio": "09:30",
       "horario_fin": "18:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-RB2116-75",
@@ -1124,13 +1175,14 @@
       "frecuencia": {
         "codigo": "12",
         "dias": [],
-        "descripcion": "Frecuencia código 12"
+        "descripcion": "Código 12 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "09:30",
       "horario_fin": "18:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-01-10",
@@ -1146,13 +1198,14 @@
           "miercoles",
           "viernes"
         ],
-        "descripcion": "Lunes, miércoles y viernes"
+        "descripcion": "Lunes, miércoles y viernes",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-03-16",
@@ -1168,13 +1221,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-08-26",
@@ -1194,13 +1248,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "22:00",
       "horario_fin": "08:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-09-32",
@@ -1212,13 +1267,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-11-38",
@@ -1230,13 +1286,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-47-48",
@@ -1248,13 +1305,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-74-1",
@@ -1274,13 +1332,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-03-15",
@@ -1297,13 +1356,14 @@
           "viernes",
           "domingo"
         ],
-        "descripcion": "Lunes, miércoles, viernes y domingo"
+        "descripcion": "Lunes, miércoles, viernes y domingo",
+        "oficial": false
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-04-19",
@@ -1319,13 +1379,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-05-20",
@@ -1345,13 +1406,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-06-23",
@@ -1371,13 +1433,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "14:00",
       "horario_fin": "00:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-08-25",
@@ -1397,13 +1460,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "22:00",
       "horario_fin": "08:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-09-31",
@@ -1415,13 +1479,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-10-35",
@@ -1433,13 +1498,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "14:00",
       "horario_fin": "00:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-12-41",
@@ -1451,13 +1517,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "22:00",
       "horario_fin": "08:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-99-4",
@@ -1469,13 +1536,14 @@
       "frecuencia": {
         "codigo": "11",
         "dias": [],
-        "descripcion": "Frecuencia código 11"
+        "descripcion": "Código 11 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "05:00",
       "horario_fin": "15:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-01-99",
@@ -1489,13 +1557,14 @@
         "dias": [
           "domingo"
         ],
-        "descripcion": "Solo domingos"
+        "descripcion": "Solo domingos",
+        "oficial": false
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-02-100",
@@ -1507,13 +1576,14 @@
       "frecuencia": {
         "codigo": "8",
         "dias": [],
-        "descripcion": "Frecuencia código 8"
+        "descripcion": "Código 8 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-03-101",
@@ -1527,13 +1597,14 @@
         "dias": [
           "domingo"
         ],
-        "descripcion": "Solo domingos"
+        "descripcion": "Solo domingos",
+        "oficial": false
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-04-102",
@@ -1545,13 +1616,14 @@
       "frecuencia": {
         "codigo": "8",
         "dias": [],
-        "descripcion": "Frecuencia código 8"
+        "descripcion": "Código 8 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-09-114",
@@ -1567,13 +1639,14 @@
           "miercoles",
           "viernes"
         ],
-        "descripcion": "Lunes, miércoles y viernes"
+        "descripcion": "Lunes, miércoles y viernes",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-10-103",
@@ -1589,13 +1662,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "14:00",
       "horario_fin": "00:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-11-104",
@@ -1607,13 +1681,14 @@
       "frecuencia": {
         "codigo": "14",
         "dias": [],
-        "descripcion": "Frecuencia código 14"
+        "descripcion": "Código 14 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-12-105",
@@ -1625,13 +1700,14 @@
       "frecuencia": {
         "codigo": "19",
         "dias": [],
-        "descripcion": "Frecuencia código 19"
+        "descripcion": "Código 19 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "22:00",
       "horario_fin": "08:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-13-106",
@@ -1643,13 +1719,14 @@
       "frecuencia": {
         "codigo": "14",
         "dias": [],
-        "descripcion": "Frecuencia código 14"
+        "descripcion": "Código 14 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "05:00",
       "horario_fin": "15:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-14-107",
@@ -1661,13 +1738,14 @@
       "frecuencia": {
         "codigo": "19",
         "dias": [],
-        "descripcion": "Frecuencia código 19"
+        "descripcion": "Código 19 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-20-115",
@@ -1679,13 +1757,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "07:00",
       "horario_fin": "15:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-51-108",
@@ -1701,13 +1780,14 @@
           "miercoles",
           "viernes"
         ],
-        "descripcion": "Lunes, miércoles y viernes"
+        "descripcion": "Lunes, miércoles y viernes",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "14:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-52-109",
@@ -1723,13 +1803,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "14:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-53-110",
@@ -1745,13 +1826,14 @@
           "miercoles",
           "viernes"
         ],
-        "descripcion": "Lunes, miércoles y viernes"
+        "descripcion": "Lunes, miércoles y viernes",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "02:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-54-112",
@@ -1767,13 +1849,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "02:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-55-111",
@@ -1793,13 +1876,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "14:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-56-113",
@@ -1819,13 +1903,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "02:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-17-47",
@@ -1837,13 +1922,14 @@
       "frecuencia": {
         "codigo": "9",
         "dias": [],
-        "descripcion": "Frecuencia código 9"
+        "descripcion": "Código 9 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "05:00",
       "horario_fin": "15:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-GG2371-63",
@@ -1855,13 +1941,14 @@
       "frecuencia": {
         "codigo": "15",
         "dias": [],
-        "descripcion": "Frecuencia código 15"
+        "descripcion": "Código 15 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "18:30",
       "horario_fin": "04:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-R2317-53",
@@ -1873,13 +1960,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "18:30",
       "horario_fin": "04:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-RB2211-65",
@@ -1893,13 +1981,14 @@
         "dias": [
           "domingo"
         ],
-        "descripcion": "Solo domingos"
+        "descripcion": "Solo domingos",
+        "oficial": false
       },
       "horario_inicio": "13:30",
       "horario_fin": "22:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-RB2212-66",
@@ -1911,13 +2000,14 @@
       "frecuencia": {
         "codigo": "8",
         "dias": [],
-        "descripcion": "Frecuencia código 8"
+        "descripcion": "Código 8 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "13:30",
       "horario_fin": "22:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-RB2213-67",
@@ -1929,13 +2019,14 @@
       "frecuencia": {
         "codigo": "9",
         "dias": [],
-        "descripcion": "Frecuencia código 9"
+        "descripcion": "Código 9 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "13:30",
       "horario_fin": "22:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-RB2214-68",
@@ -1947,13 +2038,14 @@
       "frecuencia": {
         "codigo": "10",
         "dias": [],
-        "descripcion": "Frecuencia código 10"
+        "descripcion": "Código 10 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "13:30",
       "horario_fin": "22:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-RB2215-69",
@@ -1965,13 +2057,14 @@
       "frecuencia": {
         "codigo": "11",
         "dias": [],
-        "descripcion": "Frecuencia código 11"
+        "descripcion": "Código 11 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "13:30",
       "horario_fin": "22:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-RB2216-70",
@@ -1983,13 +2076,14 @@
       "frecuencia": {
         "codigo": "12",
         "dias": [],
-        "descripcion": "Frecuencia código 12"
+        "descripcion": "Código 12 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "13:30",
       "horario_fin": "22:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-RC2161\r\r\n-78",
@@ -2009,13 +2103,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "10:00",
       "horario_fin": "18:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-RP2161-79",
@@ -2035,13 +2130,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "10:00",
       "horario_fin": "18:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-VO2161\r\r\n-80",
@@ -2061,13 +2157,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-01-9",
@@ -2083,13 +2180,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-02-12",
@@ -2105,13 +2203,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-04-17",
@@ -2127,13 +2226,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-07-24",
@@ -2153,13 +2253,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-08-6",
@@ -2179,13 +2280,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "22:00",
       "horario_fin": "08:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-09-28",
@@ -2197,13 +2299,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-11-36",
@@ -2215,13 +2318,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-13-42",
@@ -2233,13 +2337,14 @@
       "frecuencia": {
         "codigo": "10",
         "dias": [],
-        "descripcion": "Frecuencia código 10"
+        "descripcion": "Código 10 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "05:00",
       "horario_fin": "15:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-14-44",
@@ -2255,13 +2360,14 @@
           "jueves",
           "sabado"
         ],
-        "descripcion": "Martes, jueves y sábado"
+        "descripcion": "Martes, jueves y sábado",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-74-50",
@@ -2281,13 +2387,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-76-3",
@@ -2299,13 +2406,14 @@
       "frecuencia": {
         "codigo": "22",
         "dias": [],
-        "descripcion": "Frecuencia código 22"
+        "descripcion": "Código 22 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-01-11",
@@ -2321,13 +2429,14 @@
           "miercoles",
           "viernes"
         ],
-        "descripcion": "Lunes, miércoles y viernes"
+        "descripcion": "Lunes, miércoles y viernes",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-08-27",
@@ -2347,13 +2456,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "22:00",
       "horario_fin": "08:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-09-33",
@@ -2365,13 +2475,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-11-39",
@@ -2383,13 +2494,14 @@
       "frecuencia": {
         "codigo": "13",
         "dias": [],
-        "descripcion": "Frecuencia código 13"
+        "descripcion": "Código 13 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "18:00",
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-15-46",
@@ -2401,13 +2513,14 @@
       "frecuencia": {
         "codigo": "8",
         "dias": [],
-        "descripcion": "Frecuencia código 8"
+        "descripcion": "Código 8 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "05:00",
       "horario_fin": "15:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-73-49",
@@ -2427,13 +2540,14 @@
           "sabado",
           "domingo"
         ],
-        "descripcion": "Todos los días"
+        "descripcion": "Todos los días",
+        "oficial": true
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     },
     {
       "id": "zona-75-2",
@@ -2445,13 +2559,14 @@
       "frecuencia": {
         "codigo": "23",
         "dias": [],
-        "descripcion": "Frecuencia código 23"
+        "descripcion": "Código 23 (sin descripción oficial)",
+        "oficial": false
       },
       "horario_inicio": "06:00",
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
     }
   ]
 }

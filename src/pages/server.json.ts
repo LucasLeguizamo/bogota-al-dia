@@ -7,42 +7,48 @@ const serverJson = {
   "vendor": {
     "name": "Bogotá al Día"
   },
-  "protocol": "streamable-http",
-  "url": "https://bogota-al-dia.vercel.app/mcp",
+  "protocol": "json-rpc-http",
+  "url": "https://bogota-al-dia.vercel.app/api/mcp",
   "authentication": {
     "type": "none"
   },
   "tools": [
     {
-      "name": "buscar_estacion",
-      "description": "Busca una estación de TransMilenio por nombre o código",
+      "name": "estaciones_transmilenio",
+      "description": "Lista o busca estaciones de TransMilenio por nombre, código o troncal",
       "inputSchema": {
         "type": "object",
         "properties": {
           "query": {
             "type": "string",
-            "description": "Nombre o código de la estación"
+            "description": "Búsqueda por nombre, código o troncal (opcional)"
+          },
+          "limit": {
+            "type": "number",
+            "description": "Número máximo de resultados (default: 10)"
           }
-        },
-        "required": ["query"]
+        }
       }
     },
     {
-      "name": "buscar_ruta",
-      "description": "Busca una ruta de TransMilenio por código",
+      "name": "rutas_transmilenio",
+      "description": "Lista o busca rutas de TransMilenio por código",
       "inputSchema": {
         "type": "object",
         "properties": {
           "codigo": {
             "type": "string",
             "description": "Código de la ruta (ej: B23, K43)"
+          },
+          "limit": {
+            "type": "number",
+            "description": "Número máximo de resultados (default: 10)"
           }
-        },
-        "required": ["codigo"]
+        }
       }
     },
     {
-      "name": "horario_recoleccion",
+      "name": "recoleccion_por_zona",
       "description": "Consulta horarios de recolección de basura por localidad",
       "inputSchema": {
         "type": "object",
@@ -50,17 +56,12 @@ const serverJson = {
           "localidad": {
             "type": "string",
             "description": "Nombre de la localidad (ej: Suba, Kennedy)"
+          },
+          "codigo": {
+            "type": "string",
+            "description": "Código de localidad (1-20)"
           }
-        },
-        "required": ["localidad"]
-      }
-    },
-    {
-      "name": "listar_localidades",
-      "description": "Lista todas las localidades de Bogotá con información de recolección",
-      "inputSchema": {
-        "type": "object",
-        "properties": {}
+        }
       }
     }
   ],

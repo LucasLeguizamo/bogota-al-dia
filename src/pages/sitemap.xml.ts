@@ -12,6 +12,7 @@ export const GET: APIRoute = () => {
     '/transmilenio/estaciones/',
     '/transmilenio/rutas/',
     '/recoleccion/',
+    '/alertas/',
     '/api/',
     '/mcp/',
   ];

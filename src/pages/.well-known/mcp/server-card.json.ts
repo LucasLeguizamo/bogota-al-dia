@@ -9,8 +9,8 @@ const serverCard = {
     "url": "https://bogota-al-dia.vercel.app"
   },
   "server": {
-    "url": "https://bogota-al-dia.vercel.app/mcp",
-    "protocol": "streamable-http"
+    "url": "https://bogota-al-dia.vercel.app/api/mcp",
+    "protocol": "json-rpc-http"
   },
   "authentication": {
     "type": "none"
@@ -19,8 +19,14 @@ const serverCard = {
     "tools": true,
     "resources": true
   },
+  "tools": [
+    "estaciones_transmilenio",
+    "rutas_transmilenio", 
+    "recoleccion_por_zona"
+  ],
   "links": {
     "documentation": "https://bogota-al-dia.vercel.app/mcp/",
+    "manifest": "https://bogota-al-dia.vercel.app/server.json",
     "openapi": "https://bogota-al-dia.vercel.app/openapi.json",
     "llms_txt": "https://bogota-al-dia.vercel.app/llms.txt"
   }
