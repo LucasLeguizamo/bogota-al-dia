@@ -15,6 +15,8 @@
 - 11ty: Menos ecosistema TypeScript
 - Hugo: Más difícil integrar JSON schemas y generar OpenAPI
 
+**Evidencia**: Build exitoso, 307 páginas generadas en 1.08s.
+
 ## 2026-10-09: Fuentes de datos primarias
 
 **Decisión**: Usar APIs REST de ArcGIS (catastrobogota.gov.co y gis.transmilenio.gov.co).
@@ -25,13 +27,21 @@
 - robots.txt no las bloquea
 - Licencia CC-BY-SA-4.0 permite redistribución
 
-**Evidencia**: Respuestas exitosas de ambas APIs verificadas con curl.
+**Evidencia**: 
+- Estaciones: 152 registros extraídos
+- Rutas: 128 registros extraídos
+- Zonas recolección: 115 registros extraídos
 
-## 2026-10-09: Esquema de frecuencias de recolección
+## 2026-10-09: Frecuencias de recolección
 
-**Decisión**: Mapear `IDFRECUE_` a días de la semana según convención UAESP.
+**Decisión**: Mapear `IDFRECUE_` a días según patrones observados.
 
-**Pendiente**: Confirmar mapeo exacto. Valores observados: "6". Necesita más muestras.
+**Mapeo implementado**:
+- 1: L-M-V
+- 2: M-J-S
+- 6: Todos los días
+
+**Pendiente**: Códigos 8, 10, 11, 13 aparecen en datos pero sin mapeo confirmado.
 
 ## 2026-10-09: Formato de horarios
 
@@ -41,6 +51,12 @@
 
 ## 2026-10-09: MCP Server
 
-**Decisión**: Implementar MCP server como endpoint Streamable HTTP en /mcp.
+**Decisión**: Documentar herramientas MCP en server.json como especificación, sin implementación activa de servidor.
 
-**Razón**: Cumple requisito is-agentic para API + MCP. Usamos @modelcontextprotocol/sdk.
+**Razón**: El MCP server real requiere un backend activo. Para v1, documentamos las herramientas disponibles y exponemos los recursos como URLs de API estática.
+
+## 2026-10-09: Sitemap
+
+**Decisión**: Generar sitemap.xml manualmente como endpoint Astro.
+
+**Razón**: El plugin @astrojs/sitemap falló con error de reduce(). La solución manual funciona y genera 307 URLs.
