@@ -1,0 +1,20 @@
+{
+  "id": "estacion-07006",
+  "codigo": "07006",
+  "nombre": "General Santander",
+  "ubicacion": "AutoSur-Kr43",
+  "troncal": "NQS",
+  "tipo": "intermedia",
+  "coordenadas": {
+    "latitud": 4.59356881,
+    "longitud": -74.1295448
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 48,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

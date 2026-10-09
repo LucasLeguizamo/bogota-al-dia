@@ -1,0 +1,39 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import rutasData from '../../../../data/transmilenio/rutas.json';
+---
+
+<Layout 
+  title="Rutas de TransMilenio" 
+  description="Listado completo de las {rutasData.total} rutas troncales del sistema TransMilenio.">
+  
+  <nav aria-label="Migas de pan">
+    <a href="/">Inicio</a> › <a href="/transmilenio/">TransMilenio</a> › Rutas
+  </nav>
+  
+  <h1>Rutas de TransMilenio</h1>
+  <p>{rutasData.total} rutas troncales.</p>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Código</th>
+        <th>Origen</th>
+        <th>Destino</th>
+        <th>Horario L-V</th>
+        <th>Estado</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rutasData.rutas.map(ruta => (
+        <tr>
+          <td><a href={`/transmilenio/rutas/${ruta.codigo}/`}>{ruta.codigo}</a></td>
+          <td>{ruta.origen}</td>
+          <td>{ruta.destino}</td>
+          <td>{ruta.horarios.lunes_viernes || '-'}</td>
+          <td><span class={`badge ${ruta.estado === 'activa' ? 'badge-success' : 'badge-warning'}`}>{ruta.estado}</span></td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</Layout>

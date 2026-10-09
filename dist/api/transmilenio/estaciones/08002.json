@@ -1,0 +1,20 @@
+{
+  "id": "estacion-08002",
+  "codigo": "08002",
+  "nombre": "Biblioteca",
+  "ubicacion": "CL 48A Sur",
+  "troncal": "Tunal",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.5703019,
+    "longitud": -74.13038805
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "estacion-12002",
+  "codigo": "12002",
+  "nombre": "CDS - Carrera 32",
+  "ubicacion": "Av. Americas -KR 32",
+  "troncal": "Americas",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.61613269,
+    "longitud": -74.09395282
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

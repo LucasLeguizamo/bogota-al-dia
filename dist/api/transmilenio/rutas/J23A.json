@@ -1,0 +1,18 @@
+{
+  "id": "ruta-J23A",
+  "codigo": "J23A",
+  "nombre": "J23",
+  "origen": "BANDERAS",
+  "destino": "LAS AGUAS - CENTRO COLOMBO AMERICANO",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "biarticulado",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "05:30 - 07:45",
+    "sabado": "0",
+    "domingo_festivo": "0"
+  },
+  "longitud_km": 0.01,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

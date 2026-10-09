@@ -1,0 +1,245 @@
+{
+  "localidad": "Usaquén",
+  "codigo": "1",
+  "total_zonas": 11,
+  "zonas": [
+    {
+      "id": "zona-01-9",
+      "codigo_macroruta": "01",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+    },
+    {
+      "id": "zona-02-12",
+      "codigo_macroruta": "02",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-04-17",
+      "codigo_macroruta": "04",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-07-24",
+      "codigo_macroruta": "07",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-08-6",
+      "codigo_macroruta": "08",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "22:00",
+      "horario_fin": "08:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+    },
+    {
+      "id": "zona-09-28",
+      "codigo_macroruta": "09",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-11-36",
+      "codigo_macroruta": "11",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-13-42",
+      "codigo_macroruta": "13",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "10",
+        "dias": [],
+        "descripcion": "Frecuencia código 10"
+      },
+      "horario_inicio": "05:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-14-44",
+      "codigo_macroruta": "14",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-74-50",
+      "codigo_macroruta": "74",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-76-3",
+      "codigo_macroruta": "76",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "22",
+        "dias": [],
+        "descripcion": "Frecuencia código 22"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+    }
+  ]
+}

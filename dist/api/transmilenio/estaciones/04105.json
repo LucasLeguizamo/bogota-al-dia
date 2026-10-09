@@ -1,0 +1,20 @@
+{
+  "id": "estacion-04105",
+  "codigo": "04105",
+  "nombre": "Carrera 53",
+  "ubicacion": "KR 53",
+  "troncal": "Calle 80",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.68182095,
+    "longitud": -74.07740128
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

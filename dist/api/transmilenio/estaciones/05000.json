@@ -1,0 +1,20 @@
+{
+  "id": "estacion-05000",
+  "codigo": "05000",
+  "nombre": "Portal Américas",
+  "ubicacion": "Av.Cali - CL 43 sur",
+  "troncal": "Americas",
+  "tipo": "sencilla",
+  "coordenadas": {
+    "latitud": 4.6293813,
+    "longitud": -74.17305845
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 785,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

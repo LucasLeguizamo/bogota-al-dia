@@ -1,0 +1,20 @@
+{
+  "id": "estacion-07000",
+  "codigo": "07000",
+  "nombre": "Portal Sur - JFK Coop. Financiera",
+  "ubicacion": "AutoSur-Kr 82",
+  "troncal": "NQS",
+  "tipo": "sencilla",
+  "coordenadas": {
+    "latitud": 4.59701269,
+    "longitud": -74.16939799
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 220,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

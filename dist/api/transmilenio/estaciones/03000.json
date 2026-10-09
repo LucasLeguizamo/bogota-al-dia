@@ -1,0 +1,20 @@
+{
+  "id": "estacion-03000",
+  "codigo": "03000",
+  "nombre": "Portal Suba",
+  "ubicacion": "Av Suba Av C. Cali",
+  "troncal": "Suba",
+  "tipo": "sencilla",
+  "coordenadas": {
+    "latitud": 4.74681506,
+    "longitud": -74.09427889
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 324,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

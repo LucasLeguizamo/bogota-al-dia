@@ -1,0 +1,20 @@
+{
+  "id": "estacion-06108",
+  "codigo": "06108",
+  "nombre": "Concejo de Bogotá",
+  "ubicacion": "KR 38",
+  "troncal": "Calle 26",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.62598289,
+    "longitud": -74.08028041
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

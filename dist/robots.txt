@@ -1,0 +1,13 @@
+# Bogotá al Día - Datos públicos de Bogotá
+# https://bogota-al-dia.vercel.app
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://bogota-al-dia.vercel.app/sitemap.xml
+
+# Para agentes de IA
+# Consultar /llms.txt para contexto
+# API disponible en /api/
+# OpenAPI spec en /openapi.json

@@ -1,0 +1,20 @@
+{
+  "id": "estacion-09115",
+  "codigo": "09115",
+  "nombre": "Temporal Calle 34",
+  "ubicacion": "Avenida CL 34 - CL 3",
+  "troncal": "Caracas",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.62158594,
+    "longitud": -74.06975355
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

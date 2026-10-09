@@ -1,0 +1,20 @@
+{
+  "id": "estacion-09100",
+  "codigo": "09100",
+  "nombre": "Calle 40 Sur",
+  "ubicacion": "CL 38 Sur - CL 40 Su",
+  "troncal": "Caracas",
+  "tipo": "intermedia",
+  "coordenadas": {
+    "latitud": 4.57585399,
+    "longitud": -74.12009368
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

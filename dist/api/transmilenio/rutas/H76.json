@@ -1,0 +1,18 @@
+{
+  "id": "ruta-H76",
+  "codigo": "H76",
+  "nombre": "H76",
+  "origen": "UNIVERSIDADES – CITYU",
+  "destino": "PORTAL USME",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "biarticulado",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "16:00 - 22:30",
+    "sabado": "0",
+    "domingo_festivo": "0"
+  },
+  "longitud_km": 0.01,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

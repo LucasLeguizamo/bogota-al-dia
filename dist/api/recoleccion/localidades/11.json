@@ -1,0 +1,357 @@
+{
+  "localidad": "Suba",
+  "codigo": "11",
+  "total_zonas": 17,
+  "zonas": [
+    {
+      "id": "zona-01-99",
+      "codigo_macroruta": "01",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "7",
+        "dias": [
+          "domingo"
+        ],
+        "descripcion": "Solo domingos"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-02-100",
+      "codigo_macroruta": "02",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "8",
+        "dias": [],
+        "descripcion": "Frecuencia código 8"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-03-101",
+      "codigo_macroruta": "03",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "7",
+        "dias": [
+          "domingo"
+        ],
+        "descripcion": "Solo domingos"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-04-102",
+      "codigo_macroruta": "04",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "8",
+        "dias": [],
+        "descripcion": "Frecuencia código 8"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-09-114",
+      "codigo_macroruta": "09",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-10-103",
+      "codigo_macroruta": "10",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "00:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-11-104",
+      "codigo_macroruta": "11",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "14",
+        "dias": [],
+        "descripcion": "Frecuencia código 14"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-12-105",
+      "codigo_macroruta": "12",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "19",
+        "dias": [],
+        "descripcion": "Frecuencia código 19"
+      },
+      "horario_inicio": "22:00",
+      "horario_fin": "08:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-13-106",
+      "codigo_macroruta": "13",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "14",
+        "dias": [],
+        "descripcion": "Frecuencia código 14"
+      },
+      "horario_inicio": "05:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-14-107",
+      "codigo_macroruta": "14",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "19",
+        "dias": [],
+        "descripcion": "Frecuencia código 19"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-20-115",
+      "codigo_macroruta": "20",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "07:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-51-108",
+      "codigo_macroruta": "51",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "14:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-52-109",
+      "codigo_macroruta": "52",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "14:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-53-110",
+      "codigo_macroruta": "53",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "02:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-54-112",
+      "codigo_macroruta": "54",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "02:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-55-111",
+      "codigo_macroruta": "55",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "14:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-56-113",
+      "codigo_macroruta": "56",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "02:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    }
+  ]
+}

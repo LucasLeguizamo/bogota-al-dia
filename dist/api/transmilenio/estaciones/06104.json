@@ -1,0 +1,20 @@
+{
+  "id": "estacion-06104",
+  "codigo": "06104",
+  "nombre": "Gobernación",
+  "ubicacion": "KR 54",
+  "troncal": "Calle 26",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.64284515,
+    "longitud": -74.0965137
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

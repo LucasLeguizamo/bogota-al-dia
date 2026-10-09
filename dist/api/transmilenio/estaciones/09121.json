@@ -1,0 +1,20 @@
+{
+  "id": "estacion-09121",
+  "codigo": "09121",
+  "nombre": "Temporal Flores – Areandina",
+  "ubicacion": "CL 69  - CL 67",
+  "troncal": "Caracas",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.65490596,
+    "longitud": -74.06302132
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

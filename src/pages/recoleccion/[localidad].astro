@@ -1,0 +1,73 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import zonasData from '../../../data/recoleccion/zonas.json';
+import localidadesData from '../../../data/recoleccion/localidades.json';
+
+export function getStaticPaths() {
+  return localidadesData.localidades.map(loc => ({
+    params: { localidad: loc.codigo },
+    props: { 
+      localidad: loc,
+      zonas: zonasData.zonas.filter(z => z.localidad.codigo === loc.codigo)
+    }
+  }));
+}
+
+const { localidad, zonas } = Astro.props;
+---
+
+<Layout 
+  title={`Recolección en ${localidad.localidad}`}
+  description={`Horarios de recolección de basura en ${localidad.localidad}, Bogotá. ${zonas.length} zonas de servicio.`}>
+  
+  <nav aria-label="Migas de pan">
+    <a href="/">Inicio</a> › <a href="/recoleccion/">Recolección</a> › {localidad.localidad}
+  </nav>
+  
+  <h1>Recolección en {localidad.localidad}</h1>
+  <p>{zonas.length} zonas de recolección en esta localidad.</p>
+  
+  <section aria-labelledby="zonas-heading">
+    <h2 id="zonas-heading">Zonas de Recolección</h2>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Macroruta</th>
+          <th>Días</th>
+          <th>Horario</th>
+          <th>Vigencia</th>
+        </tr>
+      </thead>
+      <tbody>
+        {zonas.map(zona => (
+          <tr>
+            <td>{zona.codigo_macroruta}</td>
+            <td>{zona.frecuencia.descripcion}</td>
+            <td>{zona.horario_inicio} - {zona.horario_fin}</td>
+            <td>{zona.vigencia || '-'}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+  
+  <section aria-labelledby="frecuencias-heading">
+    <h2 id="frecuencias-heading">Frecuencias en {localidad.localidad}</h2>
+    <div class="card">
+      <ul>
+        {localidad.frecuencias.map((freq: string) => (
+          <li>{freq}</li>
+        ))}
+      </ul>
+    </div>
+  </section>
+  
+  <section aria-labelledby="datos-heading">
+    <h2 id="datos-heading">Datos</h2>
+    <div class="card">
+      <p>Fuente: UAESP - datosabiertos.bogota.gov.co</p>
+      <p>API: <a href={`/api/recoleccion/localidades/${localidad.codigo}.json`}>JSON</a></p>
+    </div>
+  </section>
+</Layout>

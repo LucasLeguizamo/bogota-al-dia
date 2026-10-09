@@ -1,0 +1,20 @@
+{
+  "id": "estacion-09104",
+  "codigo": "09104",
+  "nombre": "Restrepo",
+  "ubicacion": "CL 19 Sur - Av. 1 de M",
+  "troncal": "Caracas",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.58183392,
+    "longitud": -74.10142022
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ruta-L82CV",
+  "codigo": "L82CV",
+  "nombre": "L82CV",
+  "origen": "CLINICA EL BOSQUE",
+  "destino": "PORTAL 20 DE JULIO",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "padron",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "0",
+    "sabado": "0",
+    "domingo_festivo": "06:00 - 14:00"
+  },
+  "longitud_km": 0.04,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

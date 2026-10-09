@@ -1,0 +1,18 @@
+{
+  "id": "ruta-B50",
+  "codigo": "B50",
+  "nombre": "B50",
+  "origen": "PORTAL SUBA",
+  "destino": "CALLE 161",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "articulado",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "05:30 - 08:30",
+    "sabado": "0",
+    "domingo_festivo": "0"
+  },
+  "longitud_km": 0.02,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

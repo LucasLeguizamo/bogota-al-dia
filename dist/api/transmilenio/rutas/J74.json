@@ -1,0 +1,18 @@
+{
+  "id": "ruta-J74",
+  "codigo": "J74",
+  "nombre": "J74",
+  "origen": "PORTAL NORTE - UNICERVANTES",
+  "destino": "UNIVERSIDADES – CITYU",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "articulado",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "05:30 - 21:30",
+    "sabado": "06:30 - 20:30",
+    "domingo_festivo": "0"
+  },
+  "longitud_km": 0,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

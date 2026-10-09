@@ -1,0 +1,20 @@
+{
+  "id": "estacion-03007",
+  "codigo": "03007",
+  "nombre": "Humedal Córdoba",
+  "ubicacion": "Av Suba CL 119",
+  "troncal": "Suba",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.70653717,
+    "longitud": -74.07114047
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

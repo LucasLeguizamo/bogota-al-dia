@@ -1,0 +1,20 @@
+{
+  "id": "estacion-05100",
+  "codigo": "05100",
+  "nombre": "Banderas",
+  "ubicacion": "Av. Americas -KR 78",
+  "troncal": "Americas",
+  "tipo": "intermedia",
+  "coordenadas": {
+    "latitud": 4.63130064,
+    "longitud": -74.14576938
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 101,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "estacion-09113",
+  "codigo": "09113",
+  "nombre": "Temporal Calle 22",
+  "ubicacion": "CL 24 - CL 22",
+  "troncal": "Caracas",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.61169462,
+    "longitud": -74.07468354
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

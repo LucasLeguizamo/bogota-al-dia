@@ -1,0 +1,18 @@
+{
+  "id": "ruta-L25",
+  "codigo": "L25",
+  "nombre": "L25",
+  "origen": "PORTAL SUBA",
+  "destino": "PORTAL 20 DE JULIO",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "biarticulado",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "05:00 - 22:00",
+    "sabado": "05:00 - 20:00",
+    "domingo_festivo": "05:00 - 22:00"
+  },
+  "longitud_km": 0.03,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

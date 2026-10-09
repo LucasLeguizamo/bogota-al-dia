@@ -1,0 +1,202 @@
+{
+  "localidad": "Santa Fe",
+  "codigo": "3",
+  "total_zonas": 9,
+  "zonas": [
+    {
+      "id": "zona-03-15",
+      "codigo_macroruta": "03",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "3",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes",
+          "domingo"
+        ],
+        "descripcion": "Lunes, miércoles, viernes y domingo"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-04-19",
+      "codigo_macroruta": "04",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-05-20",
+      "codigo_macroruta": "05",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-06-23",
+      "codigo_macroruta": "06",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "00:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-08-25",
+      "codigo_macroruta": "08",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "22:00",
+      "horario_fin": "08:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-09-31",
+      "codigo_macroruta": "09",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-10-35",
+      "codigo_macroruta": "10",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "00:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-12-41",
+      "codigo_macroruta": "12",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "22:00",
+      "horario_fin": "08:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-99-4",
+      "codigo_macroruta": "99",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "11",
+        "dias": [],
+        "descripcion": "Frecuencia código 11"
+      },
+      "horario_inicio": "05:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+    }
+  ]
+}

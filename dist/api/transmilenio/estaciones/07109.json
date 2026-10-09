@@ -1,0 +1,20 @@
+{
+  "id": "estacion-07109",
+  "codigo": "07109",
+  "nombre": "CAD",
+  "ubicacion": "Kr 30 Cl 26",
+  "troncal": "NQS",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.62341044,
+    "longitud": -74.08416734
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

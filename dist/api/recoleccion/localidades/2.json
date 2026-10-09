@@ -1,0 +1,201 @@
+{
+  "localidad": "Chapinero",
+  "codigo": "2",
+  "total_zonas": 9,
+  "zonas": [
+    {
+      "id": "zona-02-13",
+      "codigo_macroruta": "02",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-03-14",
+      "codigo_macroruta": "03",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-04-18",
+      "codigo_macroruta": "04",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-06-22",
+      "codigo_macroruta": "06",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "00:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-08-8",
+      "codigo_macroruta": "08",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "22:00",
+      "horario_fin": "08:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+    },
+    {
+      "id": "zona-09-30",
+      "codigo_macroruta": "09",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-11-37",
+      "codigo_macroruta": "11",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-13-43",
+      "codigo_macroruta": "13",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "10",
+        "dias": [],
+        "descripcion": "Frecuencia código 10"
+      },
+      "horario_inicio": "05:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-14-45",
+      "codigo_macroruta": "14",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ruta-H72",
+  "codigo": "H72",
+  "nombre": "H72",
+  "origen": "TOBERIN - FOUNDEVER",
+  "destino": "PORTAL USME",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "articulado",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "05:30 - 23:00",
+    "sabado": "05:30 - 23:00",
+    "domingo_festivo": "06:00 - 21:00"
+  },
+  "longitud_km": 0.03,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "estacion-09108",
+  "codigo": "09108",
+  "nombre": "Hospital",
+  "ubicacion": "CL 4 - CL 2",
+  "troncal": "Caracas",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.59504554,
+    "longitud": -74.08622014
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

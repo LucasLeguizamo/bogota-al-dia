@@ -1,0 +1,18 @@
+{
+  "id": "ruta-L81CV",
+  "codigo": "L81CV",
+  "nombre": "L81CV",
+  "origen": "PUENTE DE GUADUA",
+  "destino": "PORTAL 20 DE JULIO",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "padron",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "0",
+    "sabado": "0",
+    "domingo_festivo": "06:00 - 14:00"
+  },
+  "longitud_km": 0.03,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

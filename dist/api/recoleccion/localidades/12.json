@@ -1,0 +1,77 @@
+{
+  "localidad": "Barrios Unidos",
+  "codigo": "12",
+  "total_zonas": 3,
+  "zonas": [
+    {
+      "id": "zona-123456N-96",
+      "codigo_macroruta": "123456N",
+      "localidad": {
+        "codigo": "12",
+        "nombre": "Barrios Unidos"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "03:00",
+      "vigencia": "2025-08-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-135N-98",
+      "codigo_macroruta": "135N",
+      "localidad": {
+        "codigo": "12",
+        "nombre": "Barrios Unidos"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "03:00",
+      "vigencia": "2025-08-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-246N-95",
+      "codigo_macroruta": "246N",
+      "localidad": {
+        "codigo": "12",
+        "nombre": "Barrios Unidos"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "03:00",
+      "vigencia": "2025-08-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    }
+  ]
+}

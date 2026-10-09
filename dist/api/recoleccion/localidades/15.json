@@ -1,0 +1,101 @@
+{
+  "localidad": "Antonio Nariño",
+  "codigo": "15",
+  "total_zonas": 5,
+  "zonas": [
+    {
+      "id": "zona-R2117-57",
+      "codigo_macroruta": "R2117",
+      "localidad": {
+        "codigo": "15",
+        "nombre": "Antonio Nariño"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-R2332-58",
+      "codigo_macroruta": "R2332",
+      "localidad": {
+        "codigo": "15",
+        "nombre": "Antonio Nariño"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "18:30",
+      "horario_fin": "04:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RB2112-71",
+      "codigo_macroruta": "RB2112",
+      "localidad": {
+        "codigo": "15",
+        "nombre": "Antonio Nariño"
+      },
+      "frecuencia": {
+        "codigo": "8",
+        "dias": [],
+        "descripcion": "Frecuencia código 8"
+      },
+      "horario_inicio": "09:30",
+      "horario_fin": "18:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RB2114-72",
+      "codigo_macroruta": "RB2114",
+      "localidad": {
+        "codigo": "15",
+        "nombre": "Antonio Nariño"
+      },
+      "frecuencia": {
+        "codigo": "10",
+        "dias": [],
+        "descripcion": "Frecuencia código 10"
+      },
+      "horario_inicio": "09:30",
+      "horario_fin": "18:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RB2115-73",
+      "codigo_macroruta": "RB2115",
+      "localidad": {
+        "codigo": "15",
+        "nombre": "Antonio Nariño"
+      },
+      "frecuencia": {
+        "codigo": "11",
+        "dias": [],
+        "descripcion": "Frecuencia código 11"
+      },
+      "horario_inicio": "09:30",
+      "horario_fin": "18:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    }
+  ]
+}

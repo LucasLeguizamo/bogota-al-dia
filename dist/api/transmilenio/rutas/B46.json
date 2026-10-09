@@ -1,0 +1,18 @@
+{
+  "id": "ruta-B46",
+  "codigo": "B46",
+  "nombre": "B46",
+  "origen": "SAN MATEO - CC UNISUR",
+  "destino": "PORTAL NORTE - UNICERVANTES",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "biarticulado",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "4:00-9:00/15:00-20:0",
+    "sabado": "4:00-9:00/15:00-20:0",
+    "domingo_festivo": "0"
+  },
+  "longitud_km": 0.03,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "estacion-04001",
+  "codigo": "04001",
+  "nombre": "Quirigua",
+  "ubicacion": "KR 94",
+  "troncal": "Calle 80",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.70674385,
+    "longitud": -74.1087256
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

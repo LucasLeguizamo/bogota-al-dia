@@ -1,0 +1,20 @@
+{
+  "id": "estacion-09111",
+  "codigo": "09111",
+  "nombre": "Calle 19",
+  "ubicacion": "CL 19 - CL 17",
+  "troncal": "Caracas",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.60786106,
+    "longitud": -74.07685817
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

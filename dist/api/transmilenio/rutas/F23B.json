@@ -1,0 +1,18 @@
+{
+  "id": "ruta-F23B",
+  "codigo": "F23B",
+  "nombre": "F23B",
+  "origen": "LAS AGUAS - CENTRO COLOMBO AMERICANO",
+  "destino": "BANDERAS",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "biarticulado",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "6:15 - 08:00",
+    "sabado": "0",
+    "domingo_festivo": "0"
+  },
+  "longitud_km": 0.01,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

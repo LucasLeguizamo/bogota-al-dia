@@ -1,0 +1,2457 @@
+{
+  "$schema": "../schemas/zona-recoleccion.schema.json",
+  "generado": "2026-10-09T01:17:57.128Z",
+  "total": 115,
+  "localidades": 19,
+  "fuente": "https://serviciosgis.catastrobogota.gov.co/arcgis/rest/services/serviciospublicos/aseobogota/MapServer/5",
+  "licencia": "CC-BY-SA-4.0",
+  "zonas": [
+    {
+      "id": "zona-R2117-57",
+      "codigo_macroruta": "R2117",
+      "localidad": {
+        "codigo": "15",
+        "nombre": "Antonio Nariño"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-R2332-58",
+      "codigo_macroruta": "R2332",
+      "localidad": {
+        "codigo": "15",
+        "nombre": "Antonio Nariño"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "18:30",
+      "horario_fin": "04:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RB2112-71",
+      "codigo_macroruta": "RB2112",
+      "localidad": {
+        "codigo": "15",
+        "nombre": "Antonio Nariño"
+      },
+      "frecuencia": {
+        "codigo": "8",
+        "dias": [],
+        "descripcion": "Frecuencia código 8"
+      },
+      "horario_inicio": "09:30",
+      "horario_fin": "18:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RB2114-72",
+      "codigo_macroruta": "RB2114",
+      "localidad": {
+        "codigo": "15",
+        "nombre": "Antonio Nariño"
+      },
+      "frecuencia": {
+        "codigo": "10",
+        "dias": [],
+        "descripcion": "Frecuencia código 10"
+      },
+      "horario_inicio": "09:30",
+      "horario_fin": "18:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RB2115-73",
+      "codigo_macroruta": "RB2115",
+      "localidad": {
+        "codigo": "15",
+        "nombre": "Antonio Nariño"
+      },
+      "frecuencia": {
+        "codigo": "11",
+        "dias": [],
+        "descripcion": "Frecuencia código 11"
+      },
+      "horario_inicio": "09:30",
+      "horario_fin": "18:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-123456N-96",
+      "codigo_macroruta": "123456N",
+      "localidad": {
+        "codigo": "12",
+        "nombre": "Barrios Unidos"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "03:00",
+      "vigencia": "2025-08-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-135N-98",
+      "codigo_macroruta": "135N",
+      "localidad": {
+        "codigo": "12",
+        "nombre": "Barrios Unidos"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "03:00",
+      "vigencia": "2025-08-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-246N-95",
+      "codigo_macroruta": "246N",
+      "localidad": {
+        "codigo": "12",
+        "nombre": "Barrios Unidos"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "03:00",
+      "vigencia": "2025-08-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-R2131-51",
+      "codigo_macroruta": "R2131",
+      "localidad": {
+        "codigo": "7",
+        "nombre": "Bosa"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-R2331-52",
+      "codigo_macroruta": "R2331",
+      "localidad": {
+        "codigo": "7",
+        "nombre": "Bosa"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "18:30",
+      "horario_fin": "04:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RB2113-64",
+      "codigo_macroruta": "RB2113",
+      "localidad": {
+        "codigo": "7",
+        "nombre": "Bosa"
+      },
+      "frecuencia": {
+        "codigo": "9",
+        "dias": [],
+        "descripcion": "Frecuencia código 9"
+      },
+      "horario_inicio": "09:30",
+      "horario_fin": "18:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-02-13",
+      "codigo_macroruta": "02",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-03-14",
+      "codigo_macroruta": "03",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-04-18",
+      "codigo_macroruta": "04",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-06-22",
+      "codigo_macroruta": "06",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "00:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-08-8",
+      "codigo_macroruta": "08",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "22:00",
+      "horario_fin": "08:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+    },
+    {
+      "id": "zona-09-30",
+      "codigo_macroruta": "09",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-11-37",
+      "codigo_macroruta": "11",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-13-43",
+      "codigo_macroruta": "13",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "10",
+        "dias": [],
+        "descripcion": "Frecuencia código 10"
+      },
+      "horario_inicio": "05:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-14-45",
+      "codigo_macroruta": "14",
+      "localidad": {
+        "codigo": "2",
+        "nombre": "Chapinero"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-GG2131-60",
+      "codigo_macroruta": "GG2131",
+      "localidad": {
+        "codigo": "19",
+        "nombre": "Ciudad Bolívar"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-123456D-94",
+      "codigo_macroruta": "123456D",
+      "localidad": {
+        "codigo": "10",
+        "nombre": "Engativá"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-08-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-123456N-97",
+      "codigo_macroruta": "123456N",
+      "localidad": {
+        "codigo": "10",
+        "nombre": "Engativá"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "03:00",
+      "vigencia": "2025-08-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-135D-91",
+      "codigo_macroruta": "135D",
+      "localidad": {
+        "codigo": "10",
+        "nombre": "Engativá"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-08-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-135N-93",
+      "codigo_macroruta": "135N",
+      "localidad": {
+        "codigo": "10",
+        "nombre": "Engativá"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "03:00",
+      "vigencia": "2025-08-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-246D-92",
+      "codigo_macroruta": "246D",
+      "localidad": {
+        "codigo": "10",
+        "nombre": "Engativá"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-08-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-246N-90",
+      "codigo_macroruta": "246N",
+      "localidad": {
+        "codigo": "10",
+        "nombre": "Engativá"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "03:00",
+      "vigencia": "2025-08-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-10-86",
+      "codigo_macroruta": "10",
+      "localidad": {
+        "codigo": "9",
+        "nombre": "Fontibón"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "00:00",
+      "vigencia": "2025-08-11",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-10-87",
+      "codigo_macroruta": "10",
+      "localidad": {
+        "codigo": "9",
+        "nombre": "Fontibón"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "00:00",
+      "vigencia": "2025-08-11",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-10-88",
+      "codigo_macroruta": "10",
+      "localidad": {
+        "codigo": "9",
+        "nombre": "Fontibón"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "00:00",
+      "vigencia": "2025-08-11",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-13-89",
+      "codigo_macroruta": "13",
+      "localidad": {
+        "codigo": "9",
+        "nombre": "Fontibón"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "05:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-08-11",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-11-81",
+      "codigo_macroruta": "11",
+      "localidad": {
+        "codigo": "8",
+        "nombre": "Kennedy"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-08-11",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-12-82",
+      "codigo_macroruta": "12",
+      "localidad": {
+        "codigo": "8",
+        "nombre": "Kennedy"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "22:00",
+      "horario_fin": "08:00",
+      "vigencia": "2025-08-11",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-14-83",
+      "codigo_macroruta": "14",
+      "localidad": {
+        "codigo": "8",
+        "nombre": "Kennedy"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-08-11",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-15-85",
+      "codigo_macroruta": "15",
+      "localidad": {
+        "codigo": "8",
+        "nombre": "Kennedy"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "05:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-08-11",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-16-84",
+      "codigo_macroruta": "16",
+      "localidad": {
+        "codigo": "8",
+        "nombre": "Kennedy"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "13:00",
+      "horario_fin": "21:00",
+      "vigencia": "2025-08-11",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-05-5",
+      "codigo_macroruta": "05",
+      "localidad": {
+        "codigo": "17",
+        "nombre": "La Candelaria"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+    },
+    {
+      "id": "zona-06-21",
+      "codigo_macroruta": "06",
+      "localidad": {
+        "codigo": "17",
+        "nombre": "La Candelaria"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "00:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-08-7",
+      "codigo_macroruta": "08",
+      "localidad": {
+        "codigo": "17",
+        "nombre": "La Candelaria"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "22:00",
+      "horario_fin": "08:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+    },
+    {
+      "id": "zona-09-29",
+      "codigo_macroruta": "09",
+      "localidad": {
+        "codigo": "17",
+        "nombre": "La Candelaria"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-10-34",
+      "codigo_macroruta": "10",
+      "localidad": {
+        "codigo": "17",
+        "nombre": "La Candelaria"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "00:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-12-40",
+      "codigo_macroruta": "12",
+      "localidad": {
+        "codigo": "17",
+        "nombre": "La Candelaria"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "22:00",
+      "horario_fin": "08:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-R2161-54",
+      "codigo_macroruta": "R2161",
+      "localidad": {
+        "codigo": "14",
+        "nombre": "Los Mártires"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-R2261-55",
+      "codigo_macroruta": "R2261",
+      "localidad": {
+        "codigo": "14",
+        "nombre": "Los Mártires"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "23:00",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-R2361-56",
+      "codigo_macroruta": "R2361",
+      "localidad": {
+        "codigo": "14",
+        "nombre": "Los Mártires"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "18:30",
+      "horario_fin": "04:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-GG2161-61",
+      "codigo_macroruta": "GG2161",
+      "localidad": {
+        "codigo": "16",
+        "nombre": "Puente Aranda"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-GG2171-62",
+      "codigo_macroruta": "GG2171",
+      "localidad": {
+        "codigo": "16",
+        "nombre": "Puente Aranda"
+      },
+      "frecuencia": {
+        "codigo": "15",
+        "dias": [],
+        "descripcion": "Frecuencia código 15"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-R2132-59",
+      "codigo_macroruta": "R2132",
+      "localidad": {
+        "codigo": "16",
+        "nombre": "Puente Aranda"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RB2171-76",
+      "codigo_macroruta": "RB2171",
+      "localidad": {
+        "codigo": "16",
+        "nombre": "Puente Aranda"
+      },
+      "frecuencia": {
+        "codigo": "15",
+        "dias": [],
+        "descripcion": "Frecuencia código 15"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RB2371-77",
+      "codigo_macroruta": "RB2371",
+      "localidad": {
+        "codigo": "16",
+        "nombre": "Puente Aranda"
+      },
+      "frecuencia": {
+        "codigo": "15",
+        "dias": [],
+        "descripcion": "Frecuencia código 15"
+      },
+      "horario_inicio": "18:30",
+      "horario_fin": "04:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RB2111-74",
+      "codigo_macroruta": "RB2111",
+      "localidad": {
+        "codigo": "18",
+        "nombre": "Rafael Uribe Uribe"
+      },
+      "frecuencia": {
+        "codigo": "7",
+        "dias": [
+          "domingo"
+        ],
+        "descripcion": "Solo domingos"
+      },
+      "horario_inicio": "09:30",
+      "horario_fin": "18:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RB2116-75",
+      "codigo_macroruta": "RB2116",
+      "localidad": {
+        "codigo": "18",
+        "nombre": "Rafael Uribe Uribe"
+      },
+      "frecuencia": {
+        "codigo": "12",
+        "dias": [],
+        "descripcion": "Frecuencia código 12"
+      },
+      "horario_inicio": "09:30",
+      "horario_fin": "18:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-01-10",
+      "codigo_macroruta": "01",
+      "localidad": {
+        "codigo": "4",
+        "nombre": "San Cristóbal"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-03-16",
+      "codigo_macroruta": "03",
+      "localidad": {
+        "codigo": "4",
+        "nombre": "San Cristóbal"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-08-26",
+      "codigo_macroruta": "08",
+      "localidad": {
+        "codigo": "4",
+        "nombre": "San Cristóbal"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "22:00",
+      "horario_fin": "08:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-09-32",
+      "codigo_macroruta": "09",
+      "localidad": {
+        "codigo": "4",
+        "nombre": "San Cristóbal"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-11-38",
+      "codigo_macroruta": "11",
+      "localidad": {
+        "codigo": "4",
+        "nombre": "San Cristóbal"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-47-48",
+      "codigo_macroruta": "47",
+      "localidad": {
+        "codigo": "4",
+        "nombre": "San Cristóbal"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-74-1",
+      "codigo_macroruta": "74",
+      "localidad": {
+        "codigo": "4",
+        "nombre": "San Cristóbal"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+    },
+    {
+      "id": "zona-03-15",
+      "codigo_macroruta": "03",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "3",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes",
+          "domingo"
+        ],
+        "descripcion": "Lunes, miércoles, viernes y domingo"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-04-19",
+      "codigo_macroruta": "04",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-05-20",
+      "codigo_macroruta": "05",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-06-23",
+      "codigo_macroruta": "06",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "00:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-08-25",
+      "codigo_macroruta": "08",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "22:00",
+      "horario_fin": "08:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-09-31",
+      "codigo_macroruta": "09",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-10-35",
+      "codigo_macroruta": "10",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "00:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-12-41",
+      "codigo_macroruta": "12",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "22:00",
+      "horario_fin": "08:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-99-4",
+      "codigo_macroruta": "99",
+      "localidad": {
+        "codigo": "3",
+        "nombre": "Santa Fe"
+      },
+      "frecuencia": {
+        "codigo": "11",
+        "dias": [],
+        "descripcion": "Frecuencia código 11"
+      },
+      "horario_inicio": "05:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+    },
+    {
+      "id": "zona-01-99",
+      "codigo_macroruta": "01",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "7",
+        "dias": [
+          "domingo"
+        ],
+        "descripcion": "Solo domingos"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-02-100",
+      "codigo_macroruta": "02",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "8",
+        "dias": [],
+        "descripcion": "Frecuencia código 8"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-03-101",
+      "codigo_macroruta": "03",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "7",
+        "dias": [
+          "domingo"
+        ],
+        "descripcion": "Solo domingos"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-04-102",
+      "codigo_macroruta": "04",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "8",
+        "dias": [],
+        "descripcion": "Frecuencia código 8"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-09-114",
+      "codigo_macroruta": "09",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-10-103",
+      "codigo_macroruta": "10",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "00:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-11-104",
+      "codigo_macroruta": "11",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "14",
+        "dias": [],
+        "descripcion": "Frecuencia código 14"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-12-105",
+      "codigo_macroruta": "12",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "19",
+        "dias": [],
+        "descripcion": "Frecuencia código 19"
+      },
+      "horario_inicio": "22:00",
+      "horario_fin": "08:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-13-106",
+      "codigo_macroruta": "13",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "14",
+        "dias": [],
+        "descripcion": "Frecuencia código 14"
+      },
+      "horario_inicio": "05:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-14-107",
+      "codigo_macroruta": "14",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "19",
+        "dias": [],
+        "descripcion": "Frecuencia código 19"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-20-115",
+      "codigo_macroruta": "20",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "07:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-51-108",
+      "codigo_macroruta": "51",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "14:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-52-109",
+      "codigo_macroruta": "52",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "14:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-53-110",
+      "codigo_macroruta": "53",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "02:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-54-112",
+      "codigo_macroruta": "54",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "02:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-55-111",
+      "codigo_macroruta": "55",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "14:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-56-113",
+      "codigo_macroruta": "56",
+      "localidad": {
+        "codigo": "11",
+        "nombre": "Suba"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "02:00",
+      "vigencia": "2025-07-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-17-47",
+      "codigo_macroruta": "17",
+      "localidad": {
+        "codigo": "20",
+        "nombre": "Sumapaz"
+      },
+      "frecuencia": {
+        "codigo": "9",
+        "dias": [],
+        "descripcion": "Frecuencia código 9"
+      },
+      "horario_inicio": "05:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-GG2371-63",
+      "codigo_macroruta": "GG2371",
+      "localidad": {
+        "codigo": "13",
+        "nombre": "Teusaquillo"
+      },
+      "frecuencia": {
+        "codigo": "15",
+        "dias": [],
+        "descripcion": "Frecuencia código 15"
+      },
+      "horario_inicio": "18:30",
+      "horario_fin": "04:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-R2317-53",
+      "codigo_macroruta": "R2317",
+      "localidad": {
+        "codigo": "13",
+        "nombre": "Teusaquillo"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "18:30",
+      "horario_fin": "04:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RB2211-65",
+      "codigo_macroruta": "RB2211",
+      "localidad": {
+        "codigo": "13",
+        "nombre": "Teusaquillo"
+      },
+      "frecuencia": {
+        "codigo": "7",
+        "dias": [
+          "domingo"
+        ],
+        "descripcion": "Solo domingos"
+      },
+      "horario_inicio": "13:30",
+      "horario_fin": "22:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RB2212-66",
+      "codigo_macroruta": "RB2212",
+      "localidad": {
+        "codigo": "13",
+        "nombre": "Teusaquillo"
+      },
+      "frecuencia": {
+        "codigo": "8",
+        "dias": [],
+        "descripcion": "Frecuencia código 8"
+      },
+      "horario_inicio": "13:30",
+      "horario_fin": "22:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RB2213-67",
+      "codigo_macroruta": "RB2213",
+      "localidad": {
+        "codigo": "13",
+        "nombre": "Teusaquillo"
+      },
+      "frecuencia": {
+        "codigo": "9",
+        "dias": [],
+        "descripcion": "Frecuencia código 9"
+      },
+      "horario_inicio": "13:30",
+      "horario_fin": "22:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RB2214-68",
+      "codigo_macroruta": "RB2214",
+      "localidad": {
+        "codigo": "13",
+        "nombre": "Teusaquillo"
+      },
+      "frecuencia": {
+        "codigo": "10",
+        "dias": [],
+        "descripcion": "Frecuencia código 10"
+      },
+      "horario_inicio": "13:30",
+      "horario_fin": "22:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RB2215-69",
+      "codigo_macroruta": "RB2215",
+      "localidad": {
+        "codigo": "13",
+        "nombre": "Teusaquillo"
+      },
+      "frecuencia": {
+        "codigo": "11",
+        "dias": [],
+        "descripcion": "Frecuencia código 11"
+      },
+      "horario_inicio": "13:30",
+      "horario_fin": "22:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RB2216-70",
+      "codigo_macroruta": "RB2216",
+      "localidad": {
+        "codigo": "13",
+        "nombre": "Teusaquillo"
+      },
+      "frecuencia": {
+        "codigo": "12",
+        "dias": [],
+        "descripcion": "Frecuencia código 12"
+      },
+      "horario_inicio": "13:30",
+      "horario_fin": "22:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RC2161\r\r\n-78",
+      "codigo_macroruta": "RC2161\r\r\n",
+      "localidad": {
+        "codigo": "13",
+        "nombre": "Teusaquillo"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "10:00",
+      "horario_fin": "18:00",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-RP2161-79",
+      "codigo_macroruta": "RP2161",
+      "localidad": {
+        "codigo": "13",
+        "nombre": "Teusaquillo"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "10:00",
+      "horario_fin": "18:00",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-VO2161\r\r\n-80",
+      "codigo_macroruta": "VO2161\r\r\n",
+      "localidad": {
+        "codigo": "13",
+        "nombre": "Teusaquillo"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-01-9",
+      "codigo_macroruta": "01",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+    },
+    {
+      "id": "zona-02-12",
+      "codigo_macroruta": "02",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-04-17",
+      "codigo_macroruta": "04",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-07-24",
+      "codigo_macroruta": "07",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-08-6",
+      "codigo_macroruta": "08",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "22:00",
+      "horario_fin": "08:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+    },
+    {
+      "id": "zona-09-28",
+      "codigo_macroruta": "09",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-11-36",
+      "codigo_macroruta": "11",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-13-42",
+      "codigo_macroruta": "13",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "10",
+        "dias": [],
+        "descripcion": "Frecuencia código 10"
+      },
+      "horario_inicio": "05:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-14-44",
+      "codigo_macroruta": "14",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-74-50",
+      "codigo_macroruta": "74",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-76-3",
+      "codigo_macroruta": "76",
+      "localidad": {
+        "codigo": "1",
+        "nombre": "Usaquén"
+      },
+      "frecuencia": {
+        "codigo": "22",
+        "dias": [],
+        "descripcion": "Frecuencia código 22"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+    },
+    {
+      "id": "zona-01-11",
+      "codigo_macroruta": "01",
+      "localidad": {
+        "codigo": "5",
+        "nombre": "Usme"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-08-27",
+      "codigo_macroruta": "08",
+      "localidad": {
+        "codigo": "5",
+        "nombre": "Usme"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "22:00",
+      "horario_fin": "08:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-09-33",
+      "codigo_macroruta": "09",
+      "localidad": {
+        "codigo": "5",
+        "nombre": "Usme"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-11-39",
+      "codigo_macroruta": "11",
+      "localidad": {
+        "codigo": "5",
+        "nombre": "Usme"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-15-46",
+      "codigo_macroruta": "15",
+      "localidad": {
+        "codigo": "5",
+        "nombre": "Usme"
+      },
+      "frecuencia": {
+        "codigo": "8",
+        "dias": [],
+        "descripcion": "Frecuencia código 8"
+      },
+      "horario_inicio": "05:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-73-49",
+      "codigo_macroruta": "73",
+      "localidad": {
+        "codigo": "5",
+        "nombre": "Usme"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-75-2",
+      "codigo_macroruta": "75",
+      "localidad": {
+        "codigo": "5",
+        "nombre": "Usme"
+      },
+      "frecuencia": {
+        "codigo": "23",
+        "dias": [],
+        "descripcion": "Frecuencia código 23"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+    }
+  ]
+}

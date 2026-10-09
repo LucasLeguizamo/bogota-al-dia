@@ -1,0 +1,20 @@
+{
+  "id": "estacion-07007",
+  "codigo": "07007",
+  "nombre": "NQS - Calle 38A S",
+  "ubicacion": "AutoSur - Kr 39A",
+  "troncal": "NQS",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.59379207,
+    "longitud": -74.123754
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

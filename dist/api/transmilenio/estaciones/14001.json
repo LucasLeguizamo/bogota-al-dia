@@ -1,0 +1,20 @@
+{
+  "id": "estacion-14001",
+  "codigo": "14001",
+  "nombre": "De La Sabana",
+  "ubicacion": "CL 13 - KR 16",
+  "troncal": "Americas",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.60543098,
+    "longitud": -74.0818916
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

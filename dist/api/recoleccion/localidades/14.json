@@ -1,0 +1,85 @@
+{
+  "localidad": "Los Mártires",
+  "codigo": "14",
+  "total_zonas": 3,
+  "zonas": [
+    {
+      "id": "zona-R2161-54",
+      "codigo_macroruta": "R2161",
+      "localidad": {
+        "codigo": "14",
+        "nombre": "Los Mártires"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-R2261-55",
+      "codigo_macroruta": "R2261",
+      "localidad": {
+        "codigo": "14",
+        "nombre": "Los Mártires"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "23:00",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-R2361-56",
+      "codigo_macroruta": "R2361",
+      "localidad": {
+        "codigo": "14",
+        "nombre": "Los Mártires"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "18:30",
+      "horario_fin": "04:30",
+      "vigencia": "2022-08-09",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    }
+  ]
+}

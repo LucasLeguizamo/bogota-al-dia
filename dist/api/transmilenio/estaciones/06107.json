@@ -1,0 +1,20 @@
+{
+  "id": "estacion-06107",
+  "codigo": "06107",
+  "nombre": "Ciudad Universitaria - Lotería de Bogotá",
+  "ubicacion": "KR 34",
+  "troncal": "Calle 26",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.63087977,
+    "longitud": -74.08352729
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ruta-B27",
+  "codigo": "B27",
+  "nombre": "B27",
+  "origen": "PORTAL TUNAL",
+  "destino": "PORTAL NORTE - UNICERVANTES",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "biarticulado",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "5:00-9:00/16:00-20:0",
+    "sabado": "0",
+    "domingo_festivo": "0"
+  },
+  "longitud_km": 0.03,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

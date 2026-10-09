@@ -1,0 +1,20 @@
+{
+  "id": "estacion-10010",
+  "codigo": "10010",
+  "nombre": "San Bernardo",
+  "ubicacion": "Kra 10- CL 1b  sur",
+  "troncal": "Cr 7-10",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.59019014,
+    "longitud": -74.08431921
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

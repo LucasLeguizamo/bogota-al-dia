@@ -1,0 +1,20 @@
+{
+  "id": "estacion-09117",
+  "codigo": "09117",
+  "nombre": "Calle 45 - American School Way",
+  "ubicacion": "CL 45 - CL 42A",
+  "troncal": "Caracas",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.63145168,
+    "longitud": -74.06786884
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "estacion-02300",
+  "codigo": "02300",
+  "nombre": "Calle 100 - Marketmedios",
+  "ubicacion": "CL 97",
+  "troncal": "Autonorte",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.68394667,
+    "longitud": -74.05769591
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

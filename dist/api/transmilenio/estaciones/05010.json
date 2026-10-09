@@ -1,0 +1,20 @@
+{
+  "id": "estacion-05010",
+  "codigo": "05010",
+  "nombre": "Tibanica - Primavera",
+  "ubicacion": "CL 78 A Y CL 78 F",
+  "troncal": "TZ022",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.60672702,
+    "longitud": -74.20605303
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

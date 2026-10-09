@@ -1,0 +1,18 @@
+{
+  "id": "ruta-B74",
+  "codigo": "B74",
+  "nombre": "B74",
+  "origen": "UNIVERSIDADES – CITYU",
+  "destino": "PORTAL NORTE - UNICERVANTES",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "articulado",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "06:00 - 22:30",
+    "sabado": "07:00 - 20:30",
+    "domingo_festivo": "0"
+  },
+  "longitud_km": 0,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

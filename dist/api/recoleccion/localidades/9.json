@@ -1,0 +1,91 @@
+{
+  "localidad": "Fontibón",
+  "codigo": "9",
+  "total_zonas": 4,
+  "zonas": [
+    {
+      "id": "zona-10-86",
+      "codigo_macroruta": "10",
+      "localidad": {
+        "codigo": "9",
+        "nombre": "Fontibón"
+      },
+      "frecuencia": {
+        "codigo": "2",
+        "dias": [
+          "martes",
+          "jueves",
+          "sabado"
+        ],
+        "descripcion": "Martes, jueves y sábado"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "00:00",
+      "vigencia": "2025-08-11",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-10-87",
+      "codigo_macroruta": "10",
+      "localidad": {
+        "codigo": "9",
+        "nombre": "Fontibón"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "00:00",
+      "vigencia": "2025-08-11",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-10-88",
+      "codigo_macroruta": "10",
+      "localidad": {
+        "codigo": "9",
+        "nombre": "Fontibón"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "14:00",
+      "horario_fin": "00:00",
+      "vigencia": "2025-08-11",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-13-89",
+      "codigo_macroruta": "13",
+      "localidad": {
+        "codigo": "9",
+        "nombre": "Fontibón"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "05:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-08-11",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import estacionesData from '../../../data/transmilenio/estaciones.json';
+import rutasData from '../../../data/transmilenio/rutas.json';
+
+const troncales = [...new Set(estacionesData.estaciones.map(e => e.troncal))].sort();
+---
+
+<Layout 
+  title="TransMilenio" 
+  description="Estaciones y rutas del sistema TransMilenio de Bogotá. {estacionesData.total} estaciones y {rutasData.total} rutas.">
+  
+  <h1>TransMilenio</h1>
+  <p>Sistema de transporte masivo de Bogotá con <strong>{estacionesData.total}</strong> estaciones troncales y <strong>{rutasData.total}</strong> rutas.</p>
+  
+  <nav aria-label="Secciones de TransMilenio">
+    <ul style="display: flex; gap: 1rem; list-style: none; margin-bottom: 2rem;">
+      <li><a href="#estaciones">Estaciones</a></li>
+      <li><a href="#rutas">Rutas</a></li>
+    </ul>
+  </nav>
+  
+  <section id="estaciones" aria-labelledby="estaciones-heading">
+    <h2 id="estaciones-heading">Estaciones por Troncal</h2>
+    
+    <div class="grid grid-2">
+      {troncales.map(troncal => {
+        const estaciones = estacionesData.estaciones.filter(e => e.troncal === troncal);
+        return (
+          <article class="card">
+            <h3>{troncal}</h3>
+            <p>{estaciones.length} estaciones</p>
+            <ul>
+              {estaciones.slice(0, 5).map(e => (
+                <li><a href={`/transmilenio/estaciones/${e.codigo}/`}>{e.nombre}</a></li>
+              ))}
+              {estaciones.length > 5 && <li>... y {estaciones.length - 5} más</li>}
+            </ul>
+          </article>
+        );
+      })}
+    </div>
+    
+    <p><a href="/transmilenio/estaciones/">Ver todas las estaciones →</a></p>
+  </section>
+  
+  <section id="rutas" aria-labelledby="rutas-heading">
+    <h2 id="rutas-heading">Rutas Troncales</h2>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Código</th>
+          <th>Origen</th>
+          <th>Destino</th>
+          <th>Estado</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rutasData.rutas.slice(0, 20).map(ruta => (
+          <tr>
+            <td><a href={`/transmilenio/rutas/${ruta.codigo}/`}>{ruta.codigo}</a></td>
+            <td>{ruta.origen}</td>
+            <td>{ruta.destino}</td>
+            <td><span class={`badge ${ruta.estado === 'activa' ? 'badge-success' : 'badge-warning'}`}>{ruta.estado}</span></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    
+    <p><a href="/transmilenio/rutas/">Ver todas las rutas →</a></p>
+  </section>
+  
+  <section aria-labelledby="datos-heading">
+    <h2 id="datos-heading">Datos</h2>
+    <div class="card">
+      <p>Última actualización: {new Date(estacionesData.generado).toLocaleDateString('es-CO')}</p>
+      <p>Fuente: <a href={estacionesData.fuente}>TransMilenio S.A.</a></p>
+      <p>Descargar: <a href="/api/transmilenio/estaciones.json">JSON</a> · <a href="/data/transmilenio/estaciones.csv">CSV</a></p>
+    </div>
+  </section>
+</Layout>

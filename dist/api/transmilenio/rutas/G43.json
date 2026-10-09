@@ -1,0 +1,18 @@
+{
+  "id": "ruta-G43",
+  "codigo": "G43",
+  "nombre": "G43",
+  "origen": "PORTAL EL DORADO – C.C. NUESTRO BOGOTÁ",
+  "destino": "SAN MATEO - CC UNISUR",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "biarticulado",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "05:00 - 23:00",
+    "sabado": "05:00 - 23:00",
+    "domingo_festivo": "04:30 - 22:00"
+  },
+  "longitud_km": 0.02,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

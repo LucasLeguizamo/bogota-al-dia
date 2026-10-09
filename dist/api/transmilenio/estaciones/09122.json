@@ -1,0 +1,20 @@
+{
+  "id": "estacion-09122",
+  "codigo": "09122",
+  "nombre": "Calle 72",
+  "ubicacion": "CL 72 - CL 70A",
+  "troncal": "Caracas",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.65823884,
+    "longitud": -74.06206854
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

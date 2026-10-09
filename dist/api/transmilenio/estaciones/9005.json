@@ -1,0 +1,20 @@
+{
+  "id": "estacion-9005",
+  "codigo": "9005",
+  "nombre": "Danubio",
+  "ubicacion": "Av. Caracas entre calle 55 sur y calle 56 sur",
+  "troncal": "Caracas",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.54365084,
+    "longitud": -74.12089669
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

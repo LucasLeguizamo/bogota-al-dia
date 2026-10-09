@@ -1,0 +1,20 @@
+{
+  "id": "estacion-04002",
+  "codigo": "04002",
+  "nombre": "Carrera 90",
+  "ubicacion": "KR 90",
+  "troncal": "Calle 80",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.70468167,
+    "longitud": -74.10456241
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

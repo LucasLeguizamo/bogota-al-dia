@@ -1,0 +1,18 @@
+{
+  "id": "ruta-B11",
+  "codigo": "B11",
+  "nombre": "B11",
+  "origen": "PORTAL SUR - JFK Coop. Financiera",
+  "destino": "TERMINAL",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "biarticulado",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "05:00 - 21:00",
+    "sabado": "06:00 - 21:30",
+    "domingo_festivo": "0"
+  },
+  "longitud_km": 0.03,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

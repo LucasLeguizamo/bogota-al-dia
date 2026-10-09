@@ -1,0 +1,25 @@
+{
+  "localidad": "Sumapaz",
+  "codigo": "20",
+  "total_zonas": 1,
+  "zonas": [
+    {
+      "id": "zona-17-47",
+      "codigo_macroruta": "17",
+      "localidad": {
+        "codigo": "20",
+        "nombre": "Sumapaz"
+      },
+      "frecuencia": {
+        "codigo": "9",
+        "dias": [],
+        "descripcion": "Frecuencia código 9"
+      },
+      "horario_inicio": "05:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    }
+  ]
+}

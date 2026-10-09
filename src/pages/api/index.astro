@@ -1,0 +1,107 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const ejemploEstaciones = `{
+  "total": 152,
+  "estaciones": [
+    {
+      "id": "estacion-03003",
+      "codigo": "03003",
+      "nombre": "21 Ángeles",
+      "troncal": "Suba",
+      "tipo": "portal"
+    }
+  ]
+}`;
+---
+
+<Layout 
+  title="API" 
+  description="Documentación de la API JSON de Bogotá al Día. Endpoints para TransMilenio y recolección de residuos.">
+  
+  <h1>API de Bogotá al Día</h1>
+  <p>API REST pública para acceder a datos de servicios públicos de Bogotá.</p>
+  
+  <div class="card">
+    <p><strong>Base URL:</strong> <code>https://bogota-al-dia.vercel.app/api</code></p>
+    <p><strong>Formato:</strong> JSON</p>
+    <p><strong>Autenticación:</strong> No requerida</p>
+    <p><a href="/openapi.json">Ver especificación OpenAPI →</a></p>
+  </div>
+  
+  <section aria-labelledby="transmilenio-heading">
+    <h2 id="transmilenio-heading">TransMilenio</h2>
+    
+    <article class="card">
+      <h3>GET /api/transmilenio/estaciones.json</h3>
+      <p>Lista todas las estaciones troncales.</p>
+      <pre><code>{ejemploEstaciones}</code></pre>
+    </article>
+    
+    <article class="card">
+      <h3>GET /api/transmilenio/estaciones/[codigo].json</h3>
+      <p>Obtiene una estación específica por su código.</p>
+      <p><strong>Ejemplo:</strong> <a href="/api/transmilenio/estaciones/03003.json">/api/transmilenio/estaciones/03003.json</a></p>
+      <p><strong>Errores:</strong> 404 si la estación no existe.</p>
+    </article>
+    
+    <article class="card">
+      <h3>GET /api/transmilenio/rutas.json</h3>
+      <p>Lista todas las rutas troncales.</p>
+    </article>
+    
+    <article class="card">
+      <h3>GET /api/transmilenio/rutas/[codigo].json</h3>
+      <p>Obtiene una ruta específica por su código.</p>
+      <p><strong>Errores:</strong> 404 si la ruta no existe.</p>
+    </article>
+  </section>
+  
+  <section aria-labelledby="recoleccion-heading">
+    <h2 id="recoleccion-heading">Recolección de Residuos</h2>
+    
+    <article class="card">
+      <h3>GET /api/recoleccion/zonas.json</h3>
+      <p>Lista todas las zonas de recolección.</p>
+    </article>
+    
+    <article class="card">
+      <h3>GET /api/recoleccion/localidades.json</h3>
+      <p>Índice de localidades con sus zonas.</p>
+    </article>
+    
+    <article class="card">
+      <h3>GET /api/recoleccion/localidades/[codigo].json</h3>
+      <p>Zonas de recolección de una localidad específica.</p>
+      <p><strong>Ejemplo:</strong> <a href="/api/recoleccion/localidades/11.json">/api/recoleccion/localidades/11.json</a> (Suba)</p>
+      <p><strong>Errores:</strong> 404 si la localidad no existe.</p>
+    </article>
+  </section>
+  
+  <section aria-labelledby="otros-heading">
+    <h2 id="otros-heading">Otros recursos</h2>
+    <div class="card">
+      <ul>
+        <li><a href="/openapi.json">OpenAPI Specification (openapi.json)</a></li>
+        <li><a href="/.well-known/api-catalog">API Catalog (RFC 9727)</a></li>
+        <li><a href="/llms.txt">llms.txt</a></li>
+        <li><a href="/llms-full.txt">llms-full.txt</a></li>
+        <li><a href="/mcp/">MCP Server</a></li>
+      </ul>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  pre {
+    background: #1e3a5f;
+    color: #a8dadc;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-size: 0.875rem;
+  }
+  code {
+    font-family: 'SF Mono', Monaco, Consolas, monospace;
+  }
+</style>

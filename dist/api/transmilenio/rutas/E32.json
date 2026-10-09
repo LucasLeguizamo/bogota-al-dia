@@ -1,0 +1,18 @@
+{
+  "id": "ruta-E32",
+  "codigo": "E32",
+  "nombre": "E32",
+  "origen": "PORTAL AMÉRICAS",
+  "destino": "CALLE 75 - ZONA M",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "biarticulado",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "04:00 - 21:00",
+    "sabado": "04:00 - 20:00",
+    "domingo_festivo": "0"
+  },
+  "longitud_km": 0.02,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

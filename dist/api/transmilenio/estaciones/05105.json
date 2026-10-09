@@ -1,0 +1,20 @@
+{
+  "id": "estacion-05105",
+  "codigo": "05105",
+  "nombre": "Pradera",
+  "ubicacion": "Av. Americas -KR 64",
+  "troncal": "Americas",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.62853238,
+    "longitud": -74.11867306
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 32,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "estacion-07001",
+  "codigo": "07001",
+  "nombre": "Perdomo",
+  "ubicacion": "AutoSur-Kr78C",
+  "troncal": "NQS",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.59577569,
+    "longitud": -74.16497116
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

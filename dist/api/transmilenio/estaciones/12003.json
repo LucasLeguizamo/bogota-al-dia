@@ -1,0 +1,20 @@
+{
+  "id": "estacion-12003",
+  "codigo": "12003",
+  "nombre": "Ricaurte - CL 13",
+  "ubicacion": "CL 13 - KR 28",
+  "troncal": "Americas",
+  "tipo": "cabecera",
+  "coordenadas": {
+    "latitud": 4.61301485,
+    "longitud": -74.09048002
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

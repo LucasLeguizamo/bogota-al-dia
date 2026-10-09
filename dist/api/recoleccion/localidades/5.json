@@ -1,0 +1,153 @@
+{
+  "localidad": "Usme",
+  "codigo": "5",
+  "total_zonas": 7,
+  "zonas": [
+    {
+      "id": "zona-01-11",
+      "codigo_macroruta": "01",
+      "localidad": {
+        "codigo": "5",
+        "nombre": "Usme"
+      },
+      "frecuencia": {
+        "codigo": "1",
+        "dias": [
+          "lunes",
+          "miercoles",
+          "viernes"
+        ],
+        "descripcion": "Lunes, miércoles y viernes"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-08-27",
+      "codigo_macroruta": "08",
+      "localidad": {
+        "codigo": "5",
+        "nombre": "Usme"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "22:00",
+      "horario_fin": "08:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-09-33",
+      "codigo_macroruta": "09",
+      "localidad": {
+        "codigo": "5",
+        "nombre": "Usme"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-11-39",
+      "codigo_macroruta": "11",
+      "localidad": {
+        "codigo": "5",
+        "nombre": "Usme"
+      },
+      "frecuencia": {
+        "codigo": "13",
+        "dias": [],
+        "descripcion": "Frecuencia código 13"
+      },
+      "horario_inicio": "18:00",
+      "horario_fin": "04:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-15-46",
+      "codigo_macroruta": "15",
+      "localidad": {
+        "codigo": "5",
+        "nombre": "Usme"
+      },
+      "frecuencia": {
+        "codigo": "8",
+        "dias": [],
+        "descripcion": "Frecuencia código 8"
+      },
+      "horario_inicio": "05:00",
+      "horario_fin": "15:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-73-49",
+      "codigo_macroruta": "73",
+      "localidad": {
+        "codigo": "5",
+        "nombre": "Usme"
+      },
+      "frecuencia": {
+        "codigo": "6",
+        "dias": [
+          "lunes",
+          "martes",
+          "miercoles",
+          "jueves",
+          "viernes",
+          "sabado",
+          "domingo"
+        ],
+        "descripcion": "Todos los días"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.121Z"
+    },
+    {
+      "id": "zona-75-2",
+      "codigo_macroruta": "75",
+      "localidad": {
+        "codigo": "5",
+        "nombre": "Usme"
+      },
+      "frecuencia": {
+        "codigo": "23",
+        "dias": [],
+        "descripcion": "Frecuencia código 23"
+      },
+      "horario_inicio": "06:00",
+      "horario_fin": "16:00",
+      "vigencia": "2025-09-01",
+      "fuente": "UAESP - datosabiertos.bogota.gov.co",
+      "ultima_actualizacion": "2026-10-09T01:17:57.120Z"
+    }
+  ]
+}

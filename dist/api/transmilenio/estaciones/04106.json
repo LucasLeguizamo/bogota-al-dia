@@ -1,0 +1,20 @@
+{
+  "id": "estacion-04106",
+  "codigo": "04106",
+  "nombre": "Carrera 47",
+  "ubicacion": "KR 46",
+  "troncal": "Calle 80",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.67800634,
+    "longitud": -74.07364067
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

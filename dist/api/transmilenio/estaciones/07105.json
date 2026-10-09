@@ -1,0 +1,20 @@
+{
+  "id": "estacion-07105",
+  "codigo": "07105",
+  "nombre": "Movistar Arena",
+  "ubicacion": "Kr 30 Cl 57",
+  "troncal": "NQS",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.65003852,
+    "longitud": -74.07834591
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

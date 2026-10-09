@@ -1,0 +1,18 @@
+{
+  "id": "ruta-D22",
+  "codigo": "D22",
+  "nombre": "D22",
+  "origen": "PORTAL SUR - JFK Coop. Financiera",
+  "destino": "PORTAL 80",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "biarticulado",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "04:30 - 23:00",
+    "sabado": "04:30 - 23:00",
+    "domingo_festivo": "05:30 - 22:00"
+  },
+  "longitud_km": 0.02,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

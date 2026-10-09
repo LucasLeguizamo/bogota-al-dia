@@ -1,0 +1,20 @@
+{
+  "id": "estacion-02502",
+  "codigo": "02502",
+  "nombre": "Terminal",
+  "ubicacion": "CL 190",
+  "troncal": "Autonorte",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.76881827,
+    "longitud": -74.04356946
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

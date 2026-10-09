@@ -1,0 +1,20 @@
+{
+  "id": "estacion-10007",
+  "codigo": "10007",
+  "nombre": "Las Nieves",
+  "ubicacion": "Kra 10- CL 18",
+  "troncal": "Cr 7-10",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.60606079,
+    "longitud": -74.07431885
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "estacion-09123",
+  "codigo": "09123",
+  "nombre": "Calle 76",
+  "ubicacion": "CL 76 - CL 74",
+  "troncal": "Caracas",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.66303046,
+    "longitud": -74.06126016
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ruta-B26",
+  "codigo": "B26",
+  "nombre": "B26",
+  "origen": "PORTAL AMÉRICAS",
+  "destino": "ALCALÁ – COLEGIO S. TOMÁS DOMINICOS",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "biarticulado",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "04:30 - 09:00",
+    "sabado": "4:30 - 9:00",
+    "domingo_festivo": "0"
+  },
+  "longitud_km": 0,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

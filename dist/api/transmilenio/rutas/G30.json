@@ -1,0 +1,18 @@
+{
+  "id": "ruta-G30",
+  "codigo": "G30",
+  "nombre": "G30",
+  "origen": "PORTAL SUBA",
+  "destino": "PORTAL SUR - JFK Coop. Financiera",
+  "tipo_operacion": "corriente",
+  "tipo_bus": "biarticulado",
+  "estado": "programada",
+  "horarios": {
+    "lunes_viernes": "4:30-9:00/15:00-20:0",
+    "sabado": "05:00 - 15:00",
+    "domingo_festivo": "0"
+  },
+  "longitud_km": 0.03,
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:56.470Z"
+}

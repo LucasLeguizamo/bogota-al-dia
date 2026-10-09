@@ -1,0 +1,20 @@
+{
+  "id": "estacion-04003",
+  "codigo": "04003",
+  "nombre": "AV. Cali",
+  "ubicacion": "KR 86",
+  "troncal": "Calle 80",
+  "tipo": "intermedia",
+  "coordenadas": {
+    "latitud": 4.70248563,
+    "longitud": -74.10028756
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

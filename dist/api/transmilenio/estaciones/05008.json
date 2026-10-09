@@ -1,0 +1,20 @@
+{
+  "id": "estacion-05008",
+  "codigo": "05008",
+  "nombre": "Islandia",
+  "ubicacion": "KR 70 A Sur Y CL 69 Sur",
+  "troncal": "TZ022",
+  "tipo": "intermedia",
+  "coordenadas": {
+    "latitud": 4.61434757,
+    "longitud": -74.19374374
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

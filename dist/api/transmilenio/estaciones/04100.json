@@ -1,0 +1,20 @@
+{
+  "id": "estacion-04100",
+  "codigo": "04100",
+  "nombre": "Granja - Kr 77",
+  "ubicacion": "KR 77 Bis",
+  "troncal": "Calle 80",
+  "tipo": "intermedia",
+  "coordenadas": {
+    "latitud": 4.69914792,
+    "longitud": -74.09601551
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 2
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

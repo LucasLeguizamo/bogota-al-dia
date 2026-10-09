@@ -1,0 +1,20 @@
+{
+  "id": "estacion-09101",
+  "codigo": "09101",
+  "nombre": "Quiroga",
+  "ubicacion": "CL 31 Sur - CL 32 Su",
+  "troncal": "Caracas",
+  "tipo": "portal",
+  "coordenadas": {
+    "latitud": 4.57679575,
+    "longitud": -74.11437708
+  },
+  "servicios": {
+    "biciparqueadero": false,
+    "capacidad_biciparqueadero": 0,
+    "wifi": false,
+    "accesos": 1
+  },
+  "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+  "ultima_actualizacion": "2026-10-09T01:17:55.414Z"
+}

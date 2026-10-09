@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bogota-al-dia.vercel.app/schemas/alerta.schema.json",
+  "title": "Alerta",
+  "description": "Alerta de servicio (TransMilenio, recolección, etc.)",
+  "type": "object",
+  "required": ["id", "tipo", "titulo", "descripcion", "estado", "fecha_inicio", "fuente", "ultima_actualizacion"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Identificador único de la alerta"
+    },
+    "tipo": {
+      "type": "string",
+      "enum": ["cierre", "desvio", "suspension", "manifestacion", "mantenimiento", "otro"],
+      "description": "Tipo de alerta"
+    },
+    "servicio": {
+      "type": "string",
+      "enum": ["transmilenio", "sitp", "recoleccion"],
+      "description": "Servicio afectado"
+    },
+    "titulo": {
+      "type": "string",
+      "description": "Título corto de la alerta"
+    },
+    "descripcion": {
+      "type": "string",
+      "description": "Descripción detallada"
+    },
+    "estado": {
+      "type": "string",
+      "enum": ["activa", "programada", "resuelta"],
+      "description": "Estado actual"
+    },
+    "severidad": {
+      "type": "string",
+      "enum": ["baja", "media", "alta"],
+      "description": "Nivel de impacto"
+    },
+    "fecha_inicio": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Inicio del evento"
+    },
+    "fecha_fin": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Fin estimado o real"
+    },
+    "afectados": {
+      "type": "object",
+      "properties": {
+        "rutas": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "estaciones": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "zonas": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "description": "Entidades afectadas"
+    },
+    "fuente": {
+      "type": "string",
+      "description": "Origen de la información"
+    },
+    "url_fuente": {
+      "type": "string",
+      "format": "uri",
+      "description": "Enlace a la fuente original"
+    },
+    "ultima_actualizacion": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}
