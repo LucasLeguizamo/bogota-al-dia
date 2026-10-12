@@ -11,34 +11,34 @@ Datos públicos del día a día en Bogotá, abiertos y listos para personas y ag
 
 ### Sitio Web
 
-Visita [bogota-al-dia.vercel.app](https://bogota-al-dia.vercel.app) para navegar los datos.
+Visita [bogota-al-dia-ten.vercel.app](https://bogota-al-dia-ten.vercel.app) para navegar los datos.
 
 ### API JSON
 
 ```bash
 # Estaciones de TransMilenio
-curl https://bogota-al-dia.vercel.app/api/transmilenio/estaciones.json
+curl https://bogota-al-dia-ten.vercel.app/api/transmilenio/estaciones.json
 
 # Estación específica
-curl https://bogota-al-dia.vercel.app/api/transmilenio/estaciones/03003.json
+curl https://bogota-al-dia-ten.vercel.app/api/transmilenio/estaciones/03003.json
 
 # Rutas
-curl https://bogota-al-dia.vercel.app/api/transmilenio/rutas.json
+curl https://bogota-al-dia-ten.vercel.app/api/transmilenio/rutas.json
 
 # Zonas de recolección
-curl https://bogota-al-dia.vercel.app/api/recoleccion/zonas.json
+curl https://bogota-al-dia-ten.vercel.app/api/recoleccion/zonas.json
 
 # Zonas por localidad (Suba = código 11)
-curl https://bogota-al-dia.vercel.app/api/recoleccion/localidades/11.json
+curl https://bogota-al-dia-ten.vercel.app/api/recoleccion/localidades/11.json
 ```
 
-Especificación completa: [openapi.json](https://bogota-al-dia.vercel.app/openapi.json)
+Especificación completa: [openapi.json](https://bogota-al-dia-ten.vercel.app/openapi.json)
 
 ### Para Agentes de IA
 
-- [llms.txt](https://bogota-al-dia.vercel.app/llms.txt) - Contexto rápido
-- [llms-full.txt](https://bogota-al-dia.vercel.app/llms-full.txt) - Documentación completa
-- [server.json](https://bogota-al-dia.vercel.app/server.json) - MCP server manifest
+- [llms.txt](https://bogota-al-dia-ten.vercel.app/llms.txt) - Contexto rápido
+- [llms-full.txt](https://bogota-al-dia-ten.vercel.app/llms-full.txt) - Documentación completa
+- [server.json](https://bogota-al-dia-ten.vercel.app/server.json) - MCP server manifest
 
 ## Fuentes de Datos
 

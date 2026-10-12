@@ -8,7 +8,7 @@ const openapi = {
     "version": "1.0.0",
     "contact": {
       "name": "Bogotá al Día",
-      "url": "https://bogota-al-dia.vercel.app"
+      "url": "https://bogota-al-dia-ten.vercel.app"
     },
     "license": {
       "name": "CC-BY-SA-4.0",
@@ -17,7 +17,7 @@ const openapi = {
   },
   "servers": [
     {
-      "url": "https://bogota-al-dia.vercel.app",
+      "url": "https://bogota-al-dia-ten.vercel.app",
       "description": "Producción"
     }
   ],

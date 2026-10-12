@@ -6,9 +6,9 @@ const apiCatalog = {
     {
       "name": "Bogotá al Día API",
       "description": "API pública con datos de servicios públicos de Bogotá: TransMilenio y recolección de residuos.",
-      "baseUrl": "https://bogota-al-dia.vercel.app/api",
-      "humanUrl": "https://bogota-al-dia.vercel.app/api/",
-      "openapiUrl": "https://bogota-al-dia.vercel.app/openapi.json",
+      "baseUrl": "https://bogota-al-dia-ten.vercel.app/api",
+      "humanUrl": "https://bogota-al-dia-ten.vercel.app/api/",
+      "openapiUrl": "https://bogota-al-dia-ten.vercel.app/openapi.json",
       "contact": {
         "name": "Bogotá al Día"
       },
@@ -16,7 +16,7 @@ const apiCatalog = {
       "properties": [
         {
           "type": "x-llms-txt",
-          "url": "https://bogota-al-dia.vercel.app/llms.txt"
+          "url": "https://bogota-al-dia-ten.vercel.app/llms.txt"
         }
       ]
     }

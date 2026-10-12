@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://bogota-al-dia.vercel.app/schemas/ruta-transmilenio.schema.json",
+  "$id": "https://bogota-al-dia-ten.vercel.app/schemas/ruta-transmilenio.schema.json",
   "title": "RutaTransmilenio",
   "description": "Ruta del sistema TransMilenio",
   "type": "object",

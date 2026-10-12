@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://bogota-al-dia.vercel.app/schemas/zona-recoleccion.schema.json",
+  "$id": "https://bogota-al-dia-ten.vercel.app/schemas/zona-recoleccion.schema.json",
   "title": "ZonaRecoleccion",
   "description": "Zona de recolección de residuos con horario y frecuencia",
   "type": "object",

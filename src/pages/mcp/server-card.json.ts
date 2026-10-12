@@ -6,10 +6,10 @@ const serverCard = {
   "description": "Datos públicos de Bogotá: estaciones y rutas de TransMilenio, horarios de recolección de residuos.",
   "vendor": {
     "name": "Bogotá al Día",
-    "url": "https://bogota-al-dia.vercel.app"
+    "url": "https://bogota-al-dia-ten.vercel.app"
   },
   "server": {
-    "url": "https://bogota-al-dia.vercel.app/api/mcp",
+    "url": "https://bogota-al-dia-ten.vercel.app/api/mcp",
     "protocol": "json-rpc-http"
   },
   "authentication": {
@@ -25,9 +25,9 @@ const serverCard = {
     "recoleccion_por_zona"
   ],
   "links": {
-    "documentation": "https://bogota-al-dia.vercel.app/mcp/",
-    "manifest": "https://bogota-al-dia.vercel.app/server.json",
-    "openapi": "https://bogota-al-dia.vercel.app/openapi.json"
+    "documentation": "https://bogota-al-dia-ten.vercel.app/mcp/",
+    "manifest": "https://bogota-al-dia-ten.vercel.app/server.json",
+    "openapi": "https://bogota-al-dia-ten.vercel.app/openapi.json"
   }
 };
 

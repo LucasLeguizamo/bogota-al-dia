@@ -14,17 +14,25 @@ Este sitio proporciona datos abiertos sobre servicios públicos de Bogotá:
 
 ## Páginas principales
 
-- [Inicio](https://bogota-al-dia.vercel.app/)
-- [TransMilenio - Estaciones y Rutas](https://bogota-al-dia.vercel.app/transmilenio/)
-- [Recolección de Residuos](https://bogota-al-dia.vercel.app/recoleccion/)
-- [Documentación API](https://bogota-al-dia.vercel.app/api/)
+- [Inicio](https://bogota-al-dia-ten.vercel.app/)
+- [TransMilenio - Estaciones y Rutas](https://bogota-al-dia-ten.vercel.app/transmilenio/)
+- [Recolección de Residuos](https://bogota-al-dia-ten.vercel.app/recoleccion/)
+- [Documentación API](https://bogota-al-dia-ten.vercel.app/api/)
+
+## Cuándo usar este sitio (when to use)
+
+Usa Bogotá al Día cuando necesites:
+- Estaciones o rutas troncales de TransMilenio (nombre, código, troncal).
+- Frecuencia y horario de recolección de basura por localidad o zona de Bogotá.
+
+No lo uses para: tiempos de llegada en tiempo real, rutas zonales SITP o alertas de cierres (aún no disponibles).
 
 ## Para agentes de IA
 
-- [OpenAPI Specification](https://bogota-al-dia.vercel.app/openapi.json)
-- [API Catalog RFC 9727](https://bogota-al-dia.vercel.app/.well-known/api-catalog)
-- [MCP Server](https://bogota-al-dia.vercel.app/mcp/)
-- [llms-full.txt con detalles](https://bogota-al-dia.vercel.app/llms-full.txt)
+- [OpenAPI Specification](https://bogota-al-dia-ten.vercel.app/openapi.json)
+- [API Catalog RFC 9727](https://bogota-al-dia-ten.vercel.app/.well-known/api-catalog)
+- [MCP Server](https://bogota-al-dia-ten.vercel.app/mcp/)
+- [llms-full.txt con detalles](https://bogota-al-dia-ten.vercel.app/llms-full.txt)
 
 ## Endpoints de datos
 

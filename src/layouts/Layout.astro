@@ -6,7 +6,7 @@ interface Props {
 }
 
 const { title, description, canonical } = Astro.props;
-const site = Astro.site || new URL('https://bogota-al-dia.vercel.app');
+const site = Astro.site || new URL('https://bogota-al-dia-ten.vercel.app');
 const canonicalUrl = canonical ? new URL(canonical, site) : new URL(Astro.url.pathname, site);
 ---
 <!DOCTYPE html>
@@ -24,6 +24,8 @@ const canonicalUrl = canonical ? new URL(canonical, site) : new URL(Astro.url.pa
   <meta property="og:url" content={canonicalUrl.href}>
   <meta property="og:site_name" content="Bogotá al Día">
   <meta property="og:type" content="website">
+  <meta property="og:image" content="https://bogota-al-dia-ten.vercel.app/og.png">
+  <script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"WebSite","name":"Bogotá al Día","url":"https://bogota-al-dia-ten.vercel.app/","description":"Datos públicos del día a día en Bogotá: TransMilenio y recolección de basura, con API JSON, llms.txt y MCP.","inLanguage":"es-CO","license":"https://creativecommons.org/licenses/by-sa/4.0/","publisher":{"@type":"Organization","name":"Bogotá al Día","url":"https://bogota-al-dia-ten.vercel.app/","sameAs":["https://github.com/LucasLeguizamo/bogota-al-dia"]}})} />
   <meta property="og:locale" content="es_CO">
   
   <!-- Twitter Card -->

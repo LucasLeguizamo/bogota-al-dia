@@ -8,7 +8,7 @@ const serverJson = {
     "name": "Bogotá al Día"
   },
   "protocol": "json-rpc-http",
-  "url": "https://bogota-al-dia.vercel.app/api/mcp",
+  "url": "https://bogota-al-dia-ten.vercel.app/api/mcp",
   "authentication": {
     "type": "none"
   },
@@ -69,17 +69,17 @@ const serverJson = {
     {
       "name": "estaciones",
       "description": "Lista completa de estaciones de TransMilenio",
-      "uri": "https://bogota-al-dia.vercel.app/api/transmilenio/estaciones.json"
+      "uri": "https://bogota-al-dia-ten.vercel.app/api/transmilenio/estaciones.json"
     },
     {
       "name": "rutas",
       "description": "Lista completa de rutas de TransMilenio",
-      "uri": "https://bogota-al-dia.vercel.app/api/transmilenio/rutas.json"
+      "uri": "https://bogota-al-dia-ten.vercel.app/api/transmilenio/rutas.json"
     },
     {
       "name": "zonas-recoleccion",
       "description": "Zonas de recolección de residuos",
-      "uri": "https://bogota-al-dia.vercel.app/api/recoleccion/zonas.json"
+      "uri": "https://bogota-al-dia-ten.vercel.app/api/recoleccion/zonas.json"
     }
   ]
 };

@@ -3,7 +3,7 @@ import estacionesData from '../../data/transmilenio/estaciones.json';
 import rutasData from '../../data/transmilenio/rutas.json';
 import localidadesData from '../../data/recoleccion/localidades.json';
 
-const site = 'https://bogota-al-dia.vercel.app';
+const site = 'https://bogota-al-dia-ten.vercel.app';
 
 export const GET: APIRoute = () => {
   const pages = [

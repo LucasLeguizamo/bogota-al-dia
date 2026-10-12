@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://bogota-al-dia.vercel.app/schemas/alerta.schema.json",
+  "$id": "https://bogota-al-dia-ten.vercel.app/schemas/alerta.schema.json",
   "title": "Alerta",
   "description": "Alerta de servicio (TransMilenio, recolección, etc.)",
   "type": "object",

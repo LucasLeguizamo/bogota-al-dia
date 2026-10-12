@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://bogota-al-dia.vercel.app/schemas/estacion-transmilenio.schema.json",
+  "$id": "https://bogota-al-dia-ten.vercel.app/schemas/estacion-transmilenio.schema.json",
   "title": "EstacionTransmilenio",
   "description": "Estación del sistema TransMilenio",
   "type": "object",
