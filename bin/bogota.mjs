@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // CLI + servidor MCP stdio. Uso: bogota <comando> [args] [--json]
 import { createInterface } from 'node:readline';
-import { estaciones, rutas, recoleccion, localidades, resumen, handleMcp } from '../lib/bogota.mjs';
+import { estaciones, rutas, recoleccion, localidades, resumen, handleMcpMessage } from '../lib/bogota.mjs';
 
 const HELP = `bogota — datos públicos de Bogotá
 
@@ -36,16 +36,17 @@ switch (cmd) {
   case 'localidades': out(localidades()); break;
   case 'resumen': out(resumen()); break;
   case 'mcp':
-    createInterface({ input: process.stdin }).on('line', (line) => {
+    // stdio: un mensaje JSON-RPC por línea; stdout solo lleva respuestas.
+    createInterface({ input: process.stdin, crlfDelay: Infinity }).on('line', (line) => {
       if (!line.trim()) return;
-      let res;
+      let msg;
       try {
-        const msg = JSON.parse(line);
-        res = Array.isArray(msg) ? msg.map(handleMcp).filter(Boolean) : handleMcp(msg);
+        msg = JSON.parse(line);
       } catch {
-        res = { jsonrpc: '2.0', id: null, error: { code: -32700, message: 'Parse error' } };
+        return process.stdout.write(JSON.stringify({ jsonrpc: '2.0', id: null, error: { code: -32700, message: 'Parse error' } }) + '\n');
       }
-      if (res && !(Array.isArray(res) && !res.length)) process.stdout.write(JSON.stringify(res) + '\n');
+      const res = handleMcpMessage(msg);
+      if (res) process.stdout.write(JSON.stringify(res) + '\n');
     });
     break;
   default:

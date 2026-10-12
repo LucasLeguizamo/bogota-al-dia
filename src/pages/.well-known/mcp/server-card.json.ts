@@ -1,29 +1,33 @@
 import type { APIRoute } from 'astro';
+import { TOOL_NAMES, VERSION, PROTOCOL_VERSIONS, MCP_URL, PLUGIN_INSTALL } from '../../../lib/agentes';
 
 const serverCard = {
   "name": "bogota-al-dia",
-  "version": "1.0.0",
+  "version": VERSION,
   "description": "Datos públicos de Bogotá: estaciones y rutas de TransMilenio, horarios de recolección de residuos.",
   "vendor": {
     "name": "Bogotá al Día",
     "url": "https://bogota-al-dia.vercel.app"
   },
   "server": {
-    "url": "https://bogota-al-dia.vercel.app/api/mcp",
-    "protocol": "json-rpc-http"
+    "url": MCP_URL,
+    "protocol": "json-rpc-http",
+    "transport": "streamable-http",
+    "protocolVersions": PROTOCOL_VERSIONS
+  },
+  "install": {
+    "claude_code_plugin": PLUGIN_INSTALL,
+    "stdio": "node bin/bogota.mjs mcp",
+    "cli": "node bin/bogota.mjs <comando>"
   },
   "authentication": {
     "type": "none"
   },
   "capabilities": {
     "tools": true,
-    "resources": true
+    "resources": false
   },
-  "tools": [
-    "estaciones_transmilenio",
-    "rutas_transmilenio", 
-    "recoleccion_por_zona"
-  ],
+  "tools": TOOL_NAMES,
   "links": {
     "documentation": "https://bogota-al-dia.vercel.app/mcp/",
     "manifest": "https://bogota-al-dia.vercel.app/server.json",

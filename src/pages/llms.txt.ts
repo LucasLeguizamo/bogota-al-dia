@@ -1,4 +1,5 @@
 import type { APIRoute } from 'astro';
+import { ACCESS_METHODS, CLI_COMMANDS, MCP_URL, PLUGIN_INSTALL, REPO, toolsMarkdown } from '../lib/agentes';
 
 export const GET: APIRoute = () => {
   const llmsTxt = `# Bogotá al Día
@@ -21,9 +22,28 @@ Este sitio proporciona datos abiertos sobre servicios públicos de Bogotá:
 
 ## Para agentes de IA
 
+### Cómo acceder
+
+${ACCESS_METHODS.map((m) => `- **${m.via}**: ${m.how}`).join('\n')}
+
+Instalar en Claude Code:
+
+    ${PLUGIN_INSTALL}
+
+### Herramientas MCP (${MCP_URL})
+
+${toolsMarkdown()}
+
+### CLI (bin/bogota.mjs, salida JSON)
+
+${CLI_COMMANDS.map(([c, d]) => `- \`${c}\` — ${d}`).join('\n')}
+
+### Descubrimiento
+
 - [OpenAPI Specification](https://bogota-al-dia.vercel.app/openapi.json)
 - [API Catalog RFC 9727](https://bogota-al-dia.vercel.app/.well-known/api-catalog)
 - [MCP Server](https://bogota-al-dia.vercel.app/mcp/)
+- [server.json](https://bogota-al-dia.vercel.app/server.json) y [server card](https://bogota-al-dia.vercel.app/.well-known/mcp/server-card.json)
 - [llms-full.txt con detalles](https://bogota-al-dia.vercel.app/llms-full.txt)
 
 ## Endpoints de datos
@@ -49,7 +69,7 @@ Licencia: CC-BY-SA-4.0
 
 ## Contacto
 
-Repositorio: https://github.com/cursor/bogota-al-dia
+Repositorio: ${REPO}
 `;
 
   return new Response(llmsTxt, {

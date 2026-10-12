@@ -21,6 +21,7 @@
     "extract:recoleccion": "tsx scripts/extract-recoleccion.ts",
     "validate": "tsx scripts/validate-data.ts",
     "test": "node --test lib/*.test.mjs",
+    "test:mcp": "tsx scripts/mcp-compat.mjs",
     "lint": "eslint . --ext .ts,.astro"
   },
   "dependencies": {

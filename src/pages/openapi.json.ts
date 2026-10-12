@@ -1,11 +1,17 @@
 import type { APIRoute } from 'astro';
+import { TOOL_DEFS, TOOL_NAMES, PROTOCOL_VERSIONS, MCP_URL, PLUGIN_INSTALL, REPO } from '../lib/agentes';
 
 const openapi = {
   "openapi": "3.1.0",
   "info": {
     "title": "Bogotá al Día API",
-    "description": "API pública con datos de servicios públicos de Bogotá: TransMilenio y recolección de residuos.",
-    "version": "1.0.0",
+    "description": `API pública con datos de servicios públicos de Bogotá: TransMilenio y recolección de residuos.
+
+Los mismos datos están disponibles para agentes por:
+- MCP remoto (Streamable HTTP): POST ${MCP_URL} — herramientas: ${TOOL_NAMES.join(', ')}.
+- MCP local (stdio) y CLI sin dependencias: \`node bin/bogota.mjs mcp\` / \`node bin/bogota.mjs <comando>\` desde ${REPO}.
+- Plugin de Claude Code: \`${PLUGIN_INSTALL}\`.`,
+    "version": "1.1.0",
     "contact": {
       "name": "Bogotá al Día",
       "url": "https://bogota-al-dia.vercel.app"
@@ -238,7 +244,54 @@ const openapi = {
           }
         }
       }
+    },
+    "/api/mcp": {
+      "post": {
+        "operationId": "mcpJsonRpc",
+        "summary": "Servidor MCP (JSON-RPC 2.0, Streamable HTTP sin sesiones)",
+        "description": `Model Context Protocol. Métodos: initialize, ping, tools/list, tools/call. Versiones: ${PROTOCOL_VERSIONS.join(', ')}. Herramientas: ${TOOL_NAMES.join(', ')}. Las notificaciones reciben 202 sin cuerpo.`,
+        "tags": ["MCP"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["jsonrpc", "method"],
+                "properties": {
+                  "jsonrpc": { "const": "2.0" },
+                  "id": { "type": ["string", "integer"] },
+                  "method": { "type": "string", "enum": ["initialize", "ping", "tools/list", "tools/call", "notifications/initialized"] },
+                  "params": { "type": "object" }
+                }
+              },
+              "example": { "jsonrpc": "2.0", "id": 1, "method": "tools/call", "params": { "name": "estaciones_transmilenio", "arguments": { "query": "portal" } } }
+            }
+          }
+        },
+        "responses": {
+          "200": { "description": "Respuesta JSON-RPC", "content": { "application/json": { "schema": { "type": "object" } } } },
+          "202": { "description": "Notificación aceptada (sin cuerpo)" },
+          "400": { "description": "JSON inválido o MCP-Protocol-Version no soportada" }
+        }
+      },
+      "get": {
+        "operationId": "mcpInfo",
+        "summary": "Descripción del servidor MCP (405 si se pide text/event-stream: no hay stream SSE)",
+        "tags": ["MCP"],
+        "responses": {
+          "200": { "description": "Nombre, versión, versiones de protocolo y herramientas" },
+          "405": { "description": "No se ofrece stream SSE de servidor" }
+        }
+      }
     }
+  },
+  "x-mcp": {
+    "url": MCP_URL,
+    "transport": "streamable-http",
+    "protocolVersions": PROTOCOL_VERSIONS,
+    "tools": TOOL_DEFS,
+    "claude_code_plugin": PLUGIN_INSTALL
   },
   "components": {
     "schemas": {

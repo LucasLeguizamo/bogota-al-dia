@@ -1,4 +1,5 @@
 import type { APIRoute } from 'astro';
+import { ACCESS_METHODS, CLI_COMMANDS, MCP_URL, PLUGIN_INSTALL, PROTOCOL_VERSIONS, REPO, TOOL_DEFS } from '../lib/agentes';
 import estacionesData from '../../data/transmilenio/estaciones.json';
 import rutasData from '../../data/transmilenio/rutas.json';
 import zonasData from '../../data/recoleccion/zonas.json';
@@ -38,8 +39,10 @@ Campos disponibles:
 - codigo: Código de ruta (ej: B23, K43)
 - nombre: Nombre descriptivo
 - origen, destino: Terminales
-- tipo_operacion: corriente, facil, super_expreso
-- estado: activa, suspendida
+- tipo_operacion: normal, refuerzo, ciclovia, desconocido
+- tipo_bus: articulado, biarticulado, dual, padron, buseton, desconocido
+- estado: activa, suspendida, programada
+- longitud_km: longitud comercial en km (respaldo: longitud de la geometría oficial)
 - horarios: lunes_viernes, sabado, domingo_festivo
 
 ## Recolección de Residuos
@@ -92,6 +95,42 @@ GET /api/recoleccion/localidades.json
 GET /api/recoleccion/localidades/{codigo}.json
   Retorna: { localidad: string, zonas: ZonaRecoleccion[] }
   Errores: 404 si no existe
+
+## Acceso para agentes
+
+${ACCESS_METHODS.map((m) => `- **${m.via}**: ${m.how}`).join('\n')}
+
+### Plugin de Claude Code
+
+    ${PLUGIN_INSTALL}
+
+Incluye el servidor MCP local (node, sin dependencias), los agentes transmilenio-expert y recoleccion-expert y la skill bogota-al-dia.
+
+### MCP
+
+- Remoto: ${MCP_URL} (Streamable HTTP, JSON-RPC 2.0 por POST, sin sesiones ni stream SSE)
+- Local: \`node bin/bogota.mjs mcp\` (stdio, un mensaje JSON por línea)
+- Versiones de protocolo: ${PROTOCOL_VERSIONS.join(', ')}
+- Métodos: initialize, ping, tools/list, tools/call
+
+Herramientas (${TOOL_DEFS.length}):
+
+${TOOL_DEFS.map((t) => `#### ${t.name}
+
+${t.description}
+
+Parámetros:
+${Object.entries(t.inputSchema.properties).map(([k, p]) => `- ${k} (${p.type}, opcional): ${p.description}`).join('\n') || '- ninguno'}`).join('\n\n')}
+
+Las herramientas devuelven un bloque de texto con JSON. Herramienta desconocida → error JSON-RPC -32602.
+
+### CLI
+
+Desde un clon de ${REPO}:
+
+${CLI_COMMANDS.map(([c, d]) => `    ${c.padEnd(52)} # ${d}`).join('\n')}
+
+(\`bogota\` = \`node bin/bogota.mjs\`). Salida en JSON.
 
 ## OpenAPI
 
