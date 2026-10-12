@@ -6,6 +6,7 @@
 
 import { writeFileSync, mkdirSync } from 'fs';
 import { join } from 'path';
+import { writeJsonStable } from './stable-output';
 
 const API_URL = 'https://serviciosgis.catastrobogota.gov.co/arcgis/rest/services/serviciospublicos/aseobogota/MapServer/5/query';
 
@@ -195,10 +196,7 @@ async function main() {
       zonas
     };
 
-    writeFileSync(
-      join(outputDir, 'zonas.json'),
-      JSON.stringify(output, null, 2)
-    );
+    writeJsonStable(join(outputDir, 'zonas.json'), output, 'zonas');
 
     console.log(`Guardado: data/recoleccion/zonas.json`);
 
@@ -209,9 +207,9 @@ async function main() {
       frecuencias: [...new Set(zonas.map(z => z.frecuencia.descripcion))]
     }));
 
-    writeFileSync(
+    writeJsonStable(
       join(outputDir, 'localidades.json'),
-      JSON.stringify({ localidades: indice, generado: new Date().toISOString() }, null, 2)
+      { localidades: indice, generado: new Date().toISOString() }
     );
 
     console.log(`Guardado: data/recoleccion/localidades.json`);

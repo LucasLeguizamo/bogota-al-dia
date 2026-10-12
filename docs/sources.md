@@ -61,8 +61,10 @@ Los 5 operadores de ASE (Áreas de Servicio Exclusivo):
   - `nombre_ruta_troncal`: Nombre descriptivo
   - `origen_ruta_troncal`, `destino_ruta_troncal`: Terminales
   - `horario_lunes_viernes`, `horario_sabado`, `horario_domingo_festivo`
-  - `estado_ruta_troncal`: Activa/Suspendida
-  - `tipo_operacion`: Corriente, Fácil, Súper Expreso
+  - `estado_ruta_troncal`: OPERATIVA (→ `activa`)
+  - `tipo_bus_ruta_troncal`: dominio TIPO_BUS 1 Articulado, 2 Biarticulado, 3 Dual, 4 Padrón, 5 Busetón
+  - `longitud_comercial` / `longitud_ruta_troncal`: km; `st_length(shape)`: metros (EPSG:3116), respaldo de `longitud_km`
+  - `tipo_operacion`: Normal, Refuerzo, Ciclovia (→ `normal`, `refuerzo`, `ciclovia`)
 
 ### GTFS (General Transit Feed Specification)
 - **URL**: https://datosabiertos.bogota.gov.co/dataset/especificacion-gtfs-general-transport-feed-specification-sitp

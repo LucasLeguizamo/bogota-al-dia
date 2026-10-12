@@ -33,10 +33,16 @@ jobs:
       - name: Extract data
         run: pnpm run extract
 
+      # Si algún registro no cumple su schema, el job falla y no se commitea nada
+      - name: Validate data
+        run: pnpm validate
+
       - name: Check for changes
         id: check
         run: |
-          # Idempotencia: solo commitear si hay cambios reales en los datos
+          # Idempotencia: los extractores conservan generado/ultima_actualizacion
+          # cuando el contenido no cambia (scripts/stable-output.ts), así que
+          # git diff solo detecta cambios reales en los datos
           if git diff --quiet data/; then
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "✓ Sin cambios en los datos"

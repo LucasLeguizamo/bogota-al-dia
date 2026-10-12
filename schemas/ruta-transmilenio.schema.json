@@ -28,13 +28,13 @@
     },
     "tipo_operacion": {
       "type": "string",
-      "enum": ["corriente", "facil", "super_expreso", "expreso"],
-      "description": "Tipo de servicio"
+      "enum": ["normal", "refuerzo", "ciclovia", "desconocido"],
+      "description": "Tipo de operación según la capa oficial (Normal, Refuerzo, Ciclovia); desconocido si la fuente no lo trae"
     },
     "tipo_bus": {
       "type": "string",
-      "enum": ["articulado", "biarticulado", "padron"],
-      "description": "Tipo de vehículo"
+      "enum": ["articulado", "biarticulado", "dual", "padron", "buseton", "desconocido"],
+      "description": "Tipo de vehículo según el dominio oficial TIPO_BUS de la capa; desconocido si la fuente no lo trae"
     },
     "estado": {
       "type": "string",

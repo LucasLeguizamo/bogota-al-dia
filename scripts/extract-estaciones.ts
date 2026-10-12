@@ -6,6 +6,7 @@
 
 import { writeFileSync, mkdirSync } from 'fs';
 import { join } from 'path';
+import { writeJsonStable } from './stable-output';
 
 const API_URL = 'https://gis.transmilenio.gov.co/arcgis/rest/services/Troncal/consulta_estaciones_troncales/MapServer/0/query';
 
@@ -127,10 +128,7 @@ async function main() {
       estaciones
     };
 
-    writeFileSync(
-      join(outputDir, 'estaciones.json'),
-      JSON.stringify(output, null, 2)
-    );
+    writeJsonStable(join(outputDir, 'estaciones.json'), output, 'estaciones');
 
     console.log(`Guardado: data/transmilenio/estaciones.json`);
 
