@@ -1,4 +1,5 @@
 import type { APIRoute } from 'astro';
+import { MCP_URL, PLUGIN_INSTALL, PROTOCOL_VERSIONS, REPO, TOOL_NAMES } from '../../lib/agentes';
 
 const apiCatalog = {
   "$schema": "https://api.apis.guru/v1/catalog-schema.json",
@@ -17,6 +18,28 @@ const apiCatalog = {
         {
           "type": "x-llms-txt",
           "url": "https://bogota-al-dia.vercel.app/llms.txt"
+        },
+        {
+          "type": "x-mcp-server",
+          "url": MCP_URL,
+          "transport": "streamable-http",
+          "protocolVersions": PROTOCOL_VERSIONS,
+          "tools": TOOL_NAMES,
+          "serverCard": "https://bogota-al-dia.vercel.app/.well-known/mcp/server-card.json"
+        },
+        {
+          "type": "x-mcp-stdio",
+          "command": "node bin/bogota.mjs mcp",
+          "repository": REPO
+        },
+        {
+          "type": "x-cli",
+          "command": "node bin/bogota.mjs <comando>",
+          "repository": REPO
+        },
+        {
+          "type": "x-claude-code-plugin",
+          "install": PLUGIN_INSTALL
         }
       ]
     }

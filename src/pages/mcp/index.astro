@@ -1,5 +1,8 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import { TOOL_DEFS, CLI_COMMANDS, PLUGIN_INSTALL, MCP_ADD_HTTP, PROTOCOL_VERSIONS } from '../../lib/agentes';
+
+const cliUso = CLI_COMMANDS.map(([c, d]) => `${c.padEnd(52)} # ${d}`).join('\n');
 
 const ejemploBuscarEstacion = `curl -X POST https://bogota-al-dia.vercel.app/api/mcp \\
   -H "Content-Type: application/json" \\
@@ -41,7 +44,8 @@ const ejemploListTools = `curl -X POST https://bogota-al-dia.vercel.app/api/mcp 
     <h2 id="conexion-heading">Conexión</h2>
     <div class="card">
       <p><strong>Endpoint:</strong> <code>https://bogota-al-dia.vercel.app/api/mcp</code></p>
-      <p><strong>Protocolo:</strong> JSON-RPC 2.0 sobre HTTP POST</p>
+      <p><strong>Protocolo:</strong> MCP Streamable HTTP (JSON-RPC 2.0 por POST, sin sesiones)</p>
+      <p><strong>Versiones:</strong> {PROTOCOL_VERSIONS.join(', ')}</p>
       <p><strong>Autenticación:</strong> No requerida</p>
       <p>
         <a href="/server.json">server.json</a> · 
@@ -50,28 +54,50 @@ const ejemploListTools = `curl -X POST https://bogota-al-dia.vercel.app/api/mcp 
     </div>
   </section>
   
-  <section aria-labelledby="herramientas-heading">
-    <h2 id="herramientas-heading">Herramientas Disponibles</h2>
-    
+  <section aria-labelledby="instalar-heading">
+    <h2 id="instalar-heading">Cómo usarlo</h2>
+
     <article class="card">
-      <h3>estaciones_transmilenio</h3>
-      <p>Lista o busca estaciones de TransMilenio por nombre, código o troncal.</p>
-      <p><strong>Parámetros:</strong> query (opcional), limit (opcional, default: 10)</p>
+      <h3>Plugin de Claude Code</h3>
+      <p>Servidor MCP local sin dependencias, agentes expertos y skill.</p>
+      <pre><code>{PLUGIN_INSTALL}</code></pre>
     </article>
-    
+
     <article class="card">
-      <h3>rutas_transmilenio</h3>
-      <p>Lista o busca rutas de TransMilenio por código.</p>
-      <p><strong>Parámetros:</strong> codigo (opcional), limit (opcional, default: 10)</p>
+      <h3>MCP remoto</h3>
+      <pre><code>{MCP_ADD_HTTP}</code></pre>
     </article>
-    
+
     <article class="card">
-      <h3>recoleccion_por_zona</h3>
-      <p>Consulta horarios de recolección de basura por localidad.</p>
-      <p><strong>Parámetros:</strong> localidad (nombre) o codigo (1-20)</p>
+      <h3>MCP local (stdio)</h3>
+      <p>Desde un clon del repositorio, solo con Node:</p>
+      <pre><code>node bin/bogota.mjs mcp</code></pre>
+    </article>
+
+    <article class="card">
+      <h3>CLI</h3>
+      <p>Mismos datos en la terminal, salida JSON (<code>bogota</code> = <code>node bin/bogota.mjs</code>):</p>
+      <pre><code>{cliUso}</code></pre>
     </article>
   </section>
-  
+
+  <section aria-labelledby="herramientas-heading">
+    <h2 id="herramientas-heading">Herramientas disponibles ({TOOL_DEFS.length})</h2>
+    {TOOL_DEFS.map((t) => {
+      const params = Object.entries(t.inputSchema.properties);
+      return (
+        <article class="card">
+          <h3>{t.name}</h3>
+          <p>{t.description}</p>
+          <p>
+            <strong>Parámetros:</strong>{' '}
+            {params.length ? params.map(([k, p]) => `${k} (${p.type}, opcional): ${p.description}`).join(' · ') : 'ninguno'}
+          </p>
+        </article>
+      );
+    })}
+  </section>
+
   <section aria-labelledby="ejemplos-heading">
     <h2 id="ejemplos-heading">Ejemplos</h2>
     

@@ -1,6 +1,6 @@
 {
   "$schema": "../schemas/ruta-transmilenio.schema.json",
-  "generado": "2026-10-09T01:24:45.475Z",
+  "generado": "2026-10-12T18:26:50.784Z",
   "total": 128,
   "fuente": "https://gis.transmilenio.gov.co/arcgis/rest/services/Troncal/consulta_rutas_troncales/MapServer/0",
   "licencia": "CC-BY-SA-4.0",
@@ -11,17 +11,17 @@
       "nombre": "1 U",
       "origen": "UNIVERSIDADES – CITYU",
       "destino": "PORTAL EL DORADO – C.C. NUESTRO BOGOTÁ",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 11.82,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-1-2",
@@ -29,17 +29,17 @@
       "nombre": "1 P",
       "origen": "PORTAL EL DORADO – C.C. NUESTRO BOGOTÁ",
       "destino": "UNIVERSIDADES – CITYU",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 10.63,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-2-1",
@@ -47,17 +47,17 @@
       "nombre": "2 M",
       "origen": "MUSEO NACIONAL",
       "destino": "PORTAL 20 DE JULIO",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 7.08,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-2-2",
@@ -65,17 +65,17 @@
       "nombre": "2 P",
       "origen": "PORTAL 20 DE JULIO",
       "destino": "MUSEO NACIONAL",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 23:00",
         "sabado": "04:00 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 7.27,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-3-1",
@@ -83,17 +83,17 @@
       "nombre": "3 C",
       "origen": "CORFERIAS",
       "destino": "PORTAL TUNAL",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 13.51,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-3-2",
@@ -101,17 +101,17 @@
       "nombre": "3 P",
       "origen": "PORTAL TUNAL",
       "destino": "CORFERIAS",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 23:00",
         "sabado": "04:00 - 23:00",
         "domingo_festivo": "04:00 - 22:00"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 14.62,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-4-1",
@@ -119,17 +119,17 @@
       "nombre": "4 H",
       "origen": "HÉROES",
       "destino": "PORTAL SUR - JFK Coop. Financiera",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 19,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-4-2",
@@ -137,17 +137,17 @@
       "nombre": "4 P",
       "origen": "PORTAL SUR - JFK Coop. Financiera",
       "destino": "HÉROES",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 23:00",
         "sabado": "04:00 - 23:00",
         "domingo_festivo": "04:00 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 19.25,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-5-1",
@@ -155,17 +155,17 @@
       "nombre": "5 C",
       "origen": "CALLE 22",
       "destino": "PORTAL AMÉRICAS",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 14.29,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-5-2",
@@ -173,17 +173,17 @@
       "nombre": "5 P",
       "origen": "PORTAL AMÉRICAS",
       "destino": "CALLE 22",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 23:00",
         "sabado": "04:00 - 23:00",
         "domingo_festivo": "04:00 - 22:00"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 14.92,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-6-1",
@@ -191,17 +191,17 @@
       "nombre": "6 U",
       "origen": "UNIVERSIDADES – CITYU",
       "destino": "PORTAL 80",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 15.06,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-6-2",
@@ -209,17 +209,17 @@
       "nombre": "6 P",
       "origen": "PORTAL 80",
       "destino": "UNIVERSIDADES – CITYU",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 15.14,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-7-1",
@@ -227,17 +227,17 @@
       "nombre": "7 P",
       "origen": "POLO - FINCOMERCIO",
       "destino": "PORTAL SUBA",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 10.59,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-7-2",
@@ -245,17 +245,17 @@
       "nombre": "7 S",
       "origen": "PORTAL SUBA",
       "destino": "POLO - FINCOMERCIO",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 9.32,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-8-1",
@@ -263,17 +263,17 @@
       "nombre": "8 G",
       "origen": "GUATOQUE - VERAGUAS",
       "destino": "TERMINAL",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 21.08,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-8-2",
@@ -281,17 +281,17 @@
       "nombre": "8 T",
       "origen": "TERMINAL",
       "destino": "GUATOQUE - VERAGUAS",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 21.15,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-A52",
@@ -299,17 +299,17 @@
       "nombre": "A52",
       "origen": "PORTAL SUR - JFK Coop. Financiera",
       "destino": "FLORES - AREANDINA",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 08:30",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 20.53,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-A60",
@@ -317,17 +317,17 @@
       "nombre": "A60",
       "origen": "PORTAL AMÉRICAS",
       "destino": "CALLE 76 - SAN FELIPE",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 21:30",
         "sabado": "04:30 - 21:30",
         "domingo_festivo": "04:00 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 20.32,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-A61",
@@ -335,17 +335,17 @@
       "nombre": "A61",
       "origen": "TIBANICA - PRIMAVERA",
       "destino": "CALLE 72",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 09:00",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 19.77,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-B10",
@@ -353,17 +353,17 @@
       "nombre": "B10",
       "origen": "PORTAL 80",
       "destino": "PORTAL NORTE - UNICERVANTES",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 21:30",
         "sabado": "05:30 - 21:30",
         "domingo_festivo": "06:30 - 20:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 17.42,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-B11",
@@ -371,17 +371,17 @@
       "nombre": "B11",
       "origen": "PORTAL SUR - JFK Coop. Financiera",
       "destino": "TERMINAL",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 21:00",
         "sabado": "06:00 - 21:30",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 30.62,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-B12",
@@ -389,17 +389,17 @@
       "nombre": "B12",
       "origen": "PORTAL SUR - JFK Coop. Financiera",
       "destino": "PORTAL NORTE - UNICERVANTES",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 23:00",
         "sabado": "04:00 - 23:00",
         "domingo_festivo": "04:00 - 22:00"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 27.23,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-B12GS",
@@ -407,17 +407,17 @@
       "nombre": "B12GS",
       "origen": "GENERAL SANTANDER",
       "destino": "PORTAL NORTE - UNICERVANTES",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "refuerzo",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:30 - 08:00",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 22.63,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-B13",
@@ -425,17 +425,17 @@
       "nombre": "B13",
       "origen": "PORTAL TUNAL",
       "destino": "PORTAL NORTE - UNICERVANTES",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 22:00",
         "sabado": "05:30 - 21:30",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 27.31,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-B16",
@@ -443,17 +443,17 @@
       "nombre": "B16",
       "origen": "PORTAL EL DORADO – C.C. NUESTRO BOGOTÁ",
       "destino": "TERMINAL",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:30 - 22:30",
         "sabado": "05:30 - 22:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 26.59,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-B18",
@@ -461,17 +461,17 @@
       "nombre": "B18",
       "origen": "PORTAL 20 DE JULIO",
       "destino": "TERMINAL",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 22:00",
         "sabado": "04:00 - 21:30",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 25.29,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-B23",
@@ -479,17 +479,17 @@
       "nombre": "B23",
       "origen": "PORTAL EL DORADO – C.C. NUESTRO BOGOTÁ",
       "destino": "ALCALÁ – COLEGIO S. TOMÁS DOMINICOS",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 22:00",
         "sabado": "05:30 - 22:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 22.58,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-B26",
@@ -497,17 +497,17 @@
       "nombre": "B26",
       "origen": "PORTAL AMÉRICAS",
       "destino": "ALCALÁ – COLEGIO S. TOMÁS DOMINICOS",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 09:00",
         "sabado": "4:30 - 9:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0,
+      "longitud_km": 28.27,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-B27",
@@ -515,17 +515,17 @@
       "nombre": "B27",
       "origen": "PORTAL TUNAL",
       "destino": "PORTAL NORTE - UNICERVANTES",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "5:00-9:00/16:00-20:0",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 27.26,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-B28",
@@ -533,17 +533,17 @@
       "nombre": "B28",
       "origen": "PORTAL AMÉRICAS",
       "destino": "PORTAL NORTE - UNICERVANTES",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 20:00",
         "sabado": "04:00 - 20:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 29.34,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-B46",
@@ -551,17 +551,17 @@
       "nombre": "B46",
       "origen": "SAN MATEO - CC UNISUR",
       "destino": "PORTAL NORTE - UNICERVANTES",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "4:00-9:00/15:00-20:0",
         "sabado": "4:00-9:00/15:00-20:0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 31.22,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-B50",
@@ -569,17 +569,17 @@
       "nombre": "B50",
       "origen": "PORTAL SUBA",
       "destino": "CALLE 161",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:30 - 08:30",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 20.27,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-B55",
@@ -587,17 +587,17 @@
       "nombre": "B55",
       "origen": "PORTAL 80",
       "destino": "TOBERIN - FOUNDEVER",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 08:30",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 16.5,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-B72",
@@ -605,17 +605,17 @@
       "nombre": "B72",
       "origen": "PORTAL USME",
       "destino": "TOBERIN - FOUNDEVER",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "05:00 - 22:00"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 29.54,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-B74",
@@ -623,17 +623,17 @@
       "nombre": "B74",
       "origen": "UNIVERSIDADES – CITYU",
       "destino": "PORTAL NORTE - UNICERVANTES",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "06:00 - 22:30",
         "sabado": "07:00 - 20:30",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0,
+      "longitud_km": 17.13,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-B75",
@@ -641,17 +641,17 @@
       "nombre": "B75",
       "origen": "PORTAL USME",
       "destino": "PORTAL NORTE - UNICERVANTES",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 23:00",
         "sabado": "04:00 - 23:00",
         "domingo_festivo": "04:00 - 22:00"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 29.21,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-C15",
@@ -659,17 +659,17 @@
       "nombre": "C15",
       "origen": "PORTAL TUNAL",
       "destino": "PORTAL SUBA",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 23:00",
         "sabado": "04:00 - 23:00",
         "domingo_festivo": "04:00 - 22:00"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 28.46,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-C17",
@@ -677,17 +677,17 @@
       "nombre": "C17",
       "origen": "PORTAL USME",
       "destino": "PORTAL SUBA",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 20:00",
         "sabado": "04:00 - 15:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 30.59,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-C19",
@@ -695,17 +695,17 @@
       "nombre": "C19",
       "origen": "PORTAL AMÉRICAS",
       "destino": "PORTAL SUBA",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 22:00",
         "sabado": "05:00 - 22:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 27.2,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-C25",
@@ -713,17 +713,17 @@
       "nombre": "C25",
       "origen": "PORTAL 20 DE JULIO",
       "destino": "PORTAL SUBA",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 22:00",
         "sabado": "05:00 - 20:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 24.99,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-C30",
@@ -731,17 +731,17 @@
       "nombre": "C30",
       "origen": "PORTAL SUR - JFK Coop. Financiera",
       "destino": "PORTAL SUBA",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "5:00-9:00/15:00-20:0",
         "sabado": "05:00 - 15:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 27.55,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-C50",
@@ -749,17 +749,17 @@
       "nombre": "C50",
       "origen": "CALLE 161",
       "destino": "PORTAL SUBA",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "16:30 - 20:00",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 20.22,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-C73",
@@ -767,17 +767,17 @@
       "nombre": "C73",
       "origen": "UNIVERSIDADES – CITYU",
       "destino": "PORTAL SUBA",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "16:00 - 22:30",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 22.88,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-C84",
@@ -785,17 +785,17 @@
       "nombre": "C84",
       "origen": "CALLE 72",
       "destino": "ETB TIBABUYES",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "normal",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 23:00",
         "sabado": "05:00 - 23:00",
         "domingo_festivo": "14:00 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 15.6,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-D10",
@@ -803,17 +803,17 @@
       "nombre": "D10",
       "origen": "PORTAL NORTE - UNICERVANTES",
       "destino": "PORTAL 80",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 22:00",
         "sabado": "06:00 - 22:00",
         "domingo_festivo": "06:30 - 20:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 18.04,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-D20",
@@ -821,17 +821,17 @@
       "nombre": "D20",
       "origen": "PORTAL USME",
       "destino": "PORTAL 80",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 22:00",
         "sabado": "06:00 - 20:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 26.54,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-D21",
@@ -839,17 +839,17 @@
       "nombre": "D21",
       "origen": "PORTAL TUNAL",
       "destino": "PORTAL 80",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 23:00",
         "sabado": "04:00 - 23:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 24.92,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-D22",
@@ -857,17 +857,17 @@
       "nombre": "D22",
       "origen": "PORTAL SUR - JFK Coop. Financiera",
       "destino": "PORTAL 80",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "05:30 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 23.66,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-D24",
@@ -875,17 +875,17 @@
       "nombre": "D24",
       "origen": "UNIVERSIDADES – CITYU",
       "destino": "PORTAL 80",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 15.15,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-D55",
@@ -893,17 +893,17 @@
       "nombre": "D55",
       "origen": "TOBERIN - FOUNDEVER",
       "destino": "PORTAL 80",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "15:00 - 20:00",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 16.43,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-D81",
@@ -911,17 +911,17 @@
       "nombre": "D81",
       "origen": "PORTAL 20 DE JULIO",
       "destino": "PUENTE DE GUADUA",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "normal",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 23:00",
         "sabado": "05:00 - 23:00",
         "domingo_festivo": "05:00 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 23.51,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-D81CV",
@@ -929,17 +929,17 @@
       "nombre": "D81CV",
       "origen": "PORTAL 20 DE JULIO",
       "destino": "PUENTE DE GUADUA",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "ciclovia",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "0",
         "sabado": "0",
         "domingo_festivo": "06:00 - 14:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 24.9,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-E32",
@@ -947,17 +947,17 @@
       "nombre": "E32",
       "origen": "PORTAL AMÉRICAS",
       "destino": "CALLE 75 - ZONA M",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 21:00",
         "sabado": "04:00 - 20:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 19.12,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-E42",
@@ -965,17 +965,17 @@
       "nombre": "E42",
       "origen": "SAN MATEO - CC UNISUR",
       "destino": "7 DE AGOSTO",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 23:00",
         "sabado": "04:00 - 23:00",
         "domingo_festivo": "04:00 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 19,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-F19",
@@ -983,17 +983,17 @@
       "nombre": "F19",
       "origen": "PORTAL SUBA",
       "destino": "PORTAL AMÉRICAS",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 22:00",
         "sabado": "04:30 - 22:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 27.3,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-F23",
@@ -1001,17 +1001,17 @@
       "nombre": "F23",
       "origen": "LAS AGUAS - CENTRO COLOMBO AMERICANO",
       "destino": "PORTAL AMÉRICAS",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 23:00",
         "sabado": "05:00 - 23:00",
         "domingo_festivo": "05:30 - 22:00"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 14.45,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-F23B",
@@ -1019,17 +1019,17 @@
       "nombre": "F23B",
       "origen": "LAS AGUAS - CENTRO COLOMBO AMERICANO",
       "destino": "BANDERAS",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "refuerzo",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "6:15 - 08:00",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 9.93,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-F26",
@@ -1037,17 +1037,17 @@
       "nombre": "F26",
       "origen": "ALCALÁ – COLEGIO S. TOMÁS DOMINICOS",
       "destino": "PORTAL AMÉRICAS",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "15:00 - 20:00",
         "sabado": "12:00 - 18:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0,
+      "longitud_km": 26.89,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-F28",
@@ -1055,17 +1055,17 @@
       "nombre": "F28",
       "origen": "PORTAL NORTE - UNICERVANTES",
       "destino": "PORTAL AMÉRICAS",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 20:00",
         "sabado": "05:00 - 20:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 29.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-F32",
@@ -1073,17 +1073,17 @@
       "nombre": "F32",
       "origen": "CALLE 75 - ZONA M",
       "destino": "PORTAL AMÉRICAS",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 22:00",
         "sabado": "05:00 - 20:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 18.31,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-F51",
@@ -1091,17 +1091,17 @@
       "nombre": "F51",
       "origen": "MUSEO NACIONAL",
       "destino": "PORTAL AMÉRICAS",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 23:00",
         "sabado": "05:00 - 23:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 14.92,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-F60",
@@ -1109,17 +1109,17 @@
       "nombre": "F60",
       "origen": "CALLE 76 - SAN FELIPE",
       "destino": "PORTAL AMÉRICAS",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 22:30",
         "sabado": "05:00 - 22:00",
         "domingo_festivo": "05:00 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 19.57,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-F63",
@@ -1127,17 +1127,17 @@
       "nombre": "PRADERA",
       "origen": "TIBANICA - PRIMAVERA",
       "destino": "PRADERA - PLAZA CENTRAL",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "articulado",
-      "estado": "programada",
+      "tipo_operacion": "normal",
+      "tipo_bus": "desconocido",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 23:00",
         "sabado": "04:00 - 23:00",
         "domingo_festivo": "04:00 - 22:00"
       },
-      "longitud_km": 0,
+      "longitud_km": 11.72,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-G11",
@@ -1145,17 +1145,17 @@
       "nombre": "G11",
       "origen": "TERMINAL",
       "destino": "PORTAL SUR - JFK Coop. Financiera",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "06:00 - 22:00",
         "sabado": "06:30 - 22:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 30.3,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-G12",
@@ -1163,17 +1163,17 @@
       "nombre": "G12",
       "origen": "PORTAL NORTE - UNICERVANTES",
       "destino": "PORTAL SUR - JFK Coop. Financiera",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 26.8,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-G12GS",
@@ -1181,17 +1181,17 @@
       "nombre": "G12GS",
       "origen": "PORTAL NORTE - UNICERVANTES",
       "destino": "GENERAL SANTANDER",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "refuerzo",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 07:00",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 22.24,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-G22",
@@ -1199,17 +1199,17 @@
       "nombre": "G22",
       "origen": "PORTAL 80",
       "destino": "PORTAL SUR - JFK Coop. Financiera",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 23:00",
         "sabado": "05:00 - 23:00",
         "domingo_festivo": "05:30 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 23.5,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-G30",
@@ -1217,17 +1217,17 @@
       "nombre": "G30",
       "origen": "PORTAL SUBA",
       "destino": "PORTAL SUR - JFK Coop. Financiera",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "4:30-9:00/15:00-20:0",
         "sabado": "05:00 - 15:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 26.55,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-G41",
@@ -1235,17 +1235,17 @@
       "nombre": "G41",
       "origen": "BICENTENARIO",
       "destino": "SAN MATEO - CC UNISUR",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 21:00",
         "sabado": "05:00 - 21:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 15.27,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-G42",
@@ -1253,17 +1253,17 @@
       "nombre": "G42",
       "origen": "7 DE AGOSTO",
       "destino": "SAN MATEO - CC UNISUR",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "05:00 - 23:00",
         "domingo_festivo": "05:00 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 19.07,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-G43",
@@ -1271,17 +1271,17 @@
       "nombre": "G43",
       "origen": "PORTAL EL DORADO – C.C. NUESTRO BOGOTÁ",
       "destino": "SAN MATEO - CC UNISUR",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 23:00",
         "sabado": "05:00 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 24.74,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-G43C",
@@ -1289,53 +1289,53 @@
       "nombre": "G48",
       "origen": "CAD",
       "destino": "SAN MATEO - CC UNISUR",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "16:15 - 22:00",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 15.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.468Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.775Z"
     },
     {
-      "id": "ruta-G45",
+      "id": "ruta-G45-15",
       "codigo": "G45",
       "nombre": "G45",
       "origen": "SAN MATEO - CC UNISUR",
       "destino": "PORTAL SUR - JFK Coop. Financiera",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "5:00-8:00/16:30-21:3",
         "sabado": "05:00 - 08:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0,
+      "longitud_km": 4.97,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
-      "id": "ruta-G45",
+      "id": "ruta-G45-41",
       "codigo": "G45",
       "nombre": "G45",
       "origen": "PORTAL SUR - JFK Coop. Financiera",
       "destino": "SAN MATEO - CC UNISUR",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "5:00-8:00/16:30-21:3",
         "sabado": "05:00 - 08:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0,
+      "longitud_km": 4.48,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-G46",
@@ -1343,17 +1343,17 @@
       "nombre": "G46",
       "origen": "PORTAL NORTE - UNICERVANTES",
       "destino": "SAN MATEO - CC UNISUR",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "5:00-9:00/15:00-20:0",
         "sabado": "5:00-9:00/15:00-20:0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 30.96,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-G47",
@@ -1361,17 +1361,17 @@
       "nombre": "G47",
       "origen": "MUSEO NACIONAL",
       "destino": "PORTAL SUR - JFK Coop. Financiera",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "05:00 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 13.47,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-G52",
@@ -1379,17 +1379,17 @@
       "nombre": "G52",
       "origen": "FLORES - AREANDINA",
       "destino": "PORTAL SUR - JFK Coop. Financiera",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "16:00 - 20:00",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 20.21,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-H13",
@@ -1397,17 +1397,17 @@
       "nombre": "H13",
       "origen": "PORTAL NORTE - UNICERVANTES",
       "destino": "PORTAL TUNAL",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:30 - 22:00",
         "sabado": "06:30 - 22:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 25.73,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-H15",
@@ -1415,17 +1415,17 @@
       "nombre": "H15",
       "origen": "PORTAL SUBA",
       "destino": "PORTAL TUNAL",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "05:30 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 27.77,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-H17",
@@ -1433,17 +1433,17 @@
       "nombre": "H17",
       "origen": "PORTAL SUBA",
       "destino": "PORTAL USME",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 20:00",
         "sabado": "05:00 - 15:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 29.88,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-H20",
@@ -1451,17 +1451,17 @@
       "nombre": "H20",
       "origen": "PORTAL 80",
       "destino": "PORTAL USME",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 22:00",
         "sabado": "05:00 - 20:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 26.06,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-H21",
@@ -1469,17 +1469,17 @@
       "nombre": "H21",
       "origen": "PORTAL 80",
       "destino": "PORTAL TUNAL",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 24.75,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-H27",
@@ -1487,17 +1487,17 @@
       "nombre": "H27",
       "origen": "PORTAL NORTE - UNICERVANTES",
       "destino": "PORTAL TUNAL",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "6:00-9:00/15:00-20:0",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 25.78,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-H54",
@@ -1505,17 +1505,17 @@
       "nombre": "H54",
       "origen": "PORTAL EL DORADO – C.C. NUESTRO BOGOTÁ",
       "destino": "PORTAL USME",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:30 - 22:30",
         "sabado": "05:30 - 22:30",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 22.16,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-H72",
@@ -1523,17 +1523,17 @@
       "nombre": "H72",
       "origen": "TOBERIN - FOUNDEVER",
       "destino": "PORTAL USME",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:30 - 23:00",
         "sabado": "05:30 - 23:00",
         "domingo_festivo": "06:00 - 21:00"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 29.39,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-H75",
@@ -1541,17 +1541,17 @@
       "nombre": "H75",
       "origen": "PORTAL NORTE - UNICERVANTES",
       "destino": "PORTAL USME",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 23:00",
         "sabado": "05:00 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 28.32,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-H76",
@@ -1559,17 +1559,17 @@
       "nombre": "H76",
       "origen": "UNIVERSIDADES – CITYU",
       "destino": "PORTAL USME",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "16:00 - 22:30",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 14.42,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-H83",
@@ -1577,17 +1577,17 @@
       "nombre": "H83",
       "origen": "MUSEO NACIONAL",
       "destino": "PORTAL USME",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "normal",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 22:30",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0,
+      "longitud_km": 14.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-J23",
@@ -1595,17 +1595,17 @@
       "nombre": "J23",
       "origen": "PORTAL AMÉRICAS",
       "destino": "LAS AGUAS - CENTRO COLOMBO AMERICANO",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 23:00",
         "sabado": "04:00 - 23:00",
         "domingo_festivo": "05:00 - 22:00"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 14.8,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-J23A",
@@ -1613,17 +1613,17 @@
       "nombre": "J23",
       "origen": "BANDERAS",
       "destino": "LAS AGUAS - CENTRO COLOMBO AMERICANO",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "refuerzo",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:30 - 07:45",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 10.64,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-J24",
@@ -1631,17 +1631,17 @@
       "nombre": "J24",
       "origen": "PORTAL 80",
       "destino": "UNIVERSIDADES – CITYU",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 15.18,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-J70",
@@ -1649,17 +1649,17 @@
       "nombre": "J70",
       "origen": "PORTAL NORTE - UNICERVANTES",
       "destino": "LAS AGUAS - CENTRO COLOMBO AMERICANO",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:30 - 09:00",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 21.81,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-J73",
@@ -1667,17 +1667,17 @@
       "nombre": "J73",
       "origen": "PORTAL SUBA",
       "destino": "UNIVERSIDADES – CITYU",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:30 - 09:00",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 23.4,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-J74",
@@ -1685,17 +1685,17 @@
       "nombre": "J74",
       "origen": "PORTAL NORTE - UNICERVANTES",
       "destino": "UNIVERSIDADES – CITYU",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:30 - 21:30",
         "sabado": "06:30 - 20:30",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0,
+      "longitud_km": 17.97,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-J76",
@@ -1703,17 +1703,17 @@
       "nombre": "J76",
       "origen": "PORTAL USME",
       "destino": "UNIVERSIDADES – CITYU",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 08:30",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 14.39,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-K10",
@@ -1721,17 +1721,17 @@
       "nombre": "K10",
       "origen": "PORTAL 20 DE JULIO",
       "destino": "PORTAL EL DORADO – C.C. NUESTRO BOGOTÁ",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 23:00",
         "sabado": "04:00 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0,
+      "longitud_km": 18.42,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-K16",
@@ -1739,17 +1739,17 @@
       "nombre": "K16",
       "origen": "TERMINAL",
       "destino": "PORTAL EL DORADO – C.C. NUESTRO BOGOTÁ",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 22:30",
         "sabado": "05:30 - 22:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 25.73,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-K23",
@@ -1757,17 +1757,17 @@
       "nombre": "K23",
       "origen": "ALCALÁ – COLEGIO S. TOMÁS DOMINICOS",
       "destino": "PORTAL EL DORADO – C.C. NUESTRO BOGOTÁ",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "articulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "",
         "sabado": "05:30 - 22:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 21.92,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-K43",
@@ -1775,17 +1775,17 @@
       "nombre": "K43",
       "origen": "SAN MATEO - CC UNISUR",
       "destino": "PORTAL EL DORADO – C.C. NUESTRO BOGOTÁ",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 23:00",
         "sabado": "04:00 - 23:00",
         "domingo_festivo": "04:00 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 23.74,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-K43C",
@@ -1793,17 +1793,17 @@
       "nombre": "E48",
       "origen": "SAN MATEO - CC UNISUR",
       "destino": "CAD",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 09:00",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 15.4,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-K54",
@@ -1811,17 +1811,17 @@
       "nombre": "K54",
       "origen": "PORTAL USME",
       "destino": "PORTAL EL DORADO – C.C. NUESTRO BOGOTÁ",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 22:30",
         "sabado": "04:30 - 22:30",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 23.39,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-K86",
@@ -1829,17 +1829,17 @@
       "nombre": "K86",
       "origen": "HACIENDA SANTA BARBARA",
       "destino": "AEROPUERTO EL DORADO",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "normal",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 22:00",
         "sabado": "04:30 - 22:00",
         "domingo_festivo": "04:30 - 21:00"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 26.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-K86A",
@@ -1847,17 +1847,17 @@
       "nombre": "K86A",
       "origen": "PORTAL EL DORADO – C.C. NUESTRO BOGOTÁ",
       "destino": "HACIENDA SANTA BARBARA",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "refuerzo",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "4:00 - 21:00",
         "sabado": "4:00 - 18:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 5.9,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-K86ACV",
@@ -1865,17 +1865,17 @@
       "nombre": "K86ACV",
       "origen": "AEROPUERTO EL DORADO",
       "destino": "HACIENDA SANTA BARBARA",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "ciclovia",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "0",
         "sabado": "0",
         "domingo_festivo": "07:00 - 14:00"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 7.43,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-K86CV",
@@ -1883,17 +1883,17 @@
       "nombre": "K86CV",
       "origen": "HACIENDA SANTA BARBARA",
       "destino": "AEROPUERTO EL DORADO",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "ciclovia",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "0",
         "sabado": "0",
         "domingo_festivo": "05:30 - 14:00"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 32.18,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-L10",
@@ -1901,17 +1901,17 @@
       "nombre": "L10",
       "origen": "PORTAL EL DORADO – C.C. NUESTRO BOGOTÁ",
       "destino": "PORTAL 20 DE JULIO",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 23:00",
         "sabado": "05:00 - 23:00",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0,
+      "longitud_km": 16.19,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-L18",
@@ -1919,17 +1919,17 @@
       "nombre": "L18",
       "origen": "TERMINAL",
       "destino": "PORTAL 20 DE JULIO",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 22:00",
         "sabado": "05:30 - 21:30",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 25.71,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-L25",
@@ -1937,17 +1937,17 @@
       "nombre": "L25",
       "origen": "PORTAL SUBA",
       "destino": "PORTAL 20 DE JULIO",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 22:00",
         "sabado": "05:00 - 20:00",
         "domingo_festivo": "05:00 - 22:00"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 25.31,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-L41",
@@ -1955,17 +1955,17 @@
       "nombre": "L41",
       "origen": "SAN MATEO - CC UNISUR",
       "destino": "BICENTENARIO",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 21:00",
         "sabado": "04:30 - 21:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 15.14,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-L81",
@@ -1973,17 +1973,17 @@
       "nombre": "L81",
       "origen": "PUENTE DE GUADUA",
       "destino": "PORTAL 20 DE JULIO",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "normal",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 23:00",
         "sabado": "05:00 - 23:00",
         "domingo_festivo": "05:00 - 22:00"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 25.66,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-L81 Ref CL72",
@@ -1991,17 +1991,17 @@
       "nombre": "L81 Ref CL",
       "origen": "CARRERA 11 CALLE 72",
       "destino": "PORTAL 20 DE JULIO",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "refuerzo",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "16:00 - 20:00",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 1.25,
+      "longitud_km": 12.53,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-L81CV",
@@ -2009,17 +2009,17 @@
       "nombre": "L81CV",
       "origen": "PUENTE DE GUADUA",
       "destino": "PORTAL 20 DE JULIO",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "ciclovia",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "0",
         "sabado": "0",
         "domingo_festivo": "06:00 - 14:00"
       },
-      "longitud_km": 0.03,
+      "longitud_km": 25.69,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-L82",
@@ -2027,17 +2027,17 @@
       "nombre": "L82",
       "origen": "CLINICA EL BOSQUE",
       "destino": "PORTAL 20 DE JULIO",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "normal",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 22:00",
         "sabado": "04:00 - 22:00",
         "domingo_festivo": "04:30 - 21:00"
       },
-      "longitud_km": 0.04,
+      "longitud_km": 42.2,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-L82CV",
@@ -2045,17 +2045,17 @@
       "nombre": "L82CV",
       "origen": "CLINICA EL BOSQUE",
       "destino": "PORTAL 20 DE JULIO",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "ciclovia",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "0",
         "sabado": "0",
         "domingo_festivo": "06:00 - 14:00"
       },
-      "longitud_km": 0.04,
+      "longitud_km": 42.2,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-L82R",
@@ -2063,17 +2063,17 @@
       "nombre": "L82R",
       "origen": "CLINICA EL BOSQUE",
       "destino": "PORTAL 20 DE JULIO",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "refuerzo",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "15:00 - 20:00",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 12.8,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-M47",
@@ -2081,17 +2081,17 @@
       "nombre": "M47",
       "origen": "PORTAL SUR - JFK Coop. Financiera",
       "destino": "MUSEO NACIONAL",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "04:00 - 22:00"
       },
-      "longitud_km": 0.01,
+      "longitud_km": 13.88,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-M51",
@@ -2099,17 +2099,17 @@
       "nombre": "M51",
       "origen": "PORTAL AMÉRICAS",
       "destino": "MUSEO NACIONAL",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 23:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 15.49,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-M82",
@@ -2117,17 +2117,17 @@
       "nombre": "M82",
       "origen": "PORTAL 20 DE JULIO",
       "destino": "CLINICA EL BOSQUE",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "normal",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 22:00",
         "sabado": "04:00 - 22:00",
         "domingo_festivo": "04:30 - 21:00"
       },
-      "longitud_km": 0.04,
+      "longitud_km": 42.2,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-M82CV",
@@ -2135,17 +2135,17 @@
       "nombre": "M82CV",
       "origen": "PORTAL 20 DE JULIO",
       "destino": "CLINICA EL BOSQUE",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "ciclovia",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "0",
         "sabado": "0",
         "domingo_festivo": "06:00 - 14:00"
       },
-      "longitud_km": 0.04,
+      "longitud_km": 42.2,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-M82R",
@@ -2153,17 +2153,17 @@
       "nombre": "M82R",
       "origen": "PORTAL 20 DE JULIO",
       "destino": "CLINICA EL BOSQUE",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "refuerzo",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "22:30 - 23:00",
         "sabado": "22:30 - 23:00",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 18.9,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-M83",
@@ -2171,17 +2171,17 @@
       "nombre": "M83",
       "origen": "PORTAL USME",
       "destino": "MUSEO NACIONAL",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "normal",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 23:00",
         "sabado": "04:30 - 22:30",
         "domingo_festivo": "04:30 - 22:00"
       },
-      "longitud_km": 0,
+      "longitud_km": 14.65,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-M84",
@@ -2189,17 +2189,17 @@
       "nombre": "M84",
       "origen": "ETB TIBABUYES",
       "destino": "CALLE 72",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "normal",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "05:00 - 23:00",
         "sabado": "05:00 - 23:00",
         "domingo_festivo": "14:00 - 22:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 15.6,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-M86",
@@ -2207,17 +2207,17 @@
       "nombre": "M86",
       "origen": "AEROPUERTO EL DORADO",
       "destino": "HACIENDA SANTA BARBARA",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "normal",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:30 - 22:00",
         "sabado": "04:30 - 22:00",
         "domingo_festivo": "04:30 - 21:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 20.44,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-M86CV",
@@ -2225,17 +2225,17 @@
       "nombre": "M86CV",
       "origen": "AEROPUERTO EL DORADO",
       "destino": "HACIENDA SANTA BARBARA",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "ciclovia",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "0",
         "sabado": "0",
         "domingo_festivo": "05:30 - 14:00"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 21.45,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-MP85",
@@ -2243,17 +2243,17 @@
       "nombre": "MP85",
       "origen": "AK 68 - CL 9A",
       "destino": "MUSEO NACIONAL",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "normal",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "5:00 - 21:00",
         "sabado": "5:00 - 21:00",
         "domingo_festivo": "5:00 - 21:00"
       },
-      "longitud_km": 0,
+      "longitud_km": 21.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-MP85CV",
@@ -2261,17 +2261,17 @@
       "nombre": "MP85CV",
       "origen": "AK 68 - CL 9A",
       "destino": "MUSEO NACIONAL",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "padron",
-      "estado": "programada",
+      "tipo_operacion": "ciclovia",
+      "tipo_bus": "dual",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "0",
         "sabado": "0",
         "domingo_festivo": "07:00 - 14:00"
       },
-      "longitud_km": 0,
+      "longitud_km": 21.52,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-Z61",
@@ -2279,17 +2279,17 @@
       "nombre": "Z61",
       "origen": "CALLE 72",
       "destino": "TIBANICA - PRIMAVERA",
-      "tipo_operacion": "corriente",
+      "tipo_operacion": "normal",
       "tipo_bus": "biarticulado",
-      "estado": "programada",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "15:00 - 20:00",
         "sabado": "0",
         "domingo_festivo": "0"
       },
-      "longitud_km": 0.02,
+      "longitud_km": 19.12,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     },
     {
       "id": "ruta-Z63",
@@ -2297,17 +2297,17 @@
       "nombre": "TIBANICA",
       "origen": "PRADERA - PLAZA CENTRAL",
       "destino": "TIBANICA - PRIMAVERA",
-      "tipo_operacion": "corriente",
-      "tipo_bus": "articulado",
-      "estado": "programada",
+      "tipo_operacion": "normal",
+      "tipo_bus": "desconocido",
+      "estado": "activa",
       "horarios": {
         "lunes_viernes": "04:00 - 22:00",
         "sabado": "04:00 - 22:00",
         "domingo_festivo": "04:00 - 22:00"
       },
-      "longitud_km": 0,
+      "longitud_km": 11.64,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-12T18:26:50.776Z"
     }
   ]
 }

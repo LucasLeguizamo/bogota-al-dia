@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import estacionesData from '../../../data/transmilenio/estaciones.json';
 import rutasData from '../../../data/transmilenio/rutas.json';
+import { rutaSlug } from '../../lib/rutas';
 
 const troncales = [...new Set(estacionesData.estaciones.map(e => e.troncal))].sort();
 ---
@@ -59,7 +60,7 @@ const troncales = [...new Set(estacionesData.estaciones.map(e => e.troncal))].so
       <tbody>
         {rutasData.rutas.slice(0, 20).map(ruta => (
           <tr>
-            <td><a href={`/transmilenio/rutas/${ruta.codigo}/`}>{ruta.codigo}</a></td>
+            <td><a href={`/transmilenio/rutas/${rutaSlug(ruta)}/`}>{ruta.codigo}</a></td>
             <td>{ruta.origen}</td>
             <td>{ruta.destino}</td>
             <td><span class={`badge ${ruta.estado === 'activa' ? 'badge-success' : 'badge-warning'}`}>{ruta.estado}</span></td>

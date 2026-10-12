@@ -1,6 +1,7 @@
 import type { APIRoute } from 'astro';
 import estacionesData from '../../data/transmilenio/estaciones.json';
 import rutasData from '../../data/transmilenio/rutas.json';
+import { rutaSlug } from '../lib/rutas';
 import localidadesData from '../../data/recoleccion/localidades.json';
 
 const site = 'https://bogota-al-dia.vercel.app';
@@ -22,7 +23,7 @@ export const GET: APIRoute = () => {
   );
 
   const rutaPages = rutasData.rutas.map(
-    r => `/transmilenio/rutas/${r.codigo}/`
+    r => `/transmilenio/rutas/${rutaSlug(r)}/`
   );
 
   const localidadPages = localidadesData.localidades.map(

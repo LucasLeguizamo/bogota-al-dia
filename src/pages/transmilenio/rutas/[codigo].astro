@@ -1,10 +1,11 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import rutasData from '../../../../data/transmilenio/rutas.json';
+import { rutaSlug } from '../../../lib/rutas';
 
 export function getStaticPaths() {
   return rutasData.rutas.map(ruta => ({
-    params: { codigo: ruta.codigo },
+    params: { codigo: rutaSlug(ruta) },
     props: { ruta }
   }));
 }
@@ -81,7 +82,7 @@ const { ruta } = Astro.props;
     <div class="card">
       <p>Última actualización: {new Date(ruta.ultima_actualizacion).toLocaleDateString('es-CO')}</p>
       <p>Fuente: {ruta.fuente}</p>
-      <p>API: <a href={`/api/transmilenio/rutas/${ruta.codigo}.json`}>JSON</a></p>
+      <p>API: <a href={`/api/transmilenio/rutas/${rutaSlug(ruta)}.json`}>JSON</a></p>
     </div>
   </section>
 </Layout>

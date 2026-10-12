@@ -1,8 +1,16 @@
 {
   "name": "bogota-al-dia",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "description": "Datos públicos del día a día en Bogotá, abiertos y listos para agentes",
+  "bin": {
+    "bogota": "bin/bogota.mjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "data"
+  ],
   "scripts": {
     "dev": "astro dev",
     "build": "pnpm run extract && astro build",
@@ -12,7 +20,8 @@
     "extract:rutas": "tsx scripts/extract-rutas.ts",
     "extract:recoleccion": "tsx scripts/extract-recoleccion.ts",
     "validate": "tsx scripts/validate-data.ts",
-    "test": "vitest run",
+    "test": "node --test lib/*.test.mjs",
+    "test:mcp": "tsx scripts/mcp-compat.mjs",
     "lint": "eslint . --ext .ts,.astro"
   },
   "dependencies": {
@@ -32,5 +41,6 @@
   },
   "engines": {
     "node": ">=20.0.0"
-  }
+  },
+  "license": "MIT"
 }

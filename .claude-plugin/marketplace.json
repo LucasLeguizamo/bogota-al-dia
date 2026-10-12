@@ -1,0 +1,12 @@
+{
+  "name": "bogota-al-dia",
+  "owner": { "name": "Lucas Leguizamo" },
+  "description": "Datos públicos de Bogotá para agentes: TransMilenio y recolección de residuos.",
+  "plugins": [
+    {
+      "name": "bogota-al-dia",
+      "source": "./",
+      "description": "Expertos en datos públicos de Bogotá: TransMilenio y recolección de residuos."
+    }
+  ]
+}
