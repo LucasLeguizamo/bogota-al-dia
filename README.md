@@ -34,6 +34,30 @@ curl https://bogota-al-dia.vercel.app/api/recoleccion/localidades/11.json
 
 Especificación completa: [openapi.json](https://bogota-al-dia.vercel.app/openapi.json)
 
+### Claude Code (plugin con expertos)
+
+```
+/plugin install bogota-al-dia --marketplace LucasLeguizamo/bogota-al-dia
+```
+
+Incluye servidor MCP local (sin dependencias), agentes `transmilenio-expert` y `recoleccion-expert`, y la skill `bogota-al-dia`.
+
+### CLI
+
+```bash
+npx github:LucasLeguizamo/bogota-al-dia estaciones portal
+node bin/bogota.mjs ruta B23
+node bin/bogota.mjs recoleccion suba
+node bin/bogota.mjs --help
+```
+
+### MCP
+
+- Local (stdio): `node bin/bogota.mjs mcp` — ya configurado en `.mcp.json` al abrir el repo con Claude Code.
+- Remoto (HTTP): `claude mcp add --transport http bogota-al-dia https://bogota-al-dia.vercel.app/api/mcp`
+
+Herramientas: `estaciones_transmilenio`, `rutas_transmilenio`, `recoleccion_por_zona`, `localidades_recoleccion`, `resumen_datos`.
+
 ### Para Agentes de IA
 
 - [llms.txt](https://bogota-al-dia.vercel.app/llms.txt) - Contexto rápido
