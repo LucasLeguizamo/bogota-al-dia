@@ -21,9 +21,8 @@ fi
 
 files=$(git diff --cached --name-only)
 n=$(echo "$files" | wc -l | tr -d ' ')
-case "$files" in
-  *test*) type=test ;;
-esac
+# test solo si TODOS los archivos son tests
+echo "$files" | grep -qvE '(\.test\.|^tests?/|-compat\.)' || type=test
 if echo "$files" | grep -qvE '\.md$|^docs/'; then
   if echo "$files" | grep -qE '^data/'; then type=${type:-data}; else type=${type:-chore}; fi
 else
