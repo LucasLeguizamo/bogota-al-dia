@@ -65,7 +65,7 @@ Frecuencias comunes:
 
 ## API REST
 
-Base URL: https://bogota-al-dia.vercel.app/api
+Base URL: https://bogota-al-dia-ten.vercel.app/api
 
 ### Endpoints
 
@@ -96,7 +96,7 @@ GET /api/recoleccion/localidades/{codigo}.json
 ## OpenAPI
 
 Especificación completa disponible en:
-https://bogota-al-dia.vercel.app/openapi.json
+https://bogota-al-dia-ten.vercel.app/openapi.json
 
 ## Licencia
 
