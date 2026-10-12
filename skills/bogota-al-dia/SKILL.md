@@ -9,7 +9,7 @@ Tres formas de acceder a los mismos datos (mismo núcleo `lib/bogota.mjs`):
 
 | Vía | Cómo |
 |-----|------|
-| MCP (plugin) | herramientas `mcp__bogota-al-dia__*` — ya activas con el plugin |
+| MCP | `mcp__plugin_bogota-al-dia_bogota-al-dia__*` con el plugin; `mcp__bogota-al-dia__*` vía `.mcp.json` del repo |
 | CLI | `node ${CLAUDE_PLUGIN_ROOT}/bin/bogota.mjs <comando>` |
 | HTTP | `https://bogota-al-dia.vercel.app/api/...` y MCP remoto en `/api/mcp` |
 

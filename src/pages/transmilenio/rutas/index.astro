@@ -1,6 +1,7 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import rutasData from '../../../../data/transmilenio/rutas.json';
+import { rutaSlug } from '../../../lib/rutas';
 ---
 
 <Layout 
@@ -27,7 +28,7 @@ import rutasData from '../../../../data/transmilenio/rutas.json';
     <tbody>
       {rutasData.rutas.map(ruta => (
         <tr>
-          <td><a href={`/transmilenio/rutas/${ruta.codigo}/`}>{ruta.codigo}</a></td>
+          <td><a href={`/transmilenio/rutas/${rutaSlug(ruta)}/`}>{ruta.codigo}</a></td>
           <td>{ruta.origen}</td>
           <td>{ruta.destino}</td>
           <td>{ruta.horarios.lunes_viernes || '-'}</td>

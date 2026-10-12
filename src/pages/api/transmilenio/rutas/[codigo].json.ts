@@ -1,14 +1,15 @@
 import type { APIRoute, GetStaticPaths } from 'astro';
 import rutasData from '../../../../../data/transmilenio/rutas.json';
+import { rutaSlug } from '../../../../lib/rutas';
 
 export const getStaticPaths: GetStaticPaths = () => {
   return rutasData.rutas.map(ruta => ({
-    params: { codigo: ruta.codigo }
+    params: { codigo: rutaSlug(ruta) }
   }));
 };
 
 export const GET: APIRoute = ({ params }) => {
-  const ruta = rutasData.rutas.find(r => r.codigo === params.codigo);
+  const ruta = rutasData.rutas.find(r => rutaSlug(r) === params.codigo);
   
   if (!ruta) {
     return new Response(JSON.stringify({
