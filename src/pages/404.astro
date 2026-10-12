@@ -1,0 +1,34 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout 
+  title="Página no encontrada" 
+  description="La página solicitada no existe.">
+  
+  <h1>404 - Página no encontrada</h1>
+  
+  <div class="card">
+    <p>La página que buscas no existe o ha sido movida.</p>
+    
+    <h2>¿Qué puedes hacer?</h2>
+    <ul>
+      <li><a href="/">Ir al inicio</a></li>
+      <li><a href="/transmilenio/">Ver estaciones y rutas de TransMilenio</a></li>
+      <li><a href="/recoleccion/">Consultar horarios de recolección</a></li>
+      <li><a href="/api/">Explorar la API</a></li>
+    </ul>
+  </div>
+  
+  <section aria-labelledby="api-heading">
+    <h2 id="api-heading">Para agentes de IA</h2>
+    <div class="card">
+      <p>Si llegaste aquí programáticamente:</p>
+      <ul>
+        <li>Verifica la URL y los parámetros</li>
+        <li>Consulta <a href="/openapi.json">openapi.json</a> para endpoints válidos</li>
+        <li>Revisa <a href="/llms.txt">llms.txt</a> para contexto general</li>
+      </ul>
+    </div>
+  </section>
+</Layout>

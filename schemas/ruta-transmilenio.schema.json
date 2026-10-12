@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bogota-al-dia.vercel.app/schemas/ruta-transmilenio.schema.json",
+  "title": "RutaTransmilenio",
+  "description": "Ruta del sistema TransMilenio",
+  "type": "object",
+  "required": ["id", "codigo", "nombre", "origen", "destino", "estado", "horarios", "fuente", "ultima_actualizacion"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Identificador único"
+    },
+    "codigo": {
+      "type": "string",
+      "description": "Código de la ruta (ej: B23, K43)"
+    },
+    "nombre": {
+      "type": "string",
+      "description": "Nombre descriptivo de la ruta"
+    },
+    "origen": {
+      "type": "string",
+      "description": "Estación o portal de origen"
+    },
+    "destino": {
+      "type": "string",
+      "description": "Estación o portal de destino"
+    },
+    "tipo_operacion": {
+      "type": "string",
+      "enum": ["corriente", "facil", "super_expreso", "expreso"],
+      "description": "Tipo de servicio"
+    },
+    "tipo_bus": {
+      "type": "string",
+      "enum": ["articulado", "biarticulado", "padron"],
+      "description": "Tipo de vehículo"
+    },
+    "estado": {
+      "type": "string",
+      "enum": ["activa", "suspendida", "programada"],
+      "description": "Estado actual de la ruta"
+    },
+    "horarios": {
+      "type": "object",
+      "required": ["lunes_viernes"],
+      "properties": {
+        "lunes_viernes": {
+          "type": "string",
+          "description": "Horario días hábiles (ej: 04:00-23:00)"
+        },
+        "sabado": {
+          "type": "string",
+          "description": "Horario sábados"
+        },
+        "domingo_festivo": {
+          "type": "string",
+          "description": "Horario domingos y festivos"
+        }
+      }
+    },
+    "estaciones": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Lista ordenada de códigos de estaciones"
+    },
+    "longitud_km": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Longitud del recorrido en kilómetros"
+    },
+    "fuente": {
+      "type": "string",
+      "const": "TransMilenio S.A. - datosabiertos.bogota.gov.co"
+    },
+    "ultima_actualizacion": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

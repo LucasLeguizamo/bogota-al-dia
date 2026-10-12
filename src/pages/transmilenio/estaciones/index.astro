@@ -1,0 +1,42 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import estacionesData from '../../../../data/transmilenio/estaciones.json';
+---
+
+<Layout 
+  title="Estaciones de TransMilenio" 
+  description="Listado completo de las {estacionesData.total} estaciones troncales del sistema TransMilenio.">
+  
+  <nav aria-label="Migas de pan">
+    <a href="/">Inicio</a> › <a href="/transmilenio/">TransMilenio</a> › Estaciones
+  </nav>
+  
+  <h1>Estaciones de TransMilenio</h1>
+  <p>{estacionesData.total} estaciones troncales en operación.</p>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Código</th>
+        <th>Nombre</th>
+        <th>Troncal</th>
+        <th>Tipo</th>
+        <th>Servicios</th>
+      </tr>
+    </thead>
+    <tbody>
+      {estacionesData.estaciones.map(estacion => (
+        <tr>
+          <td><a href={`/transmilenio/estaciones/${estacion.codigo}/`}>{estacion.codigo}</a></td>
+          <td>{estacion.nombre}</td>
+          <td>{estacion.troncal}</td>
+          <td>{estacion.tipo}</td>
+          <td>
+            {estacion.servicios.biciparqueadero && '🚲'}
+            {estacion.servicios.wifi && '📶'}
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</Layout>

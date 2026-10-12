@@ -1,0 +1,97 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import rutasData from '../../../../data/transmilenio/rutas.json';
+
+export function getStaticPaths() {
+  return rutasData.rutas.map(ruta => ({
+    params: { codigo: ruta.codigo },
+    props: { ruta }
+  }));
+}
+
+const { ruta } = Astro.props;
+---
+
+<Layout 
+  title={`Ruta ${ruta.codigo}`}
+  description={`Ruta ${ruta.codigo} de TransMilenio: ${ruta.origen} - ${ruta.destino}. Horario L-V: ${ruta.horarios.lunes_viernes}.`}>
+  
+  <nav aria-label="Migas de pan">
+    <a href="/">Inicio</a> › <a href="/transmilenio/">TransMilenio</a> › <a href="/transmilenio/rutas/">Rutas</a> › {ruta.codigo}
+  </nav>
+  
+  <h1>Ruta {ruta.codigo}</h1>
+  <p class="badge">{ruta.estado}</p>
+  
+  <div class="card">
+    <dl>
+      <dt>Código</dt>
+      <dd>{ruta.codigo}</dd>
+      
+      <dt>Nombre</dt>
+      <dd>{ruta.nombre || ruta.codigo}</dd>
+      
+      <dt>Origen</dt>
+      <dd>{ruta.origen}</dd>
+      
+      <dt>Destino</dt>
+      <dd>{ruta.destino}</dd>
+      
+      <dt>Tipo de operación</dt>
+      <dd>{ruta.tipo_operacion}</dd>
+      
+      <dt>Tipo de bus</dt>
+      <dd>{ruta.tipo_bus}</dd>
+      
+      <dt>Longitud</dt>
+      <dd>{ruta.longitud_km} km</dd>
+    </dl>
+  </div>
+  
+  <section aria-labelledby="horarios-heading">
+    <h2 id="horarios-heading">Horarios</h2>
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Días</th>
+            <th>Horario</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lunes a Viernes</td>
+            <td>{ruta.horarios.lunes_viernes || 'No especificado'}</td>
+          </tr>
+          <tr>
+            <td>Sábado</td>
+            <td>{ruta.horarios.sabado || 'No especificado'}</td>
+          </tr>
+          <tr>
+            <td>Domingo y Festivos</td>
+            <td>{ruta.horarios.domingo_festivo || 'No especificado'}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  
+  <section aria-labelledby="datos-heading">
+    <h2 id="datos-heading">Datos</h2>
+    <div class="card">
+      <p>Última actualización: {new Date(ruta.ultima_actualizacion).toLocaleDateString('es-CO')}</p>
+      <p>Fuente: {ruta.fuente}</p>
+      <p>API: <a href={`/api/transmilenio/rutas/${ruta.codigo}.json`}>JSON</a></p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5rem 1rem;
+  }
+  dt { font-weight: bold; color: var(--color-primary); }
+  dd { margin: 0; }
+</style>

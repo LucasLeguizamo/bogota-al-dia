@@ -1,0 +1,50 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import zonasData from '../../../data/recoleccion/zonas.json';
+import localidadesData from '../../../data/recoleccion/localidades.json';
+---
+
+<Layout 
+  title="Recolección de Residuos" 
+  description="Horarios de recolección de basura en Bogotá. Consulta los días y horarios por localidad y zona.">
+  
+  <h1>Recolección de Residuos</h1>
+  <p>Horarios de recolección de basura en <strong>{localidadesData.localidades.length}</strong> localidades de Bogotá, con <strong>{zonasData.total}</strong> zonas de servicio.</p>
+  
+  <section aria-labelledby="localidades-heading">
+    <h2 id="localidades-heading">Localidades</h2>
+    
+    <div class="grid grid-3">
+      {localidadesData.localidades.map(loc => (
+        <article class="card">
+          <h3><a href={`/recoleccion/${loc.codigo}/`}>{loc.localidad}</a></h3>
+          <p>{loc.total_zonas} zonas de recolección</p>
+          <p style="font-size: 0.875rem; color: var(--color-muted);">
+            {loc.frecuencias.slice(0, 2).join(', ')}
+          </p>
+        </article>
+      ))}
+    </div>
+  </section>
+  
+  <section aria-labelledby="como-heading">
+    <h2 id="como-heading">¿Cómo funciona?</h2>
+    <div class="card">
+      <p>La recolección de residuos en Bogotá está organizada por <strong>macrorutas</strong>, que determinan los días y horarios de recolección en cada zona.</p>
+      <ul>
+        <li>Cada localidad tiene múltiples zonas con diferentes frecuencias</li>
+        <li>Las frecuencias más comunes son 3 veces por semana (L-M-V o M-J-S)</li>
+        <li>Los horarios varían: algunas zonas tienen recolección nocturna (después de las 18:00)</li>
+      </ul>
+    </div>
+  </section>
+  
+  <section aria-labelledby="datos-heading">
+    <h2 id="datos-heading">Datos</h2>
+    <div class="card">
+      <p>Última actualización: {new Date(zonasData.generado).toLocaleDateString('es-CO')}</p>
+      <p>Fuente: <a href={zonasData.fuente}>UAESP</a></p>
+      <p>Descargar: <a href="/api/recoleccion/zonas.json">JSON</a> · <a href="/data/recoleccion/zonas.csv">CSV</a></p>
+    </div>
+  </section>
+</Layout>

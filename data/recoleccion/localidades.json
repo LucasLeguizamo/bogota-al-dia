@@ -1,0 +1,207 @@
+{
+  "localidades": [
+    {
+      "localidad": "Antonio Nariño",
+      "codigo": "15",
+      "total_zonas": 5,
+      "frecuencias": [
+        "Código 13 (sin descripción oficial)",
+        "Martes, jueves y sábado",
+        "Código 8 (sin descripción oficial)",
+        "Código 10 (sin descripción oficial)",
+        "Código 11 (sin descripción oficial)"
+      ]
+    },
+    {
+      "localidad": "Barrios Unidos",
+      "codigo": "12",
+      "total_zonas": 3,
+      "frecuencias": [
+        "Todos los días",
+        "Lunes, miércoles y viernes",
+        "Martes, jueves y sábado"
+      ]
+    },
+    {
+      "localidad": "Bosa",
+      "codigo": "7",
+      "total_zonas": 3,
+      "frecuencias": [
+        "Lunes, miércoles y viernes",
+        "Código 9 (sin descripción oficial)"
+      ]
+    },
+    {
+      "localidad": "Chapinero",
+      "codigo": "2",
+      "total_zonas": 9,
+      "frecuencias": [
+        "Lunes, miércoles y viernes",
+        "Martes, jueves y sábado",
+        "Todos los días",
+        "Código 13 (sin descripción oficial)",
+        "Código 10 (sin descripción oficial)"
+      ]
+    },
+    {
+      "localidad": "Ciudad Bolívar",
+      "codigo": "19",
+      "total_zonas": 1,
+      "frecuencias": [
+        "Lunes, miércoles y viernes"
+      ]
+    },
+    {
+      "localidad": "Engativá",
+      "codigo": "10",
+      "total_zonas": 6,
+      "frecuencias": [
+        "Todos los días",
+        "Lunes, miércoles y viernes",
+        "Martes, jueves y sábado"
+      ]
+    },
+    {
+      "localidad": "Fontibón",
+      "codigo": "9",
+      "total_zonas": 4,
+      "frecuencias": [
+        "Martes, jueves y sábado",
+        "Lunes, miércoles y viernes",
+        "Código 13 (sin descripción oficial)"
+      ]
+    },
+    {
+      "localidad": "Kennedy",
+      "codigo": "8",
+      "total_zonas": 5,
+      "frecuencias": [
+        "Lunes, miércoles y viernes",
+        "Martes, jueves y sábado"
+      ]
+    },
+    {
+      "localidad": "La Candelaria",
+      "codigo": "17",
+      "total_zonas": 6,
+      "frecuencias": [
+        "Todos los días",
+        "Código 13 (sin descripción oficial)"
+      ]
+    },
+    {
+      "localidad": "Los Mártires",
+      "codigo": "14",
+      "total_zonas": 3,
+      "frecuencias": [
+        "Todos los días"
+      ]
+    },
+    {
+      "localidad": "Puente Aranda",
+      "codigo": "16",
+      "total_zonas": 5,
+      "frecuencias": [
+        "Todos los días",
+        "Código 15 (sin descripción oficial)",
+        "Martes, jueves y sábado"
+      ]
+    },
+    {
+      "localidad": "Rafael Uribe Uribe",
+      "codigo": "18",
+      "total_zonas": 2,
+      "frecuencias": [
+        "Solo domingos",
+        "Código 12 (sin descripción oficial)"
+      ]
+    },
+    {
+      "localidad": "San Cristóbal",
+      "codigo": "4",
+      "total_zonas": 7,
+      "frecuencias": [
+        "Lunes, miércoles y viernes",
+        "Martes, jueves y sábado",
+        "Todos los días",
+        "Código 13 (sin descripción oficial)"
+      ]
+    },
+    {
+      "localidad": "Santa Fe",
+      "codigo": "3",
+      "total_zonas": 9,
+      "frecuencias": [
+        "Lunes, miércoles, viernes y domingo",
+        "Martes, jueves y sábado",
+        "Todos los días",
+        "Código 13 (sin descripción oficial)",
+        "Código 11 (sin descripción oficial)"
+      ]
+    },
+    {
+      "localidad": "Suba",
+      "codigo": "11",
+      "total_zonas": 17,
+      "frecuencias": [
+        "Solo domingos",
+        "Código 8 (sin descripción oficial)",
+        "Lunes, miércoles y viernes",
+        "Martes, jueves y sábado",
+        "Código 14 (sin descripción oficial)",
+        "Código 19 (sin descripción oficial)",
+        "Código 13 (sin descripción oficial)",
+        "Todos los días"
+      ]
+    },
+    {
+      "localidad": "Sumapaz",
+      "codigo": "20",
+      "total_zonas": 1,
+      "frecuencias": [
+        "Código 9 (sin descripción oficial)"
+      ]
+    },
+    {
+      "localidad": "Teusaquillo",
+      "codigo": "13",
+      "total_zonas": 11,
+      "frecuencias": [
+        "Código 15 (sin descripción oficial)",
+        "Código 13 (sin descripción oficial)",
+        "Solo domingos",
+        "Código 8 (sin descripción oficial)",
+        "Código 9 (sin descripción oficial)",
+        "Código 10 (sin descripción oficial)",
+        "Código 11 (sin descripción oficial)",
+        "Código 12 (sin descripción oficial)",
+        "Todos los días"
+      ]
+    },
+    {
+      "localidad": "Usaquén",
+      "codigo": "1",
+      "total_zonas": 11,
+      "frecuencias": [
+        "Martes, jueves y sábado",
+        "Todos los días",
+        "Código 13 (sin descripción oficial)",
+        "Código 10 (sin descripción oficial)",
+        "Código 22 (sin descripción oficial)"
+      ]
+    },
+    {
+      "localidad": "Usme",
+      "codigo": "5",
+      "total_zonas": 7,
+      "frecuencias": [
+        "Lunes, miércoles y viernes",
+        "Todos los días",
+        "Código 13 (sin descripción oficial)",
+        "Código 8 (sin descripción oficial)",
+        "Código 23 (sin descripción oficial)"
+      ]
+    }
+  ],
+  "generado": "2026-10-09T01:24:46.142Z"
+}

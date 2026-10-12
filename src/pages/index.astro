@@ -1,0 +1,78 @@
+---
+import Layout from '../layouts/Layout.astro';
+import estacionesData from '../../data/transmilenio/estaciones.json';
+import rutasData from '../../data/transmilenio/rutas.json';
+import zonasData from '../../data/recoleccion/zonas.json';
+import localidadesData from '../../data/recoleccion/localidades.json';
+---
+
+<Layout 
+  title="Inicio" 
+  description="Información pública del día a día en Bogotá: horarios de recolección de basura, rutas y estaciones de TransMilenio.">
+  
+  <h1>Bogotá al Día</h1>
+  <p>Información pública del día a día en Bogotá, centralizada y lista para personas y agentes de IA.</p>
+  
+  <section aria-labelledby="datos-heading">
+    <h2 id="datos-heading">Datos Disponibles</h2>
+    
+    <div class="grid grid-2">
+      <article class="card">
+        <h3>🚌 TransMilenio</h3>
+        <p>Sistema de transporte masivo de Bogotá.</p>
+        <ul>
+          <li><strong>{estacionesData.total}</strong> estaciones troncales</li>
+          <li><strong>{rutasData.total}</strong> rutas activas</li>
+        </ul>
+        <p><a href="/transmilenio/">Ver estaciones y rutas →</a></p>
+      </article>
+      
+      <article class="card">
+        <h3>🗑️ Recolección de Residuos</h3>
+        <p>Horarios de recolección de basura por zona.</p>
+        <ul>
+          <li><strong>{zonasData.total}</strong> zonas de recolección</li>
+          <li><strong>{localidadesData.localidades.length}</strong> localidades</li>
+        </ul>
+        <p><a href="/recoleccion/">Consultar horarios →</a></p>
+      </article>
+    </div>
+  </section>
+  
+  <section aria-labelledby="api-heading">
+    <h2 id="api-heading">Para Desarrolladores y Agentes</h2>
+    
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>API JSON</h3>
+        <p>Endpoints REST para consultar datos.</p>
+        <p><a href="/api/">Documentación →</a></p>
+      </div>
+      
+      <div class="card">
+        <h3>OpenAPI</h3>
+        <p>Especificación OpenAPI 3.1.</p>
+        <p><a href="/openapi.json">openapi.json →</a></p>
+      </div>
+      
+      <div class="card">
+        <h3>MCP Server</h3>
+        <p>Model Context Protocol para agentes.</p>
+        <p><a href="/mcp/">Conectar →</a></p>
+      </div>
+    </div>
+  </section>
+  
+  <section aria-labelledby="fuentes-heading">
+    <h2 id="fuentes-heading">Fuentes de Datos</h2>
+    <div class="card">
+      <p>Todos los datos provienen de fuentes oficiales del Distrito:</p>
+      <ul>
+        <li><a href="https://datosabiertos.bogota.gov.co">Portal de Datos Abiertos de Bogotá</a></li>
+        <li><a href="https://www.transmilenio.gov.co">TransMilenio S.A.</a></li>
+        <li><a href="https://www.uaesp.gov.co">UAESP - Unidad Administrativa de Servicios Públicos</a></li>
+      </ul>
+      <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></p>
+    </div>
+  </section>
+</Layout>

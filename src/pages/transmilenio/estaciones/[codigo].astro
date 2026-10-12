@@ -1,0 +1,77 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import estacionesData from '../../../../data/transmilenio/estaciones.json';
+
+export function getStaticPaths() {
+  return estacionesData.estaciones.map(estacion => ({
+    params: { codigo: estacion.codigo },
+    props: { estacion }
+  }));
+}
+
+const { estacion } = Astro.props;
+---
+
+<Layout 
+  title={`Estación ${estacion.nombre}`}
+  description={`Estación ${estacion.nombre} del corredor ${estacion.troncal} de TransMilenio. Ubicación: ${estacion.ubicacion}.`}>
+  
+  <nav aria-label="Migas de pan">
+    <a href="/">Inicio</a> › <a href="/transmilenio/">TransMilenio</a> › <a href="/transmilenio/estaciones/">Estaciones</a> › {estacion.nombre}
+  </nav>
+  
+  <h1>Estación {estacion.nombre}</h1>
+  
+  <div class="card">
+    <dl>
+      <dt>Código</dt>
+      <dd>{estacion.codigo}</dd>
+      
+      <dt>Corredor Troncal</dt>
+      <dd>{estacion.troncal}</dd>
+      
+      <dt>Tipo</dt>
+      <dd>{estacion.tipo}</dd>
+      
+      <dt>Ubicación</dt>
+      <dd>{estacion.ubicacion || 'No especificada'}</dd>
+      
+      <dt>Coordenadas</dt>
+      <dd>
+        <a href={`https://www.openstreetmap.org/?mlat=${estacion.coordenadas.latitud}&mlon=${estacion.coordenadas.longitud}&zoom=17`} target="_blank" rel="noopener">
+          {estacion.coordenadas.latitud.toFixed(6)}, {estacion.coordenadas.longitud.toFixed(6)}
+        </a>
+      </dd>
+    </dl>
+  </div>
+  
+  <section aria-labelledby="servicios-heading">
+    <h2 id="servicios-heading">Servicios</h2>
+    <div class="card">
+      <ul>
+        <li>Accesos: {estacion.servicios.accesos}</li>
+        <li>Biciparqueadero: {estacion.servicios.biciparqueadero ? `Sí (${estacion.servicios.capacidad_biciparqueadero} espacios)` : 'No'}</li>
+        <li>WiFi: {estacion.servicios.wifi ? 'Sí' : 'No'}</li>
+      </ul>
+    </div>
+  </section>
+  
+  <section aria-labelledby="datos-heading">
+    <h2 id="datos-heading">Datos</h2>
+    <div class="card">
+      <p>Última actualización: {new Date(estacion.ultima_actualizacion).toLocaleDateString('es-CO')}</p>
+      <p>Fuente: {estacion.fuente}</p>
+      <p>API: <a href={`/api/transmilenio/estaciones/${estacion.codigo}.json`}>JSON</a></p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5rem 1rem;
+  }
+  dt { font-weight: bold; color: var(--color-primary); }
+  dd { margin: 0; }
+</style>

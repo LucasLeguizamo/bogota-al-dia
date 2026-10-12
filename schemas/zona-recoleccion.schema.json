@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bogota-al-dia.vercel.app/schemas/zona-recoleccion.schema.json",
+  "title": "ZonaRecoleccion",
+  "description": "Zona de recolección de residuos con horario y frecuencia",
+  "type": "object",
+  "required": ["id", "codigo_macroruta", "localidad", "frecuencia", "horario_inicio", "horario_fin", "fuente", "ultima_actualizacion"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Identificador único de la zona"
+    },
+    "codigo_macroruta": {
+      "type": "string",
+      "description": "Código de macroruta UAESP"
+    },
+    "localidad": {
+      "type": "object",
+      "required": ["codigo", "nombre"],
+      "properties": {
+        "codigo": {
+          "type": "string",
+          "description": "Código numérico de localidad"
+        },
+        "nombre": {
+          "type": "string",
+          "description": "Nombre de la localidad"
+        }
+      }
+    },
+    "frecuencia": {
+      "type": "object",
+      "required": ["codigo", "dias"],
+      "properties": {
+        "codigo": {
+          "type": "string",
+          "description": "Código de frecuencia UAESP"
+        },
+        "dias": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
+          },
+          "description": "Días de recolección (vacío si código sin descripción oficial)"
+        },
+        "descripcion": {
+          "type": "string",
+          "description": "Descripción legible de la frecuencia"
+        },
+        "oficial": {
+          "type": "boolean",
+          "description": "true si la descripción está confirmada en fuente oficial"
+        }
+      }
+    },
+    "horario_inicio": {
+      "type": "string",
+      "pattern": "^([01]?[0-9]|2[0-3]):[0-5][0-9]$",
+      "description": "Hora de inicio en formato HH:MM"
+    },
+    "horario_fin": {
+      "type": "string",
+      "pattern": "^([01]?[0-9]|2[0-3]):[0-5][0-9]$",
+      "description": "Hora de fin en formato HH:MM"
+    },
+    "operador": {
+      "type": "string",
+      "description": "Nombre del operador de aseo"
+    },
+    "vigencia": {
+      "type": "string",
+      "format": "date",
+      "description": "Fecha de vigencia del horario"
+    },
+    "geometria": {
+      "type": "object",
+      "description": "GeoJSON del polígono de la zona (opcional en listados)"
+    },
+    "fuente": {
+      "type": "string",
+      "const": "UAESP - datosabiertos.bogota.gov.co",
+      "description": "Fuente de los datos"
+    },
+    "ultima_actualizacion": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Fecha/hora de última actualización del registro"
+    }
+  }
+}

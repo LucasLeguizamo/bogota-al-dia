@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bogota-al-dia.vercel.app/schemas/estacion-transmilenio.schema.json",
+  "title": "EstacionTransmilenio",
+  "description": "Estación del sistema TransMilenio",
+  "type": "object",
+  "required": ["id", "codigo", "nombre", "troncal", "coordenadas", "fuente", "ultima_actualizacion"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Identificador único"
+    },
+    "codigo": {
+      "type": "string",
+      "description": "Código oficial de la estación"
+    },
+    "nombre": {
+      "type": "string",
+      "description": "Nombre de la estación"
+    },
+    "ubicacion": {
+      "type": "string",
+      "description": "Dirección o referencia de ubicación"
+    },
+    "troncal": {
+      "type": "string",
+      "description": "Corredor troncal (Caracas, Calle 80, etc.)"
+    },
+    "tipo": {
+      "type": "string",
+      "enum": ["sencilla", "intermedia", "cabecera", "portal"],
+      "description": "Tipo de estación"
+    },
+    "coordenadas": {
+      "type": "object",
+      "required": ["latitud", "longitud"],
+      "properties": {
+        "latitud": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitud": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        }
+      }
+    },
+    "servicios": {
+      "type": "object",
+      "properties": {
+        "biciparqueadero": {
+          "type": "boolean"
+        },
+        "capacidad_biciparqueadero": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "wifi": {
+          "type": "boolean"
+        },
+        "accesos": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "rutas": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Códigos de rutas que pasan por la estación"
+    },
+    "fuente": {
+      "type": "string",
+      "const": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
+      "description": "Fuente de los datos"
+    },
+    "ultima_actualizacion": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

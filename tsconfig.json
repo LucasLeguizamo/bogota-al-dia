@@ -1,0 +1,17 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@data/*": ["data/*"],
+      "@schemas/*": ["schemas/*"]
+    },
+    "types": ["node"],
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "bundler"
+  },
+  "include": ["src/**/*", "scripts/**/*", "schemas/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

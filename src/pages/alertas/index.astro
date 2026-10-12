@@ -1,0 +1,76 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout 
+  title="Alertas de Servicio" 
+  description="Alertas de servicio de TransMilenio y SITP en Bogotá. Sección pendiente de implementación.">
+  
+  <h1>Alertas de Servicio</h1>
+  
+  <div class="card pending">
+    <h2>⚠️ Sección Pendiente</h2>
+    <p>Esta sección está en desarrollo. Actualmente <strong>no hay datos de alertas disponibles</strong> porque no existe una API pública estructurada para obtenerlos.</p>
+  </div>
+  
+  <section aria-labelledby="canales-heading">
+    <h2 id="canales-heading">Canales Oficiales de Alertas</h2>
+    <p>Mientras esta sección no esté disponible, consulta los canales oficiales:</p>
+    
+    <div class="grid grid-2">
+      <article class="card">
+        <h3>TransMilenio</h3>
+        <ul>
+          <li><a href="https://x.com/TransMilenio" target="_blank" rel="noopener">@TransMilenio en X</a></li>
+          <li><a href="https://www.transmilenio.gov.co" target="_blank" rel="noopener">transmilenio.gov.co</a></li>
+          <li>App TransMi (Android/iOS)</li>
+        </ul>
+      </article>
+      
+      <article class="card">
+        <h3>Movilidad Bogotá</h3>
+        <ul>
+          <li><a href="https://x.com/SectorMovilidad" target="_blank" rel="noopener">@SectorMovilidad en X</a></li>
+          <li><a href="https://www.movilidadbogota.gov.co" target="_blank" rel="noopener">movilidadbogota.gov.co</a></li>
+          <li>Línea 195 (información ciudadana)</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+  
+  <section aria-labelledby="tecnico-heading">
+    <h2 id="tecnico-heading">Información Técnica</h2>
+    <div class="card">
+      <p><strong>¿Por qué no hay datos?</strong></p>
+      <ul>
+        <li>No existe API pública de alertas en datosabiertos.bogota.gov.co</li>
+        <li>TransMilenio no publica GTFS-RT (solo GTFS estático)</li>
+        <li>robots.txt de transmilenio.gov.co bloquea scraping</li>
+        <li>API de X requiere suscripción de pago</li>
+      </ul>
+      <p>Ver <a href="https://github.com/LucasLeguizamo/bogota-al-dia/blob/main/docs/sources.md">docs/sources.md</a> para detalles de la investigación.</p>
+    </div>
+  </section>
+  
+  <section aria-labelledby="contribuir-heading">
+    <h2 id="contribuir-heading">¿Cómo Contribuir?</h2>
+    <div class="card">
+      <p>Si conoces una fuente oficial de alertas con API pública:</p>
+      <ol>
+        <li>Abre un issue en el repositorio</li>
+        <li>Documenta la fuente, formato y términos de uso</li>
+        <li>Propón un PR con el extractor</li>
+      </ol>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .pending {
+    background: #fff3cd;
+    border: 2px solid #ffc107;
+  }
+  .pending h2 {
+    color: #856404;
+  }
+</style>
