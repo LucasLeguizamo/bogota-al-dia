@@ -1,0 +1,23 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+<Layout title="Desarrolladores" description="Portal para desarrolladores: API JSON, OpenAPI, MCP, versionado y límites.">
+<h1>Portal para desarrolladores</h1>
+<h2>Inicio rápido</h2>
+<pre>curl https://bogota-al-dia-ten.vercel.app/api/v1/transmilenio/estaciones.json</pre>
+<p>No se necesita API key: todos los endpoints son públicos, de solo lectura y gratuitos.</p>
+<h2>Recursos</h2>
+<ul>
+<li><a href="/api/">Documentación de la API</a></li>
+<li><a href="/openapi.json">Especificación OpenAPI 3.1</a></li>
+<li><a href="/.well-known/api-catalog">API Catalog (RFC 9727)</a></li>
+<li><a href="/mcp/">Servidor MCP</a> (Streamable HTTP en <code>POST /api/mcp</code>)</li>
+<li><a href="/llms.txt">llms.txt</a></li>
+</ul>
+<h2 id="versionado">Versionado y deprecación</h2>
+<p>La versión estable es <code>v1</code>, disponible bajo <code>/api/v1/</code>. Las rutas sin versión (<code>/api/...</code>) son alias de v1. Un cambio incompatible creará <code>/api/v2/</code>; la versión anterior se anunciará con los encabezados <code>Deprecation</code> y <code>Sunset</code> (RFC 9745 / RFC 8594) con al menos 90 días de aviso.</p>
+<h2 id="limites">Límites de uso</h2>
+<p>Política: 600 solicitudes por IP cada 60 segundos. Las respuestas incluyen <code>RateLimit-Policy</code> y <code>RateLimit</code>.</p>
+<h2>Errores</h2>
+<p>Los errores de la API devuelven JSON con <code>error.code</code>, <code>error.message</code> y <code>error.hint</code>.</p>
+</Layout>

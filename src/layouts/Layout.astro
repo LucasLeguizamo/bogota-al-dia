@@ -17,6 +17,7 @@ const canonicalUrl = canonical ? new URL(canonical, site) : new URL(Astro.url.pa
   <title>{title} | Bogotá al Día</title>
   <meta name="description" content={description}>
   <link rel="canonical" href={canonicalUrl.href}>
+  {Astro.url.pathname === "/" && <link rel="alternate" type="text/markdown" href="/index.md">}
   
   <!-- Open Graph -->
   <meta property="og:title" content={title}>
@@ -25,7 +26,7 @@ const canonicalUrl = canonical ? new URL(canonical, site) : new URL(Astro.url.pa
   <meta property="og:site_name" content="Bogotá al Día">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://bogota-al-dia-ten.vercel.app/og.png">
-  <script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"WebSite","name":"Bogotá al Día","url":"https://bogota-al-dia-ten.vercel.app/","description":"Datos públicos del día a día en Bogotá: TransMilenio y recolección de basura, con API JSON, llms.txt y MCP.","inLanguage":"es-CO","license":"https://creativecommons.org/licenses/by-sa/4.0/","publisher":{"@type":"Organization","name":"Bogotá al Día","url":"https://bogota-al-dia-ten.vercel.app/","sameAs":["https://github.com/LucasLeguizamo/bogota-al-dia"]}})} />
+  <script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"WebSite","name":"Bogotá al Día","url":"https://bogota-al-dia-ten.vercel.app/","description":"Datos públicos del día a día en Bogotá: TransMilenio y recolección de basura, con API JSON, llms.txt y MCP.","inLanguage":"es-CO","license":"https://creativecommons.org/licenses/by-sa/4.0/","publisher":{"@type":"Organization","name":"Bogotá al Día","url":"https://bogota-al-dia-ten.vercel.app/","sameAs":["https://github.com/LucasLeguizamo/bogota-al-dia"],"contactPoint":{"@type":"ContactPoint","contactType":"customer support","url":"https://github.com/LucasLeguizamo/bogota-al-dia/issues","areaServed":"CO","availableLanguage":"es"},"address":{"@type":"PostalAddress","addressLocality":"Bogotá","addressRegion":"Bogotá D.C.","addressCountry":"CO"}}})} />
   <meta property="og:locale" content="es_CO">
   
   <!-- Twitter Card -->
@@ -134,7 +135,7 @@ const canonicalUrl = canonical ? new URL(canonical, site) : new URL(Astro.url.pa
     <p style="margin-top: 1rem;">
       <a href="/llms.txt">llms.txt</a> · 
       <a href="/openapi.json">OpenAPI</a> · 
-      <a href="/sitemap.xml">Sitemap</a>
+      <a href="/sitemap.xml">Sitemap</a> · <a href="/developers/">Desarrolladores</a> · <a href="/acerca/">Acerca de</a> · <a href="/contacto/">Contacto</a> · <a href="/privacidad/">Privacidad</a>
     </p>
   </footer>
 </body>
