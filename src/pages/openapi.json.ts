@@ -3,6 +3,7 @@ import type { APIRoute } from 'astro';
 const openapi = {
   "openapi": "3.1.0",
   "info": {
+    "x-api-versioning": { "strategy": "url-path", "current": "v1", "deprecationPolicy": "https://bogota-al-dia-ten.vercel.app/developers/#versionado" },
     "title": "Bogotá al Día API",
     "description": "API pública con datos de servicios públicos de Bogotá: TransMilenio y recolección de residuos.",
     "version": "1.0.0",
@@ -22,7 +23,7 @@ const openapi = {
     }
   ],
   "paths": {
-    "/api/transmilenio/estaciones.json": {
+    "/api/v1/transmilenio/estaciones.json": {
       "get": {
         "operationId": "getEstaciones",
         "summary": "Lista todas las estaciones de TransMilenio",
@@ -49,7 +50,7 @@ const openapi = {
         }
       }
     },
-    "/api/transmilenio/estaciones/{codigo}.json": {
+    "/api/v1/transmilenio/estaciones/{codigo}.json": {
       "get": {
         "operationId": "getEstacion",
         "summary": "Obtiene una estación por código",
@@ -83,7 +84,7 @@ const openapi = {
         }
       }
     },
-    "/api/transmilenio/rutas.json": {
+    "/api/v1/transmilenio/rutas.json": {
       "get": {
         "operationId": "getRutas",
         "summary": "Lista todas las rutas de TransMilenio",
@@ -109,7 +110,7 @@ const openapi = {
         }
       }
     },
-    "/api/transmilenio/rutas/{codigo}.json": {
+    "/api/v1/transmilenio/rutas/{codigo}.json": {
       "get": {
         "operationId": "getRuta",
         "summary": "Obtiene una ruta por código",
@@ -143,7 +144,7 @@ const openapi = {
         }
       }
     },
-    "/api/recoleccion/zonas.json": {
+    "/api/v1/recoleccion/zonas.json": {
       "get": {
         "operationId": "getZonas",
         "summary": "Lista todas las zonas de recolección",
@@ -169,7 +170,7 @@ const openapi = {
         }
       }
     },
-    "/api/recoleccion/localidades.json": {
+    "/api/v1/recoleccion/localidades.json": {
       "get": {
         "operationId": "getLocalidades",
         "summary": "Lista localidades con sus zonas",
@@ -194,7 +195,7 @@ const openapi = {
         }
       }
     },
-    "/api/recoleccion/localidades/{codigo}.json": {
+    "/api/v1/recoleccion/localidades/{codigo}.json": {
       "get": {
         "operationId": "getLocalidad",
         "summary": "Obtiene zonas de una localidad",

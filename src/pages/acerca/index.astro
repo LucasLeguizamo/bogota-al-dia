@@ -1,0 +1,9 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+<Layout title="Acerca de" description="Qué es Bogotá al Día, quién lo mantiene y de dónde salen los datos.">
+<h1>Acerca de Bogotá al Día</h1>
+<p>Bogotá al Día es un proyecto de código abierto que reúne información pública del día a día en Bogotá, Colombia, y la publica en formatos abiertos pensados tanto para personas como para agentes de inteligencia artificial. Hoy cubre las estaciones y rutas troncales de TransMilenio y los horarios y frecuencias de recolección de residuos por localidad y zona.</p>
+<p>Todos los datos se extraen de fuentes oficiales del Distrito: el servicio geográfico de TransMilenio S.A. (gis.transmilenio.gov.co) y los servicios de Catastro Bogotá y la UAESP. Un flujo automático en GitHub Actions vuelve a descargar las fuentes y solo publica cambios cuando los datos realmente cambian. Cada conjunto indica su fuente y fecha de actualización.</p>
+<p>El proyecto lo mantiene Lucas Leguizamo como iniciativa independiente; no es un canal oficial de la Alcaldía de Bogotá ni de TransMilenio. Los datos se publican bajo la licencia CC-BY-SA-4.0 y el código está en <a href="https://github.com/LucasLeguizamo/bogota-al-dia">GitHub</a>. Si encuentras un error en los datos, abre un issue en el repositorio y lo revisamos.</p>
+</Layout>
