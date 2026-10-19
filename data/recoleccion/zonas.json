@@ -1,6 +1,6 @@
 {
   "$schema": "../schemas/zona-recoleccion.schema.json",
-  "generado": "2026-10-09T01:24:46.141Z",
+  "generado": "2026-10-19T11:30:01.334Z",
   "total": 115,
   "localidades": 19,
   "fuente": "https://serviciosgis.catastrobogota.gov.co/arcgis/rest/services/serviciospublicos/aseobogota/MapServer/5",
@@ -23,7 +23,7 @@
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-R2332-58",
@@ -46,7 +46,7 @@
       "horario_fin": "04:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-RB2112-71",
@@ -65,7 +65,7 @@
       "horario_fin": "18:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-RB2114-72",
@@ -84,7 +84,7 @@
       "horario_fin": "18:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-RB2115-73",
@@ -103,7 +103,7 @@
       "horario_fin": "18:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-123456N-96",
@@ -130,7 +130,7 @@
       "horario_fin": "03:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-135N-98",
@@ -153,7 +153,7 @@
       "horario_fin": "03:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-246N-95",
@@ -176,7 +176,7 @@
       "horario_fin": "03:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-R2131-51",
@@ -199,7 +199,7 @@
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-R2331-52",
@@ -222,7 +222,7 @@
       "horario_fin": "04:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-RB2113-64",
@@ -241,7 +241,7 @@
       "horario_fin": "18:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-02-13",
@@ -264,7 +264,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-03-14",
@@ -287,7 +287,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-04-18",
@@ -310,7 +310,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-06-22",
@@ -337,7 +337,7 @@
       "horario_fin": "00:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-08-8",
@@ -364,7 +364,7 @@
       "horario_fin": "08:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.324Z"
     },
     {
       "id": "zona-09-30",
@@ -383,7 +383,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-11-37",
@@ -402,7 +402,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-13-43",
@@ -421,7 +421,7 @@
       "horario_fin": "15:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-14-45",
@@ -444,7 +444,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-GG2131-60",
@@ -467,7 +467,7 @@
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-123456D-94",
@@ -494,7 +494,7 @@
       "horario_fin": "15:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-123456N-97",
@@ -521,7 +521,7 @@
       "horario_fin": "03:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-135D-91",
@@ -544,7 +544,7 @@
       "horario_fin": "15:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-135N-93",
@@ -567,7 +567,7 @@
       "horario_fin": "03:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-246D-92",
@@ -590,7 +590,7 @@
       "horario_fin": "15:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-246N-90",
@@ -613,7 +613,7 @@
       "horario_fin": "03:00",
       "vigencia": "2025-08-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-10-86",
@@ -636,7 +636,7 @@
       "horario_fin": "00:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-10-87",
@@ -659,7 +659,7 @@
       "horario_fin": "00:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-10-88",
@@ -678,7 +678,7 @@
       "horario_fin": "00:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-13-89",
@@ -701,7 +701,7 @@
       "horario_fin": "15:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-11-81",
@@ -724,7 +724,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-12-82",
@@ -747,7 +747,7 @@
       "horario_fin": "08:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-14-83",
@@ -770,7 +770,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-15-85",
@@ -793,7 +793,7 @@
       "horario_fin": "15:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-16-84",
@@ -816,7 +816,7 @@
       "horario_fin": "21:00",
       "vigencia": "2025-08-11",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-05-5",
@@ -843,7 +843,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.324Z"
     },
     {
       "id": "zona-06-21",
@@ -870,7 +870,7 @@
       "horario_fin": "00:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-08-7",
@@ -897,7 +897,7 @@
       "horario_fin": "08:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.324Z"
     },
     {
       "id": "zona-09-29",
@@ -916,7 +916,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-10-34",
@@ -935,7 +935,7 @@
       "horario_fin": "00:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-12-40",
@@ -954,7 +954,7 @@
       "horario_fin": "08:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-R2161-54",
@@ -981,7 +981,7 @@
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-R2261-55",
@@ -1008,7 +1008,7 @@
       "horario_fin": "23:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-R2361-56",
@@ -1035,7 +1035,7 @@
       "horario_fin": "04:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-GG2161-61",
@@ -1062,7 +1062,7 @@
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-GG2171-62",
@@ -1081,7 +1081,7 @@
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-R2132-59",
@@ -1104,7 +1104,7 @@
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-RB2171-76",
@@ -1123,7 +1123,7 @@
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-RB2371-77",
@@ -1142,7 +1142,7 @@
       "horario_fin": "04:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-RB2111-74",
@@ -1163,7 +1163,7 @@
       "horario_fin": "18:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-RB2116-75",
@@ -1182,7 +1182,7 @@
       "horario_fin": "18:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-01-10",
@@ -1205,7 +1205,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-03-16",
@@ -1228,7 +1228,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-08-26",
@@ -1255,7 +1255,7 @@
       "horario_fin": "08:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-09-32",
@@ -1274,7 +1274,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-11-38",
@@ -1293,7 +1293,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-47-48",
@@ -1312,7 +1312,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-74-1",
@@ -1339,7 +1339,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.324Z"
     },
     {
       "id": "zona-03-15",
@@ -1363,7 +1363,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-04-19",
@@ -1386,7 +1386,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-05-20",
@@ -1413,7 +1413,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-06-23",
@@ -1440,7 +1440,7 @@
       "horario_fin": "00:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-08-25",
@@ -1467,7 +1467,7 @@
       "horario_fin": "08:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-09-31",
@@ -1486,7 +1486,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-10-35",
@@ -1505,7 +1505,7 @@
       "horario_fin": "00:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-12-41",
@@ -1524,7 +1524,7 @@
       "horario_fin": "08:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-99-4",
@@ -1543,7 +1543,7 @@
       "horario_fin": "15:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.324Z"
     },
     {
       "id": "zona-01-99",
@@ -1564,7 +1564,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-02-100",
@@ -1583,7 +1583,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-03-101",
@@ -1604,7 +1604,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-04-102",
@@ -1623,7 +1623,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-09-114",
@@ -1646,7 +1646,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-10-103",
@@ -1669,7 +1669,7 @@
       "horario_fin": "00:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-11-104",
@@ -1688,7 +1688,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-12-105",
@@ -1707,7 +1707,7 @@
       "horario_fin": "08:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-13-106",
@@ -1726,7 +1726,7 @@
       "horario_fin": "15:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-14-107",
@@ -1745,7 +1745,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-20-115",
@@ -1764,7 +1764,7 @@
       "horario_fin": "15:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-51-108",
@@ -1787,7 +1787,7 @@
       "horario_fin": "14:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-52-109",
@@ -1810,7 +1810,7 @@
       "horario_fin": "14:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-53-110",
@@ -1833,7 +1833,7 @@
       "horario_fin": "02:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-54-112",
@@ -1856,7 +1856,7 @@
       "horario_fin": "02:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-55-111",
@@ -1883,7 +1883,7 @@
       "horario_fin": "14:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-56-113",
@@ -1910,7 +1910,7 @@
       "horario_fin": "02:00",
       "vigencia": "2025-07-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-17-47",
@@ -1929,7 +1929,7 @@
       "horario_fin": "15:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-GG2371-63",
@@ -1948,7 +1948,7 @@
       "horario_fin": "04:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-R2317-53",
@@ -1967,7 +1967,7 @@
       "horario_fin": "04:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-RB2211-65",
@@ -1988,7 +1988,7 @@
       "horario_fin": "22:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-RB2212-66",
@@ -2007,7 +2007,7 @@
       "horario_fin": "22:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-RB2213-67",
@@ -2026,7 +2026,7 @@
       "horario_fin": "22:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-RB2214-68",
@@ -2045,7 +2045,7 @@
       "horario_fin": "22:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-RB2215-69",
@@ -2064,7 +2064,7 @@
       "horario_fin": "22:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-RB2216-70",
@@ -2083,7 +2083,7 @@
       "horario_fin": "22:30",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-RC2161\r\r\n-78",
@@ -2110,7 +2110,7 @@
       "horario_fin": "18:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-RP2161-79",
@@ -2137,7 +2137,7 @@
       "horario_fin": "18:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-VO2161\r\r\n-80",
@@ -2164,7 +2164,7 @@
       "horario_fin": "16:00",
       "vigencia": "2022-08-09",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-01-9",
@@ -2187,7 +2187,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.324Z"
     },
     {
       "id": "zona-02-12",
@@ -2210,7 +2210,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-04-17",
@@ -2233,7 +2233,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-07-24",
@@ -2260,7 +2260,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-08-6",
@@ -2287,7 +2287,7 @@
       "horario_fin": "08:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.324Z"
     },
     {
       "id": "zona-09-28",
@@ -2306,7 +2306,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-11-36",
@@ -2325,7 +2325,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-13-42",
@@ -2344,7 +2344,7 @@
       "horario_fin": "15:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-14-44",
@@ -2367,7 +2367,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-74-50",
@@ -2394,7 +2394,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-76-3",
@@ -2413,7 +2413,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.324Z"
     },
     {
       "id": "zona-01-11",
@@ -2436,7 +2436,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-08-27",
@@ -2463,7 +2463,7 @@
       "horario_fin": "08:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-09-33",
@@ -2482,7 +2482,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-11-39",
@@ -2501,7 +2501,7 @@
       "horario_fin": "04:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-15-46",
@@ -2520,7 +2520,7 @@
       "horario_fin": "15:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-73-49",
@@ -2547,7 +2547,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.325Z"
     },
     {
       "id": "zona-75-2",
@@ -2566,7 +2566,7 @@
       "horario_fin": "16:00",
       "vigencia": "2025-09-01",
       "fuente": "UAESP - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:46.134Z"
+      "ultima_actualizacion": "2026-10-19T11:30:01.324Z"
     }
   ]
 }

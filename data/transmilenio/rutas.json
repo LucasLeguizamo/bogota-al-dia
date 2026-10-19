@@ -1,6 +1,6 @@
 {
   "$schema": "../schemas/ruta-transmilenio.schema.json",
-  "generado": "2026-10-09T01:24:45.475Z",
+  "generado": "2026-10-19T11:30:00.330Z",
   "total": 128,
   "fuente": "https://gis.transmilenio.gov.co/arcgis/rest/services/Troncal/consulta_rutas_troncales/MapServer/0",
   "licencia": "CC-BY-SA-4.0",
@@ -21,7 +21,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-1-2",
@@ -39,7 +39,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-2-1",
@@ -57,7 +57,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-2-2",
@@ -75,7 +75,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-3-1",
@@ -93,7 +93,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-3-2",
@@ -111,7 +111,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-4-1",
@@ -129,7 +129,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-4-2",
@@ -147,7 +147,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-5-1",
@@ -165,7 +165,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-5-2",
@@ -183,7 +183,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-6-1",
@@ -201,7 +201,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.323Z"
     },
     {
       "id": "ruta-6-2",
@@ -219,7 +219,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.323Z"
     },
     {
       "id": "ruta-7-1",
@@ -237,7 +237,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-7-2",
@@ -255,7 +255,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-8-1",
@@ -273,7 +273,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-8-2",
@@ -291,7 +291,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-A52",
@@ -309,7 +309,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-A60",
@@ -327,7 +327,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-A61",
@@ -345,7 +345,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.323Z"
     },
     {
       "id": "ruta-B10",
@@ -363,7 +363,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-B11",
@@ -381,7 +381,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-B12",
@@ -399,7 +399,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-B12GS",
@@ -417,7 +417,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-B13",
@@ -435,7 +435,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-B16",
@@ -453,7 +453,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-B18",
@@ -471,7 +471,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-B23",
@@ -489,7 +489,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-B26",
@@ -507,7 +507,7 @@
       },
       "longitud_km": 0,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-B27",
@@ -525,7 +525,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-B28",
@@ -543,7 +543,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-B46",
@@ -561,7 +561,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-B50",
@@ -579,7 +579,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-B55",
@@ -597,7 +597,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-B72",
@@ -615,7 +615,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-B74",
@@ -633,7 +633,7 @@
       },
       "longitud_km": 0,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-B75",
@@ -651,7 +651,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-C15",
@@ -669,7 +669,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-C17",
@@ -687,7 +687,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-C19",
@@ -705,7 +705,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-C25",
@@ -723,7 +723,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-C30",
@@ -741,7 +741,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-C50",
@@ -759,7 +759,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-C73",
@@ -777,7 +777,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-C84",
@@ -795,7 +795,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-D10",
@@ -813,7 +813,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-D20",
@@ -831,7 +831,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-D21",
@@ -849,7 +849,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-D22",
@@ -867,7 +867,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-D24",
@@ -885,7 +885,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-D55",
@@ -903,7 +903,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-D81",
@@ -921,7 +921,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-D81CV",
@@ -939,7 +939,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-E32",
@@ -957,7 +957,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-E42",
@@ -975,7 +975,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-F19",
@@ -993,7 +993,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-F23",
@@ -1011,7 +1011,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-F23B",
@@ -1029,7 +1029,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-F26",
@@ -1047,7 +1047,7 @@
       },
       "longitud_km": 0,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-F28",
@@ -1065,7 +1065,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-F32",
@@ -1083,7 +1083,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-F51",
@@ -1101,7 +1101,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-F60",
@@ -1119,7 +1119,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-F63",
@@ -1137,7 +1137,7 @@
       },
       "longitud_km": 0,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-G11",
@@ -1155,7 +1155,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-G12",
@@ -1173,7 +1173,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-G12GS",
@@ -1191,7 +1191,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-G22",
@@ -1209,7 +1209,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-G30",
@@ -1227,7 +1227,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-G41",
@@ -1245,7 +1245,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-G42",
@@ -1263,7 +1263,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-G43",
@@ -1281,7 +1281,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-G43C",
@@ -1299,7 +1299,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.468Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-G45",
@@ -1317,7 +1317,7 @@
       },
       "longitud_km": 0,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-G45",
@@ -1335,7 +1335,7 @@
       },
       "longitud_km": 0,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-G46",
@@ -1353,7 +1353,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-G47",
@@ -1371,7 +1371,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-G52",
@@ -1389,7 +1389,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-H13",
@@ -1407,7 +1407,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-H15",
@@ -1425,7 +1425,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-H17",
@@ -1443,7 +1443,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-H20",
@@ -1461,7 +1461,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-H21",
@@ -1479,7 +1479,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-H27",
@@ -1497,7 +1497,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-H54",
@@ -1515,7 +1515,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-H72",
@@ -1533,7 +1533,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-H75",
@@ -1551,7 +1551,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-H76",
@@ -1569,7 +1569,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-H83",
@@ -1587,7 +1587,7 @@
       },
       "longitud_km": 0,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-J23",
@@ -1605,7 +1605,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-J23A",
@@ -1623,7 +1623,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-J24",
@@ -1641,7 +1641,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-J70",
@@ -1659,7 +1659,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-J73",
@@ -1677,7 +1677,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-J74",
@@ -1695,7 +1695,7 @@
       },
       "longitud_km": 0,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-J76",
@@ -1713,7 +1713,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-K10",
@@ -1731,7 +1731,7 @@
       },
       "longitud_km": 0,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-K16",
@@ -1749,7 +1749,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-K23",
@@ -1767,7 +1767,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-K43",
@@ -1785,7 +1785,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-K43C",
@@ -1803,7 +1803,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-K54",
@@ -1821,7 +1821,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-K86",
@@ -1839,7 +1839,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-K86A",
@@ -1857,7 +1857,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-K86ACV",
@@ -1875,7 +1875,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-K86CV",
@@ -1893,7 +1893,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-L10",
@@ -1911,7 +1911,7 @@
       },
       "longitud_km": 0,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-L18",
@@ -1929,7 +1929,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-L25",
@@ -1947,7 +1947,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-L41",
@@ -1965,7 +1965,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-L81",
@@ -1983,7 +1983,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-L81 Ref CL72",
@@ -2001,7 +2001,7 @@
       },
       "longitud_km": 1.25,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-L81CV",
@@ -2019,7 +2019,7 @@
       },
       "longitud_km": 0.03,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-L82",
@@ -2037,7 +2037,7 @@
       },
       "longitud_km": 0.04,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-L82CV",
@@ -2055,7 +2055,7 @@
       },
       "longitud_km": 0.04,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-L82R",
@@ -2073,7 +2073,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-M47",
@@ -2091,7 +2091,7 @@
       },
       "longitud_km": 0.01,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-M51",
@@ -2109,7 +2109,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-M82",
@@ -2127,7 +2127,7 @@
       },
       "longitud_km": 0.04,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-M82CV",
@@ -2145,7 +2145,7 @@
       },
       "longitud_km": 0.04,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-M82R",
@@ -2163,7 +2163,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-M83",
@@ -2181,7 +2181,7 @@
       },
       "longitud_km": 0,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-M84",
@@ -2199,7 +2199,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-M86",
@@ -2217,7 +2217,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-M86CV",
@@ -2235,7 +2235,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-MP85",
@@ -2253,7 +2253,7 @@
       },
       "longitud_km": 0,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-MP85CV",
@@ -2271,7 +2271,7 @@
       },
       "longitud_km": 0,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     },
     {
       "id": "ruta-Z61",
@@ -2289,7 +2289,7 @@
       },
       "longitud_km": 0.02,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.323Z"
     },
     {
       "id": "ruta-Z63",
@@ -2307,7 +2307,7 @@
       },
       "longitud_km": 0,
       "fuente": "TransMilenio S.A. - datosabiertos.bogota.gov.co",
-      "ultima_actualizacion": "2026-10-09T01:24:45.469Z"
+      "ultima_actualizacion": "2026-10-19T11:30:00.322Z"
     }
   ]
 }
