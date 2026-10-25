@@ -11,7 +11,7 @@ Los mismos datos están disponibles para agentes por:
 - MCP remoto (Streamable HTTP): POST ${MCP_URL} — herramientas: ${TOOL_NAMES.join(', ')}.
 - MCP local (stdio) y CLI sin dependencias: \`node bin/bogota.mjs mcp\` / \`node bin/bogota.mjs <comando>\` desde ${REPO}.
 - Plugin de Claude Code: \`${PLUGIN_INSTALL}\`.`,
-    "version": "1.1.0",
+    "version": "1.2.0",
     "contact": {
       "name": "Bogotá al Día",
       "url": "https://bogota-al-dia.vercel.app"
@@ -28,6 +28,41 @@ Los mismos datos están disponibles para agentes por:
     }
   ],
   "paths": {
+    "/api/trip": {
+      "get": {
+        "operationId": "planTrip",
+        "summary": "Plan a public-transit trip from A to B",
+        "description": "Optimal routes (fastest ↔ fewest transfers) from the official GTFS schedule of the day, with boarding car and door. Built for bots: `format=text` returns a chat-ready message (Spanish) for WhatsApp/Telegram. Also accepts POST with the same fields as a JSON body. Keys and enum values are English; `notices`, error messages and the text format are Spanish (end-user copy).",
+        "tags": ["Trips"],
+        "parameters": [
+          { "name": "origin", "in": "query", "required": true, "schema": { "type": "string" }, "description": "Station, stop/neighborhood, stop code or \"lat,lon\"" },
+          { "name": "destination", "in": "query", "required": true, "schema": { "type": "string" }, "description": "Station, stop/neighborhood, stop code or \"lat,lon\"" },
+          { "name": "time", "in": "query", "schema": { "type": "string", "pattern": "^\\d{1,2}:\\d{2}$" }, "description": "HH:MM, Colombia time (default: now)" },
+          { "name": "date", "in": "query", "schema": { "type": "string", "format": "date" }, "description": "YYYY-MM-DD (default: today). Holidays are detected" },
+          { "name": "city", "in": "query", "schema": { "type": "string", "default": "11001" }, "description": "City name or DIVIPOLA code" },
+          { "name": "format", "in": "query", "schema": { "type": "string", "enum": ["json", "text", "html"], "default": "json" } }
+        ],
+        "responses": {
+          "200": { "description": "Trip: { city, municipality, origin, destination, date, time, weekday, holiday, options[{ label, recommended, departs, arrives, duration_min, transfers, walk_min, wait_min, legs[] }], walk_only_min?, no_service?, suggestions?, notices[], source }", "content": { "application/json": { "schema": { "type": "object" } }, "text/plain": { "schema": { "type": "string" } }, "text/html": { "schema": { "type": "string" } } } },
+          "400": { "description": "Place not found or invalid parameters", "content": { "application/json": { "schema": { "type": "object", "properties": { "error": { "type": "string" } } } } } }
+        }
+      }
+    },
+    "/api/tools/{name}": {
+      "post": {
+        "operationId": "runTool",
+        "summary": "Run a tool (function calling)",
+        "description": "Definitions live at /tools.json (OpenAI format, compatible with xAI/Grok and Gemini). Same tools as the MCP server.",
+        "tags": ["Agents"],
+        "parameters": [{ "name": "name", "in": "path", "required": true, "schema": { "type": "string", "enum": TOOL_NAMES } }],
+        "requestBody": { "content": { "application/json": { "schema": { "type": "object" } } } },
+        "responses": {
+          "200": { "description": "{ result, text? } — `text` is a chat-ready answer when the tool provides one (plan_trip)", "content": { "application/json": { "schema": { "type": "object", "properties": { "result": {}, "text": { "type": "string" } }, "required": ["result"] } } } },
+          "400": { "description": "Tool error" },
+          "404": { "description": "Unknown tool" }
+        }
+      }
+    },
     "/api/transmilenio/estaciones.json": {
       "get": {
         "operationId": "getEstaciones",

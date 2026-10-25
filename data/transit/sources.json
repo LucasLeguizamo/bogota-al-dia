@@ -1,0 +1,40 @@
+{
+  "description": "GTFS feed registry per municipality (DIVIPOLA code). `pnpm extract:transit` builds data/transit/<municipality>/network.json for every source with publish=true. `system` and `pending` are shown to end users, so they stay in Spanish.",
+  "sources": [
+    {
+      "municipality": "11001",
+      "city": "Bogotá",
+      "system": "SITP: TransMilenio troncal, alimentadores, zonal y TransMiCable",
+      "publisher": "TransMilenio S.A.",
+      "official": true,
+      "license": "CC-BY-SA-4.0",
+      "download": { "type": "gcs-latest", "bucket": "gtfs-estaticos", "prefix": "GTFS_" },
+      "cadence": "daily",
+      "publish": true
+    },
+    {
+      "municipality": "05001",
+      "city": "Medellín",
+      "system": "Metro, Tranvía, Metroplús y Metrocables",
+      "publisher": "Metro de Medellín",
+      "official": true,
+      "license": null,
+      "download": { "type": "url", "url": "https://www.arcgis.com/sharing/rest/content/items/929fbd2dbfbf493ab44935577e8fbff6/data" },
+      "cadence": "yearly",
+      "publish": false,
+      "pending": "Sin licencia declarada y calendar.txt vence 20251231. Pedir licencia por escrito antes de publicar."
+    },
+    {
+      "municipality": "13001",
+      "city": "Cartagena",
+      "system": "Transcaribe",
+      "publisher": "ColombiaInfo/ColombiaGTFS (comunitario)",
+      "official": false,
+      "license": "CC-BY-SA-4.0",
+      "download": { "type": "url", "url": "https://github.com/ColombiaInfo/ColombiaGTFS" },
+      "cadence": "irregular",
+      "publish": false,
+      "pending": "GTFS comunitario de 2023: sirve de geometría, no de horarios confiables."
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "name": "bogota-al-dia",
-  "version": "1.1.0",
-  "description": "Expertos en datos públicos de Bogotá: TransMilenio (estaciones, rutas, horarios) y recolección de residuos por localidad.",
+  "version": "1.2.0",
+  "description": "Expertos en datos públicos de Bogotá: cómo llegar en TransMilenio y SITP (rutas óptimas con vagón y puerta), estaciones, horarios y recolección de residuos.",
   "author": { "name": "Lucas Leguizamo" },
   "homepage": "https://bogota-al-dia.vercel.app",
   "repository": "https://github.com/LucasLeguizamo/bogota-al-dia",
   "license": "MIT",
-  "keywords": ["bogota", "transmilenio", "datos-abiertos", "mcp"],
+  "keywords": ["bogota", "transmilenio", "sitp", "gtfs", "como-llegar", "datos-abiertos", "mcp"],
   "mcpServers": {
     "bogota-al-dia": {
       "command": "node",

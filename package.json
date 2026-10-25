@@ -1,6 +1,6 @@
 {
   "name": "bogota-al-dia",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "module",
   "description": "Datos públicos del día a día en Bogotá, abiertos y listos para agentes",
   "bin": {
@@ -19,6 +19,7 @@
     "extract:estaciones": "tsx scripts/extract-estaciones.ts",
     "extract:rutas": "tsx scripts/extract-rutas.ts",
     "extract:recoleccion": "tsx scripts/extract-recoleccion.ts",
+    "extract:transit": "tsx scripts/extract-transit.ts",
     "validate": "tsx scripts/validate-data.ts",
     "test": "node --test lib/*.test.mjs",
     "test:mcp": "tsx scripts/mcp-compat.mjs",

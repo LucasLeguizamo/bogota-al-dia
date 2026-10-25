@@ -137,3 +137,20 @@
 **Páginas de códigos repetidos (G45)**: `src/lib/rutas.ts` exporta `rutaSlug(ruta)`, que devuelve el `codigo`, salvo cuando el código se repite en los datos; en ese caso usa el `id` sin el prefijo `ruta-` (`G45-15`, `G45-41`). Lo usan `transmilenio/rutas/[codigo].astro`, `api/transmilenio/rutas/[codigo].json.ts`, los enlaces de `transmilenio/rutas/index.astro` y `transmilenio/index.astro`, y `sitemap.xml.ts`. Las URLs de los demás códigos no cambian.
 - Evidencia: en HEAD, `astro build` reportaba "308 page(s) built", pero G45 se generaba dos veces y una sobrescribía a la otra (307 HTML reales, 127 JSON de rutas). Ahora: "308 page(s) built", 308 HTML reales y 128 JSON; existen `dist/transmilenio/rutas/G45-15/`, `G45-41/`, `dist/api/transmilenio/rutas/G45-15.json` y `G45-41.json`, y el índice y el sitemap enlazan ambas.
 - Nota: el CLI/MCP (`rutas({codigo:'G45'})`) ya devolvía ambos registros porque filtra por código; no se tocó `lib/`.
+
+## 2026-10-25: Trip planner on the official GTFS (RAPTOR on schedules)
+
+**Decision**: index TransMilenio's daily GTFS into one compact file per municipality (`data/transit/<divipola>/network.json`) and compute trips with RAPTOR in `lib/trip.mjs`, with no database and no dependencies.
+
+**Why**:
+- The previous trunk dataset (ArcGIS) only has origin/destination for 128 routes: trips cannot be computed from it. The GTFS has the stop sequence and the time of every trip of all 1,045 routes, SITP zonal included.
+- Round-based RAPTOR yields in one run the fastest option and the one with fewest transfers (Pareto), which is what a rider compares.
+- Pattern = route + exact stop sequence: 177,772 trips fit in 1,522 patterns with average times + an hourly congestion factor + real departure times per `service_id`. 2.9 MB versus 630 MB uncompressed.
+- Zero dependencies: the same code runs in the plugin (plain node), the CLI, the Vercel HTTP MCP and `/api/trip`.
+- Language: the technical surface (files, identifiers, tool names, params, JSON keys and enums) is English; only rider-facing copy (page, chat text, `notices`, errors) is Spanish, mapped from the English enums in the presentation layer. The public page keeps the Spanish URL `/viaje/` (`/trip/` is an alias).
+
+**Discarded**: OpenTripPlanner/R5 (JVM, always-on server, ~GB of RAM), a database (against the project rule), average headways (less accurate than real departures), GTFS-RT (does not exist in Colombia).
+
+**Edge over commercial apps**: boarding car and door, the official feed of the day, holidays from `calendar_dates`, chat-ready text output, and the same answer for people (no-JS web), agents (MCP + MCP Apps view) and bots (`/tools.json` + `/api/tools/<name>`).
+
+**Evidence**: local extraction 15 s × 2 passes over 9.38 M rows; queries take 10 to 60 ms; Portal Norte → Calle 26 on a Tuesday at 07:30 returns the direct H27 (50 min) and G12 + K23 with a platform change at Calle 127 (44 min).

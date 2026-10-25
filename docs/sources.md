@@ -66,12 +66,11 @@ Los 5 operadores de ASE (Áreas de Servicio Exclusivo):
   - `longitud_comercial` / `longitud_ruta_troncal`: km; `st_length(shape)`: metros (EPSG:3116), respaldo de `longitud_km`
   - `tipo_operacion`: Normal, Refuerzo, Ciclovia (→ `normal`, `refuerzo`, `ciclovia`)
 
-### GTFS (General Transit Feed Specification)
-- **URL**: https://datosabiertos.bogota.gov.co/dataset/especificacion-gtfs-general-transport-feed-specification-sitp
-- **Licencia**: CC-BY-SA-4.0
-- **Frecuencia**: Mensual
-- **Estado**: Pendiente verificar disponibilidad del archivo ZIP
-- **Contenido esperado**: routes.txt, stops.txt, trips.txt, stop_times.txt, calendar.txt
+### GTFS (General Transit Feed Specification) — in use since 2026-10-25
+- **URL**: `https://storage.googleapis.com/gtfs-estaticos/GTFS_YYYYMMDD.zip` (a new zip every day ~09:19 UTC; the bucket is publicly listable). Dataset page: https://datosabiertos.bogota.gov.co/dataset/especificacion-gtfs-general-transport-feed-specification-sitp
+- **License**: CC-BY-SA-4.0 (CKAN dataset page). Feed contact: radicacion@transmilenio.gov.co
+- **Verified content (GTFS_20261025.zip, 120 MB)**: 7 agencies (trunk, feeders, dual, urban zonal, complementary, special, TransMiCable), 1,045 routes, 8,308 stops (156 stations with child platforms "Calle 72 A - 2" = car A, door 2), 177,772 trips, 9.38 M rows in `stop_times.txt` (574 MB, not sorted by trip), `calendar_dates` with the 2026 holidays, `frequencies` only for TransMiCable.
+- **Use**: `scripts/extract-transit.ts` → `data/transit/11001/network.json` (~2.9 MB). Consumed by `lib/trip.mjs` (`plan_trip`). Multi-city registry: `data/transit/sources.json`.
 
 ### Alertas de Servicio (PENDIENTE)
 

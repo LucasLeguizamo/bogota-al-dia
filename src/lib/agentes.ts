@@ -13,9 +13,9 @@ export { VERSION, PROTOCOL_VERSIONS };
 export type ToolDef = {
   name: string;
   description: string;
-  inputSchema: { type: 'object'; properties: Record<string, { type: string; description: string }> };
+  inputSchema: { type: 'object'; properties: Record<string, { type: string; description: string }>; required?: string[] };
 };
-export const TOOL_DEFS: ToolDef[] = toolDefs();
+export const TOOL_DEFS = toolDefs() as ToolDef[];
 export const TOOL_NAMES = TOOL_DEFS.map((t) => t.name);
 
 // Comandos del CLI (bin/bogota.mjs). Mantener en sincronía con su HELP.
@@ -26,6 +26,10 @@ export const CLI_COMMANDS = [
   ['bogota ruta <codigo>', 'Una ruta por código'],
   ['bogota recoleccion <localidad|codigo>', 'Horarios de recolección de una localidad'],
   ['bogota localidades', 'Localidades con datos de recolección'],
+  ['bogota trip <origin> <destination> [--time HH:MM] [--date YYYY-MM-DD] [--city X] [--json]', 'Plan a TransMilenio/SITP trip (text or JSON)'],
+  ['bogota nearby <lat> <lon> [--radius M]', 'Nearby stops with their routes'],
+  ['bogota route-stops <route>', 'Ordered stops of a route'],
+  ['bogota coverage', 'Cities with a transit network'],
   ['bogota resumen', 'Metadatos de los datasets'],
   ['bogota mcp', 'Servidor MCP por stdio'],
 ] as const;
@@ -37,6 +41,7 @@ export const ACCESS_METHODS = [
   { via: 'Plugin de Claude Code', how: `\`${PLUGIN_INSTALL}\` (MCP local + agentes transmilenio-expert y recoleccion-expert + skill)` },
   { via: 'CLI', how: '`node bin/bogota.mjs <comando>` (o `bogota <comando>` si se instala el paquete); salida JSON' },
   { via: 'REST', how: `GET ${SITE}/api/... (ver /openapi.json)` },
+  { via: 'Bots and function calling (Grok, OpenAI, Gemini, WhatsApp)', how: `definitions at ${SITE}/tools.json, run with POST ${SITE}/api/tools/<name>; shortcut GET ${SITE}/api/trip?origin=..&destination=..&format=text` },
 ];
 
 export const toolsMarkdown = () =>

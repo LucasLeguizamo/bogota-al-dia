@@ -4,6 +4,7 @@ Datos públicos del día a día en Bogotá, abiertos y listos para personas y ag
 
 ## Contenido
 
+- **Trip planner** (new): optimal routes on TransMilenio, feeders, SITP zonal and TransMiCable from the official GTFS of the day — boarding car and door, fastest vs. fewest transfers, holidays. [/viaje/](https://bogota-al-dia.vercel.app/viaje/)
 - **TransMilenio**: 152 estaciones troncales, 128 rutas con horarios
 - **Recolección de Residuos**: 115 zonas en 19 localidades con frecuencias y horarios
 
@@ -12,6 +13,15 @@ Datos públicos del día a día en Bogotá, abiertos y listos para personas y ag
 ### Sitio Web
 
 Visita [bogota-al-dia.vercel.app](https://bogota-al-dia.vercel.app) para navegar los datos.
+
+### Trip planner (API for bots)
+
+```bash
+curl -L 'https://bogota-al-dia.vercel.app/api/trip/?origin=Portal%20Norte&destination=Calle%2026&format=text'
+node bin/bogota.mjs trip "Portal Norte" "Calle 26" --time 07:30
+```
+
+Grok, OpenAI, Gemini, autonomous agents and custom bots: definitions at `/tools.json`, run with `POST /api/tools/<name>` (`{ result, text? }`), or the remote MCP. Guide: [docs/integrations.md](docs/integrations.md).
 
 ### API JSON
 
@@ -56,7 +66,7 @@ node bin/bogota.mjs --help
 - Local (stdio): `node bin/bogota.mjs mcp` — ya configurado en `.mcp.json` al abrir el repo con Claude Code.
 - Remoto (HTTP): `claude mcp add --transport http bogota-al-dia https://bogota-al-dia.vercel.app/api/mcp`
 
-Herramientas: `estaciones_transmilenio`, `rutas_transmilenio`, `recoleccion_por_zona`, `localidades_recoleccion`, `resumen_datos`.
+Herramientas: `plan_trip` (with an MCP Apps view), `nearby_stops`, `route_stops`, `transit_coverage`, `estaciones_transmilenio`, `rutas_transmilenio`, `recoleccion_por_zona`, `localidades_recoleccion`, `resumen_datos`.
 
 ### Para Agentes de IA
 
@@ -97,6 +107,7 @@ pnpm run extract
 pnpm run extract:estaciones
 pnpm run extract:rutas
 pnpm run extract:recoleccion
+pnpm run extract:transit      # official GTFS → data/transit/11001/network.json (requires unzip)
 ```
 
 ### Desarrollo local

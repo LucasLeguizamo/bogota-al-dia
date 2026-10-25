@@ -8,6 +8,7 @@ import { StdioClientTransport } from '@modelcontextprotocol/sdk/client/stdio.js'
 import { StreamableHTTPClientTransport } from '@modelcontextprotocol/sdk/client/streamableHttp.js';
 import { LATEST_PROTOCOL_VERSION } from '@modelcontextprotocol/sdk/types.js';
 import handler from '../api/mcp.ts';
+import { TOOLS } from '../lib/bogota.mjs';
 
 const BIN = fileURLToPath(new URL('../bin/bogota.mjs', import.meta.url));
 const VERSIONS = [...new Set(['2024-11-05', '2025-03-26', '2025-06-18', LATEST_PROTOCOL_VERSION, '2099-01-01'])];
@@ -63,7 +64,7 @@ for (const [kind, mk] of Object.entries(transports)) {
       check(t.negotiated === expected, `${kind} ${v}: negoció ${t.negotiated}`);
       await c.ping();
       const { tools } = await c.listTools();
-      check(tools.length === 5 && tools.every((x) => x.inputSchema?.type === 'object'), `${kind} ${v}: tools/list`);
+      check(tools.length === TOOLS.length && tools.every((x) => x.inputSchema?.type === 'object'), `${kind} ${v}: tools/list`);
       check((await call(c, 'estaciones_transmilenio', { query: 'portal', limit: 3 })).estaciones.length === 3, 'estaciones query+limit');
       check((await call(c, 'rutas_transmilenio', { codigo: 'B23' })).total === 1, 'ruta B23');
       check((await call(c, 'recoleccion_por_zona', { codigo: 11 })).total_zonas > 0, 'recolección código numérico');
@@ -73,6 +74,11 @@ for (const [kind, mk] of Object.entries(transports)) {
       check((await call(c, 'estaciones_transmilenio', { query: 'zzzz' })).total === 0, 'sin coincidencias');
       const a = await call(c, 'estaciones_transmilenio', { query: 'Ángeles' });
       check(a.total > 0 && a.total === (await call(c, 'estaciones_transmilenio', { query: 'angeles' })).total, 'tildes');
+      const trip = await c.callTool({ name: 'plan_trip', arguments: { origin: 'Portal Norte', destination: 'Calle 26', time: '07:30', date: '2026-10-27' } });
+      check(!trip.isError && trip.structuredContent?.options?.length > 0, 'plan_trip structuredContent');
+      const uri = tools.find((x) => x.name === 'plan_trip')?._meta?.ui?.resourceUri;
+      const view = await c.readResource({ uri });
+      check(view.contents[0]?.mimeType === 'text/html;profile=mcp-app', 'MCP App view (resources/read)');
       const unknown = await c.callTool({ name: 'no_existe', arguments: {} }).catch((e) => e);
       check(unknown?.code === -32602, 'herramienta desconocida → -32602');
       await new Promise((r) => setTimeout(r, 200)); // deja correr el GET SSE opcional (HTTP)
