@@ -2,7 +2,7 @@
 // CLI + servidor MCP stdio. Uso: bogota <comando> [args] [--json]
 import { createInterface } from 'node:readline';
 import { estaciones, rutas, recoleccion, localidades, resumen, handleMcpMessage } from '../lib/bogota.mjs';
-import { planearViaje, viajeComoTexto, paradasCercanas, recorridoRuta, cobertura } from '../lib/viaje.mjs';
+import { planTrip, tripAsText, nearbyStops, routeStops, coverage } from '../lib/trip.mjs';
 
 const HELP = `bogota — datos públicos de Bogotá
 
@@ -12,16 +12,19 @@ const HELP = `bogota — datos públicos de Bogotá
   bogota ruta <codigo>
   bogota recoleccion <localidad|codigo>
   bogota localidades
-  bogota viaje <origen> <destino> [--hora HH:MM] [--fecha AAAA-MM-DD] [--ciudad X] [--json]
-                             cómo llegar (origen/destino: estación, parada, barrio o "lat,lon";
-                             con espacios, entre comillas)
-  bogota cerca <lat> <lon> [--radio M]
-  bogota recorrido <ruta>
-  bogota cobertura           ciudades con red de transporte
+  bogota trip <origin> <destination> [--time HH:MM] [--date YYYY-MM-DD] [--city X] [--json]
+                             plan a transit trip (origin/destination: station, stop,
+                             neighborhood or "lat,lon"; quote names with spaces).
+                             Prints chat-ready text; --json prints JSON
+  bogota nearby <lat> <lon> [--radius M] [--city X]
+                             stops near a point with their routes
+  bogota route-stops <route> [--city X]
+                             ordered stops of a route
+  bogota coverage            cities with a transit network
   bogota resumen
   bogota mcp                 servidor MCP por stdio
 
-Salida en JSON (viaje: texto, o JSON con --json).`;
+Salida en JSON.`;
 
 const [cmd, ...rest] = process.argv.slice(2);
 const flags = {};
@@ -43,17 +46,17 @@ switch (cmd) {
   case 'recoleccion': out(recoleccion(/^\d+$/.test(text ?? '') ? { codigo: text } : { localidad: text })); break;
   case 'localidades': out(localidades()); break;
   case 'resumen': out(resumen()); break;
-  case 'viaje': {
-    if (pos.length < 2) { console.error('Uso: bogota viaje "<origen>" "<destino>"'); process.exit(1); }
+  case 'trip': {
+    if (pos.length < 2) { console.error('Usage: bogota trip "<origin>" "<destination>"'); process.exit(1); }
     try {
-      const v = planearViaje({ origen: pos[0], destino: pos[1], hora: flags.hora, fecha: flags.fecha, ciudad: flags.ciudad });
-      flags.json ? out(v) : console.log(viajeComoTexto(v));
+      const v = planTrip({ origin: pos[0], destination: pos[1], time: flags.time, date: flags.date, city: flags.city });
+      flags.json ? out(v) : console.log(tripAsText(v));
     } catch (e) { console.error(e.message); process.exit(1); }
     break;
   }
-  case 'cerca': out(paradasCercanas({ lat: pos[0], lon: pos[1], radio: flags.radio, ciudad: flags.ciudad })); break;
-  case 'recorrido': out(recorridoRuta({ ruta: text, ciudad: flags.ciudad })); break;
-  case 'cobertura': out(cobertura()); break;
+  case 'nearby': out(nearbyStops({ lat: pos[0], lon: pos[1], radius: flags.radius, city: flags.city })); break;
+  case 'route-stops': out(routeStops({ route: text, city: flags.city })); break;
+  case 'coverage': out(coverage()); break;
   case 'mcp':
     // stdio: un mensaje JSON-RPC por línea; stdout solo lleva respuestas.
     createInterface({ input: process.stdin, crlfDelay: Infinity }).on('line', (line) => {

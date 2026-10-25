@@ -66,11 +66,11 @@ Los 5 operadores de ASE (Áreas de Servicio Exclusivo):
   - `longitud_comercial` / `longitud_ruta_troncal`: km; `st_length(shape)`: metros (EPSG:3116), respaldo de `longitud_km`
   - `tipo_operacion`: Normal, Refuerzo, Ciclovia (→ `normal`, `refuerzo`, `ciclovia`)
 
-### GTFS (General Transit Feed Specification) — en uso desde 2026-10-25
-- **URL**: `https://storage.googleapis.com/gtfs-estaticos/GTFS_YYYYMMDD.zip` (un zip nuevo cada día ~09:19 UTC; el bucket se lista públicamente). Ficha: https://datosabiertos.bogota.gov.co/dataset/especificacion-gtfs-general-transport-feed-specification-sitp
-- **Licencia**: CC-BY-SA-4.0 (ficha CKAN). Contacto del feed: radicacion@transmilenio.gov.co
-- **Contenido verificado (GTFS_20261025.zip, 120 MB)**: 7 agencias (troncal, alimentadores, dual, zonal urbano, complementario, especial, TransMiCable), 1.045 rutas, 8.308 paradas (156 estaciones con plataformas hijas "Calle 72 A - 2" = vagón A, puerta 2), 177.772 viajes, 9,38 M filas en `stop_times.txt` (574 MB, no ordenado por viaje), `calendar_dates` con los festivos de 2026, `frequencies` solo para TransMiCable.
-- **Uso**: `scripts/extract-transporte.ts` → `data/transporte/11001/red.json` (~2,9 MB). Lo consume `lib/viaje.mjs` (`planear_viaje`). Registro multi-ciudad: `data/transporte/fuentes.json`.
+### GTFS (General Transit Feed Specification) — in use since 2026-10-25
+- **URL**: `https://storage.googleapis.com/gtfs-estaticos/GTFS_YYYYMMDD.zip` (a new zip every day ~09:19 UTC; the bucket is publicly listable). Dataset page: https://datosabiertos.bogota.gov.co/dataset/especificacion-gtfs-general-transport-feed-specification-sitp
+- **License**: CC-BY-SA-4.0 (CKAN dataset page). Feed contact: radicacion@transmilenio.gov.co
+- **Verified content (GTFS_20261025.zip, 120 MB)**: 7 agencies (trunk, feeders, dual, urban zonal, complementary, special, TransMiCable), 1,045 routes, 8,308 stops (156 stations with child platforms "Calle 72 A - 2" = car A, door 2), 177,772 trips, 9.38 M rows in `stop_times.txt` (574 MB, not sorted by trip), `calendar_dates` with the 2026 holidays, `frequencies` only for TransMiCable.
+- **Use**: `scripts/extract-transit.ts` → `data/transit/11001/network.json` (~2.9 MB). Consumed by `lib/trip.mjs` (`plan_trip`). Multi-city registry: `data/transit/sources.json`.
 
 ### Alertas de Servicio (PENDIENTE)
 

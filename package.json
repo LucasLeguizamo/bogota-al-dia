@@ -19,7 +19,7 @@
     "extract:estaciones": "tsx scripts/extract-estaciones.ts",
     "extract:rutas": "tsx scripts/extract-rutas.ts",
     "extract:recoleccion": "tsx scripts/extract-recoleccion.ts",
-    "extract:transporte": "tsx scripts/extract-transporte.ts",
+    "extract:transit": "tsx scripts/extract-transit.ts",
     "validate": "tsx scripts/validate-data.ts",
     "test": "node --test lib/*.test.mjs",
     "test:mcp": "tsx scripts/mcp-compat.mjs",

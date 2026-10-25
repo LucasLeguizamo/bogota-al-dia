@@ -42,11 +42,19 @@
   "rewrites": [
     {
       "source": "/viaje",
-      "destination": "/api/viaje?formato=html"
+      "destination": "/api/trip?format=html"
     },
     {
       "source": "/viaje/",
-      "destination": "/api/viaje?formato=html"
+      "destination": "/api/trip?format=html"
+    },
+    {
+      "source": "/trip",
+      "destination": "/api/trip?format=html"
+    },
+    {
+      "source": "/trip/",
+      "destination": "/api/trip?format=html"
     }
   ]
 }

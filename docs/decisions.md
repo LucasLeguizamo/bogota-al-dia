@@ -138,18 +138,19 @@
 - Evidencia: en HEAD, `astro build` reportaba "308 page(s) built", pero G45 se generaba dos veces y una sobrescribía a la otra (307 HTML reales, 127 JSON de rutas). Ahora: "308 page(s) built", 308 HTML reales y 128 JSON; existen `dist/transmilenio/rutas/G45-15/`, `G45-41/`, `dist/api/transmilenio/rutas/G45-15.json` y `G45-41.json`, y el índice y el sitemap enlazan ambas.
 - Nota: el CLI/MCP (`rutas({codigo:'G45'})`) ya devolvía ambos registros porque filtra por código; no se tocó `lib/`.
 
-## 2026-10-25: Planeador de viajes sobre el GTFS oficial (RAPTOR con horarios)
+## 2026-10-25: Trip planner on the official GTFS (RAPTOR on schedules)
 
-**Decisión**: indexar el GTFS diario de TransMilenio en un archivo compacto por municipio (`data/transporte/<divipola>/red.json`) y calcular viajes con RAPTOR en `lib/viaje.mjs`, sin base de datos ni dependencias.
+**Decision**: index TransMilenio's daily GTFS into one compact file per municipality (`data/transit/<divipola>/network.json`) and compute trips with RAPTOR in `lib/trip.mjs`, with no database and no dependencies.
 
-**Razón**:
-- El dataset troncal anterior (ArcGIS) solo trae origen/destino de 128 rutas: no permite calcular viajes. El GTFS trae la secuencia de paradas y la hora de cada viaje de las 1.045 rutas, incluido el SITP zonal.
-- RAPTOR por rondas da en una corrida la opción más rápida y la de menos transbordos (Pareto), que es lo que un usuario compara.
-- Patrón = ruta + secuencia exacta de paradas: 177.772 viajes caben en 1.522 patrones con tiempos promedio + factor horario de congestión + horas de salida reales por `service_id`. 2,9 MB frente a 630 MB descomprimidos.
-- Cero dependencias: el mismo código corre en el plugin (node pelado), el CLI, el MCP HTTP de Vercel y `/api/viaje`.
+**Why**:
+- The previous trunk dataset (ArcGIS) only has origin/destination for 128 routes: trips cannot be computed from it. The GTFS has the stop sequence and the time of every trip of all 1,045 routes, SITP zonal included.
+- Round-based RAPTOR yields in one run the fastest option and the one with fewest transfers (Pareto), which is what a rider compares.
+- Pattern = route + exact stop sequence: 177,772 trips fit in 1,522 patterns with average times + an hourly congestion factor + real departure times per `service_id`. 2.9 MB versus 630 MB uncompressed.
+- Zero dependencies: the same code runs in the plugin (plain node), the CLI, the Vercel HTTP MCP and `/api/trip`.
+- Language: the technical surface (files, identifiers, tool names, params, JSON keys and enums) is English; only rider-facing copy (page, chat text, `notices`, errors) is Spanish, mapped from the English enums in the presentation layer. The public page keeps the Spanish URL `/viaje/` (`/trip/` is an alias).
 
-**Descartado**: OpenTripPlanner/R5 (JVM, servidor siempre encendido, ~GB de RAM), base de datos (contra la regla del proyecto), headways promedio (menos exacto que las salidas reales), GTFS-RT (no existe en Colombia).
+**Discarded**: OpenTripPlanner/R5 (JVM, always-on server, ~GB of RAM), a database (against the project rule), average headways (less accurate than real departures), GTFS-RT (does not exist in Colombia).
 
-**Ventajas frente a apps comerciales**: vagón y puerta de abordaje, feed oficial del día, festivos desde `calendar_dates`, salida en texto lista para chat, y la misma respuesta para personas (web sin JS), agentes (MCP + vista MCP Apps) y bots (`/tools.json` + `/api/tools/<nombre>`).
+**Edge over commercial apps**: boarding car and door, the official feed of the day, holidays from `calendar_dates`, chat-ready text output, and the same answer for people (no-JS web), agents (MCP + MCP Apps view) and bots (`/tools.json` + `/api/tools/<name>`).
 
-**Evidencia**: extracción local 15 s × 2 pasadas sobre 9,38 M filas; consultas de 10 a 60 ms; Portal Norte → Calle 26 un martes a las 07:30 devuelve directo H27 (50 min) y G12 + K23 con cambio de vagón en Calle 127 (44 min).
+**Evidence**: local extraction 15 s × 2 passes over 9.38 M rows; queries take 10 to 60 ms; Portal Norte → Calle 26 on a Tuesday at 07:30 returns the direct H27 (50 min) and G12 + K23 with a platform change at Calle 127 (44 min).

@@ -1,16 +1,16 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-// @ts-expect-error módulo JS sin tipos, compartido con el CLI y el MCP
+// @ts-expect-error untyped JS module, shared with the CLI and the MCP
 import { TOOLS } from '../../lib/bogota.mjs';
 
-// Ejecutor genérico de herramientas para function calling (OpenAI, xAI/Grok, Gemini, bots propios):
-// las definiciones están en /tools.json; el bot llama POST /api/tools/<nombre> con los argumentos en JSON.
-// Mismo `run` que el MCP: una sola fuente de verdad.
+// Generic tool runner for function calling (OpenAI, xAI/Grok, Gemini, custom bots):
+// definitions live at /tools.json; the bot calls POST /api/tools/<name> with the JSON arguments.
+// Same `run` as the MCP: a single source of truth.
 export default function handler(req: VercelRequest, res: VercelResponse) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   if (req.method === 'OPTIONS') return res.status(204).end();
   const tool = TOOLS.find((t: { name: string }) => t.name === req.query.name);
-  if (!tool) return res.status(404).json({ error: `Herramienta desconocida: ${req.query.name}`, ver: '/tools.json' });
+  if (!tool) return res.status(404).json({ error: `Herramienta desconocida: ${req.query.name}`, see: '/tools.json' });
   let args: unknown = req.method === 'POST' ? req.body : req.query;
   if (typeof args === 'string') {
     try {
@@ -22,8 +22,8 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
   const { name: _omit, ...params } = (args && typeof args === 'object' && !Array.isArray(args) ? args : {}) as Record<string, unknown>;
   try {
     const result = tool.run(params);
-    // `texto` = respuesta lista para pegar en un chat; `resultado` = datos estructurados
-    return res.status(200).json({ resultado: result, ...(tool.texto ? { texto: tool.texto(result) } : {}) });
+    // `text` = answer ready to paste into a chat; `result` = structured data
+    return res.status(200).json({ result, ...(tool.text ? { text: tool.text(result) } : {}) });
   } catch (e) {
     return res.status(400).json({ error: (e as Error).message });
   }

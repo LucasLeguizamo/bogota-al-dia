@@ -4,7 +4,7 @@ Datos públicos del día a día en Bogotá, abiertos y listos para personas y ag
 
 ## Contenido
 
-- **Cómo llegar** (nuevo): rutas óptimas en TransMilenio, alimentadores, SITP zonal y TransMiCable con el GTFS oficial del día — vagón y puerta de abordaje, más rápida vs. menos transbordos, festivos. [/viaje/](https://bogota-al-dia.vercel.app/viaje/)
+- **Trip planner** (new): optimal routes on TransMilenio, feeders, SITP zonal and TransMiCable from the official GTFS of the day — boarding car and door, fastest vs. fewest transfers, holidays. [/viaje/](https://bogota-al-dia.vercel.app/viaje/)
 - **TransMilenio**: 152 estaciones troncales, 128 rutas con horarios
 - **Recolección de Residuos**: 115 zonas en 19 localidades con frecuencias y horarios
 
@@ -14,14 +14,14 @@ Datos públicos del día a día en Bogotá, abiertos y listos para personas y ag
 
 Visita [bogota-al-dia.vercel.app](https://bogota-al-dia.vercel.app) para navegar los datos.
 
-### Cómo llegar (API para bots)
+### Trip planner (API for bots)
 
 ```bash
-curl -L 'https://bogota-al-dia.vercel.app/api/viaje/?origen=Portal%20Norte&destino=Calle%2026&formato=texto'
-node bin/bogota.mjs viaje "Portal Norte" "Calle 26" --hora 07:30
+curl -L 'https://bogota-al-dia.vercel.app/api/trip/?origin=Portal%20Norte&destination=Calle%2026&format=text'
+node bin/bogota.mjs trip "Portal Norte" "Calle 26" --time 07:30
 ```
 
-Grok, OpenAI, Gemini y bots propios: definiciones en `/tools.json`, ejecución `POST /api/tools/<nombre>`. Guía: [docs/integraciones.md](docs/integraciones.md).
+Grok, OpenAI, Gemini, autonomous agents and custom bots: definitions at `/tools.json`, run with `POST /api/tools/<name>` (`{ result, text? }`), or the remote MCP. Guide: [docs/integrations.md](docs/integrations.md).
 
 ### API JSON
 
@@ -66,7 +66,7 @@ node bin/bogota.mjs --help
 - Local (stdio): `node bin/bogota.mjs mcp` — ya configurado en `.mcp.json` al abrir el repo con Claude Code.
 - Remoto (HTTP): `claude mcp add --transport http bogota-al-dia https://bogota-al-dia.vercel.app/api/mcp`
 
-Herramientas: `planear_viaje` (con vista MCP Apps), `paradas_cercanas`, `recorrido_ruta`, `cobertura_transporte`, `estaciones_transmilenio`, `rutas_transmilenio`, `recoleccion_por_zona`, `localidades_recoleccion`, `resumen_datos`.
+Herramientas: `plan_trip` (with an MCP Apps view), `nearby_stops`, `route_stops`, `transit_coverage`, `estaciones_transmilenio`, `rutas_transmilenio`, `recoleccion_por_zona`, `localidades_recoleccion`, `resumen_datos`.
 
 ### Para Agentes de IA
 
@@ -107,7 +107,7 @@ pnpm run extract
 pnpm run extract:estaciones
 pnpm run extract:rutas
 pnpm run extract:recoleccion
-pnpm run extract:transporte   # GTFS oficial → data/transporte/11001/red.json (requiere unzip)
+pnpm run extract:transit      # official GTFS → data/transit/11001/network.json (requires unzip)
 ```
 
 ### Desarrollo local
