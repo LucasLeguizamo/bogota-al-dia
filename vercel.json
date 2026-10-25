@@ -5,21 +5,48 @@
     {
       "source": "/api/(.*).json",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=3600" },
-        { "key": "Access-Control-Allow-Origin", "value": "*" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
       ]
     },
     {
       "source": "/openapi.json",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=86400" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
       ]
     },
     {
       "source": "/.well-known/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=86400" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
       ]
+    }
+  ],
+  "functions": {
+    "api/**/*.ts": {
+      "includeFiles": "{data/**,lib/**}"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/viaje",
+      "destination": "/api/viaje?formato=html"
+    },
+    {
+      "source": "/viaje/",
+      "destination": "/api/viaje?formato=html"
     }
   ]
 }

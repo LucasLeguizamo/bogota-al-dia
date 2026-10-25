@@ -2,6 +2,7 @@
 // CLI + servidor MCP stdio. Uso: bogota <comando> [args] [--json]
 import { createInterface } from 'node:readline';
 import { estaciones, rutas, recoleccion, localidades, resumen, handleMcpMessage } from '../lib/bogota.mjs';
+import { planearViaje, viajeComoTexto, paradasCercanas, recorridoRuta, cobertura } from '../lib/viaje.mjs';
 
 const HELP = `bogota — datos públicos de Bogotá
 
@@ -11,16 +12,23 @@ const HELP = `bogota — datos públicos de Bogotá
   bogota ruta <codigo>
   bogota recoleccion <localidad|codigo>
   bogota localidades
+  bogota viaje <origen> <destino> [--hora HH:MM] [--fecha AAAA-MM-DD] [--ciudad X] [--json]
+                             cómo llegar (origen/destino: estación, parada, barrio o "lat,lon";
+                             con espacios, entre comillas)
+  bogota cerca <lat> <lon> [--radio M]
+  bogota recorrido <ruta>
+  bogota cobertura           ciudades con red de transporte
   bogota resumen
   bogota mcp                 servidor MCP por stdio
 
-Salida en JSON.`;
+Salida en JSON (viaje: texto, o JSON con --json).`;
 
 const [cmd, ...rest] = process.argv.slice(2);
 const flags = {};
 const pos = [];
 for (let i = 0; i < rest.length; i++) {
-  if (rest[i].startsWith('--')) flags[rest[i].slice(2)] = rest[++i];
+  if (rest[i] === '--json') flags.json = true;
+  else if (rest[i].startsWith('--')) flags[rest[i].slice(2)] = rest[++i];
   else pos.push(rest[i]);
 }
 const text = pos.join(' ') || undefined;
@@ -35,6 +43,17 @@ switch (cmd) {
   case 'recoleccion': out(recoleccion(/^\d+$/.test(text ?? '') ? { codigo: text } : { localidad: text })); break;
   case 'localidades': out(localidades()); break;
   case 'resumen': out(resumen()); break;
+  case 'viaje': {
+    if (pos.length < 2) { console.error('Uso: bogota viaje "<origen>" "<destino>"'); process.exit(1); }
+    try {
+      const v = planearViaje({ origen: pos[0], destino: pos[1], hora: flags.hora, fecha: flags.fecha, ciudad: flags.ciudad });
+      flags.json ? out(v) : console.log(viajeComoTexto(v));
+    } catch (e) { console.error(e.message); process.exit(1); }
+    break;
+  }
+  case 'cerca': out(paradasCercanas({ lat: pos[0], lon: pos[1], radio: flags.radio, ciudad: flags.ciudad })); break;
+  case 'recorrido': out(recorridoRuta({ ruta: text, ciudad: flags.ciudad })); break;
+  case 'cobertura': out(cobertura()); break;
   case 'mcp':
     // stdio: un mensaje JSON-RPC por línea; stdout solo lleva respuestas.
     createInterface({ input: process.stdin, crlfDelay: Infinity }).on('line', (line) => {
