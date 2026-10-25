@@ -34,7 +34,8 @@ Bogotá al Día reúne en un solo lugar datos públicos oficiales del Distrito q
 
 ## Capabilities and Constraints
 
-- **TransMilenio:** 152 estaciones troncales (coordenadas, troncal, servicios) y 128 rutas troncales con horarios programados. Solo la red troncal; no incluye el SITP zonal ni información en tiempo real.
+- **Cómo llegar:** planeador de viajes sobre el GTFS oficial diario (troncal, alimentadores, SITP zonal, TransMiCable): opciones más rápida ↔ menos transbordos, vagón y puerta, festivos. Horarios programados, sin tiempo real (no existe GTFS-RT en Colombia). Base multi-ciudad por código DIVIPOLA.
+- **TransMilenio:** 152 estaciones troncales (coordenadas, troncal, servicios) y 128 rutas troncales con horarios programados.
 - **Recolección de residuos:** 115 macrorutas en 19 localidades, con frecuencia y horario. Una localidad tiene varias macrorutas y el dato no dice qué barrio corresponde a cada una. Varias frecuencias no tienen descripción oficial (`oficial: false`).
 - **Alertas de servicio:** sección pendiente. No existe una API pública de alertas ni GTFS-RT; la página remite a los canales oficiales.
 - **Stack:** Astro 4 SSG, sin JS por defecto (decisión en `docs/decisions.md`). Núcleo de consultas sin dependencias en `lib/bogota.mjs`, compartido por el MCP, el CLI y el plugin.

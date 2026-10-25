@@ -1,6 +1,6 @@
 ---
 name: bogota-al-dia
-description: Consultar datos públicos de Bogotá (TransMilenio estaciones/rutas/horarios, recolección de basura por localidad). Úsalo cuando el usuario pregunte por transporte troncal o el camión de la basura en Bogotá.
+description: Datos públicos de Bogotá. Cómo llegar de A a B en TransMilenio/SITP (rutas óptimas con vagón y puerta), paradas cercanas, recorrido de rutas, estaciones, horarios y recolección de basura por localidad. Úsalo cuando pregunten cómo moverse en Bogotá, qué bus tomar, o por el camión de la basura.
 ---
 
 # Bogotá al Día
@@ -13,7 +13,9 @@ Tres formas de acceder a los mismos datos (mismo núcleo `lib/bogota.mjs`):
 | CLI | `node ${CLAUDE_PLUGIN_ROOT}/bin/bogota.mjs <comando>` |
 | HTTP | `https://bogota-al-dia.vercel.app/api/...` y MCP remoto en `/api/mcp` |
 
-Herramientas MCP: `estaciones_transmilenio`, `rutas_transmilenio`, `recoleccion_por_zona`, `localidades_recoleccion`, `resumen_datos`.
+Herramientas MCP:
+- Viajes: `planear_viaje` (origen, destino, hora?, fecha?, ciudad?), `paradas_cercanas` (lat, lon), `recorrido_ruta` (ruta), `cobertura_transporte`.
+- Datos: `estaciones_transmilenio`, `rutas_transmilenio`, `recoleccion_por_zona`, `localidades_recoleccion`, `resumen_datos`.
 
 CLI:
 ```
@@ -23,9 +25,13 @@ bogota rutas [texto]
 bogota ruta <codigo>
 bogota recoleccion <localidad|codigo>
 bogota localidades
+bogota viaje "<origen>" "<destino>" [--hora HH:MM] [--fecha AAAA-MM-DD] [--json]
+bogota cerca <lat> <lon>
+bogota recorrido <ruta>
+bogota cobertura
 bogota resumen
 ```
 
-Delegación: preguntas de transporte → agente `transmilenio-expert`; de basura → `recoleccion-expert`. Preguntas mixtas → ambos en paralelo.
+Delegación: "cómo llego" / qué bus tomar → `viajes-expert`; estaciones y rutas troncales → `transmilenio-expert`; de basura → `recoleccion-expert`. Preguntas mixtas → ambos en paralelo.
 
-Nunca inventes datos que las herramientas no devuelvan. Solo red troncal, horarios programados, no tiempo real.
+Nunca inventes datos que las herramientas no devuelvan. Los viajes cubren troncal, alimentadores, SITP zonal y TransMiCable con horarios programados del GTFS oficial (no hay tiempo real).

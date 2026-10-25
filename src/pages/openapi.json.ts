@@ -11,7 +11,7 @@ Los mismos datos están disponibles para agentes por:
 - MCP remoto (Streamable HTTP): POST ${MCP_URL} — herramientas: ${TOOL_NAMES.join(', ')}.
 - MCP local (stdio) y CLI sin dependencias: \`node bin/bogota.mjs mcp\` / \`node bin/bogota.mjs <comando>\` desde ${REPO}.
 - Plugin de Claude Code: \`${PLUGIN_INSTALL}\`.`,
-    "version": "1.1.0",
+    "version": "1.2.0",
     "contact": {
       "name": "Bogotá al Día",
       "url": "https://bogota-al-dia.vercel.app"
@@ -28,6 +28,41 @@ Los mismos datos están disponibles para agentes por:
     }
   ],
   "paths": {
+    "/api/viaje": {
+      "get": {
+        "operationId": "planearViaje",
+        "summary": "Cómo llegar de A a B en transporte público",
+        "description": "Rutas óptimas (más rápida ↔ menos transbordos) con horarios del GTFS oficial del día, vagón y puerta de abordaje. Ideal para bots: `formato=texto` devuelve un mensaje listo para WhatsApp/Telegram.",
+        "tags": ["Viajes"],
+        "parameters": [
+          { "name": "origen", "in": "query", "required": true, "schema": { "type": "string" }, "description": "Estación, parada/barrio, código de parada o \"lat,lon\"" },
+          { "name": "destino", "in": "query", "required": true, "schema": { "type": "string" } },
+          { "name": "hora", "in": "query", "schema": { "type": "string", "pattern": "^\\d{1,2}:\\d{2}$" }, "description": "HH:MM hora de Colombia (default ahora)" },
+          { "name": "fecha", "in": "query", "schema": { "type": "string", "format": "date" } },
+          { "name": "ciudad", "in": "query", "schema": { "type": "string", "default": "11001" }, "description": "Ciudad o código DIVIPOLA" },
+          { "name": "formato", "in": "query", "schema": { "type": "string", "enum": ["json", "texto", "html"], "default": "json" } }
+        ],
+        "responses": {
+          "200": { "description": "Viaje", "content": { "application/json": { "schema": { "type": "object" } }, "text/plain": { "schema": { "type": "string" } } } },
+          "400": { "description": "Lugar no encontrado o parámetros inválidos", "content": { "application/json": { "schema": { "type": "object", "properties": { "error": { "type": "string" } } } } } }
+        }
+      }
+    },
+    "/api/tools/{name}": {
+      "post": {
+        "operationId": "ejecutarHerramienta",
+        "summary": "Ejecuta una herramienta (function calling)",
+        "description": "Las definiciones están en /tools.json (formato OpenAI, compatible con xAI/Grok y Gemini). Mismas herramientas que el MCP.",
+        "tags": ["Agentes"],
+        "parameters": [{ "name": "name", "in": "path", "required": true, "schema": { "type": "string", "enum": TOOL_NAMES } }],
+        "requestBody": { "content": { "application/json": { "schema": { "type": "object" } } } },
+        "responses": {
+          "200": { "description": "{ resultado, texto? }", "content": { "application/json": { "schema": { "type": "object" } } } },
+          "400": { "description": "Error de la herramienta" },
+          "404": { "description": "Herramienta desconocida" }
+        }
+      }
+    },
     "/api/transmilenio/estaciones.json": {
       "get": {
         "operationId": "getEstaciones",

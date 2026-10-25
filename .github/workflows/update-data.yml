@@ -33,6 +33,10 @@ jobs:
       - name: Extract data
         run: pnpm run extract
 
+      # GTFS diario de TransMilenio → data/transporte/11001/red.json (el zip no se commitea)
+      - name: Extract transporte (GTFS)
+        run: pnpm run extract:transporte
+
       # Si algún registro no cumple su schema, el job falla y no se commitea nada
       - name: Validate data
         run: pnpm validate

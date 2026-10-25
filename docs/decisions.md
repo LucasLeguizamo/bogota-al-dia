@@ -137,3 +137,19 @@
 **Páginas de códigos repetidos (G45)**: `src/lib/rutas.ts` exporta `rutaSlug(ruta)`, que devuelve el `codigo`, salvo cuando el código se repite en los datos; en ese caso usa el `id` sin el prefijo `ruta-` (`G45-15`, `G45-41`). Lo usan `transmilenio/rutas/[codigo].astro`, `api/transmilenio/rutas/[codigo].json.ts`, los enlaces de `transmilenio/rutas/index.astro` y `transmilenio/index.astro`, y `sitemap.xml.ts`. Las URLs de los demás códigos no cambian.
 - Evidencia: en HEAD, `astro build` reportaba "308 page(s) built", pero G45 se generaba dos veces y una sobrescribía a la otra (307 HTML reales, 127 JSON de rutas). Ahora: "308 page(s) built", 308 HTML reales y 128 JSON; existen `dist/transmilenio/rutas/G45-15/`, `G45-41/`, `dist/api/transmilenio/rutas/G45-15.json` y `G45-41.json`, y el índice y el sitemap enlazan ambas.
 - Nota: el CLI/MCP (`rutas({codigo:'G45'})`) ya devolvía ambos registros porque filtra por código; no se tocó `lib/`.
+
+## 2026-10-25: Planeador de viajes sobre el GTFS oficial (RAPTOR con horarios)
+
+**Decisión**: indexar el GTFS diario de TransMilenio en un archivo compacto por municipio (`data/transporte/<divipola>/red.json`) y calcular viajes con RAPTOR en `lib/viaje.mjs`, sin base de datos ni dependencias.
+
+**Razón**:
+- El dataset troncal anterior (ArcGIS) solo trae origen/destino de 128 rutas: no permite calcular viajes. El GTFS trae la secuencia de paradas y la hora de cada viaje de las 1.045 rutas, incluido el SITP zonal.
+- RAPTOR por rondas da en una corrida la opción más rápida y la de menos transbordos (Pareto), que es lo que un usuario compara.
+- Patrón = ruta + secuencia exacta de paradas: 177.772 viajes caben en 1.522 patrones con tiempos promedio + factor horario de congestión + horas de salida reales por `service_id`. 2,9 MB frente a 630 MB descomprimidos.
+- Cero dependencias: el mismo código corre en el plugin (node pelado), el CLI, el MCP HTTP de Vercel y `/api/viaje`.
+
+**Descartado**: OpenTripPlanner/R5 (JVM, servidor siempre encendido, ~GB de RAM), base de datos (contra la regla del proyecto), headways promedio (menos exacto que las salidas reales), GTFS-RT (no existe en Colombia).
+
+**Ventajas frente a apps comerciales**: vagón y puerta de abordaje, feed oficial del día, festivos desde `calendar_dates`, salida en texto lista para chat, y la misma respuesta para personas (web sin JS), agentes (MCP + vista MCP Apps) y bots (`/tools.json` + `/api/tools/<nombre>`).
+
+**Evidencia**: extracción local 15 s × 2 pasadas sobre 9,38 M filas; consultas de 10 a 60 ms; Portal Norte → Calle 26 un martes a las 07:30 devuelve directo H27 (50 min) y G12 + K23 con cambio de vagón en Calle 127 (44 min).

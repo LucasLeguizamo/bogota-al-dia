@@ -4,6 +4,7 @@ Datos públicos del día a día en Bogotá, abiertos y listos para personas y ag
 
 ## Contenido
 
+- **Cómo llegar** (nuevo): rutas óptimas en TransMilenio, alimentadores, SITP zonal y TransMiCable con el GTFS oficial del día — vagón y puerta de abordaje, más rápida vs. menos transbordos, festivos. [/viaje/](https://bogota-al-dia.vercel.app/viaje/)
 - **TransMilenio**: 152 estaciones troncales, 128 rutas con horarios
 - **Recolección de Residuos**: 115 zonas en 19 localidades con frecuencias y horarios
 
@@ -12,6 +13,15 @@ Datos públicos del día a día en Bogotá, abiertos y listos para personas y ag
 ### Sitio Web
 
 Visita [bogota-al-dia.vercel.app](https://bogota-al-dia.vercel.app) para navegar los datos.
+
+### Cómo llegar (API para bots)
+
+```bash
+curl 'https://bogota-al-dia.vercel.app/api/viaje?origen=Portal%20Norte&destino=Calle%2026&formato=texto'
+node bin/bogota.mjs viaje "Portal Norte" "Calle 26" --hora 07:30
+```
+
+Grok, OpenAI, Gemini y bots propios: definiciones en `/tools.json`, ejecución `POST /api/tools/<nombre>`. Guía: [docs/integraciones.md](docs/integraciones.md).
 
 ### API JSON
 
@@ -56,7 +66,7 @@ node bin/bogota.mjs --help
 - Local (stdio): `node bin/bogota.mjs mcp` — ya configurado en `.mcp.json` al abrir el repo con Claude Code.
 - Remoto (HTTP): `claude mcp add --transport http bogota-al-dia https://bogota-al-dia.vercel.app/api/mcp`
 
-Herramientas: `estaciones_transmilenio`, `rutas_transmilenio`, `recoleccion_por_zona`, `localidades_recoleccion`, `resumen_datos`.
+Herramientas: `planear_viaje` (con vista MCP Apps), `paradas_cercanas`, `recorrido_ruta`, `cobertura_transporte`, `estaciones_transmilenio`, `rutas_transmilenio`, `recoleccion_por_zona`, `localidades_recoleccion`, `resumen_datos`.
 
 ### Para Agentes de IA
 
@@ -97,6 +107,7 @@ pnpm run extract
 pnpm run extract:estaciones
 pnpm run extract:rutas
 pnpm run extract:recoleccion
+pnpm run extract:transporte   # GTFS oficial → data/transporte/11001/red.json (requiere unzip)
 ```
 
 ### Desarrollo local
