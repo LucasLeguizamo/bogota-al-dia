@@ -53,7 +53,7 @@ Consejos para el prompt del bot:
 ## WhatsApp / Telegram (sin LLM)
 
 ```bash
-curl 'https://bogota-al-dia.vercel.app/api/viaje?origen=Portal%20Norte&destino=Calle%2026&formato=texto'
+curl -L 'https://bogota-al-dia.vercel.app/api/viaje/?origen=Portal%20Norte&destino=Calle%2026&formato=texto'
 ```
 
 Devuelve un mensaje con emojis y saltos de línea, listo para reenviar. Errores: HTTP 400 con el motivo en texto.

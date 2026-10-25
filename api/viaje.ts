@@ -8,10 +8,20 @@ import { paginaHtml } from '../lib/viaje-ui.mjs';
 // Para bots sin MCP (Grok, WhatsApp, Telegram, Siri Shortcuts...) y para la página /viaje/ sin JS.
 export default function handler(req: VercelRequest, res: VercelResponse) {
   res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   if (req.method === 'OPTIONS') return res.status(204).end();
-  const src = (req.method === 'POST' && req.body && typeof req.body === 'object' ? req.body : req.query) as Record<string, string>;
+  let body: unknown = req.method === 'POST' ? req.body : undefined;
+  if (typeof body === 'string') {
+    try {
+      body = JSON.parse(body);
+    } catch {
+      body = undefined;
+    }
+  }
+  const src = (body && typeof body === 'object' ? body : req.query) as Record<string, string>;
   const q = Object.fromEntries(['origen', 'destino', 'hora', 'fecha', 'ciudad', 'formato'].map((k) => [k, typeof src[k] === 'string' ? src[k].slice(0, 200) : undefined]));
-  const formato = q.formato ?? (String(req.headers.accept ?? '').includes('text/html') ? 'html' : 'json');
+  // Sin negociar por Accept: la misma URL siempre da lo mismo (la CDN no mezcla HTML y JSON). /viaje/ pone formato=html.
+  const formato = q.formato ?? 'json';
   // Sin hora explícita la respuesta depende de "ahora": caché corta
   res.setHeader('Cache-Control', q.hora && q.fecha ? 'public, s-maxage=86400' : 'public, s-maxage=60');
 
@@ -23,6 +33,7 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(200).json(v);
   } catch (e) {
     const error = (e as Error).message;
+    res.setHeader('Cache-Control', 'no-store');
     if (formato === 'html') return res.status(400).setHeader('Content-Type', 'text/html; charset=utf-8').send(paginaHtml({ q, error }));
     if (formato === 'texto') return res.status(400).setHeader('Content-Type', 'text/plain; charset=utf-8').send(error);
     return res.status(400).json({ error });

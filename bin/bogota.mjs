@@ -28,7 +28,7 @@ const flags = {};
 const pos = [];
 for (let i = 0; i < rest.length; i++) {
   if (rest[i] === '--json') flags.json = true;
-  else if (rest[i].startsWith('--')) flags[rest[i].slice(2)] = rest[++i];
+  else if (rest[i].startsWith('--')) flags[rest[i].slice(2)] = rest[i + 1]?.startsWith('--') ? undefined : rest[++i];
   else pos.push(rest[i]);
 }
 const text = pos.join(' ') || undefined;

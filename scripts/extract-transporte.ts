@@ -50,8 +50,12 @@ function parseLine(line: string): string[] {
 }
 
 // Recorre un archivo del zip fila por fila. `*archivo` tolera feeds empaquetados en subcarpeta.
+// Opcionales: si faltan, unzip sale con 11 y se sigue sin ellos.
+const OPCIONALES = new Set(['frequencies.txt', 'feed_info.txt', 'calendar.txt', 'calendar_dates.txt', 'agency.txt']);
+
 async function csv(zip: string, file: string, onRow: (r: string[], ix: Record<string, number>) => void) {
   const p = spawn('unzip', ['-p', zip, `*${file}`]);
+  const salida = new Promise<number>((ok) => p.on('close', (code) => ok(code ?? 1)));
   const rl = createInterface({ input: p.stdout, crlfDelay: Infinity });
   let ix: Record<string, number> | null = null;
   for await (const line of rl) {
@@ -63,6 +67,10 @@ async function csv(zip: string, file: string, onRow: (r: string[], ix: Record<st
     }
     onRow(cols, ix);
   }
+  // Zip corrupto o archivo obligatorio ausente: fallar en vez de escribir una red vacía
+  const code = await salida;
+  if (code !== 0 && !(code === 11 && OPCIONALES.has(file))) throw new Error(`unzip ${file} terminó con código ${code}`);
+  if (!ix && !OPCIONALES.has(file)) throw new Error(`${file} vacío o ausente en ${zip}`);
 }
 
 const val = (r: string[], ix: Record<string, number>, k: string) => (ix[k] === undefined ? '' : (r[ix[k]] ?? '').trim());
@@ -287,6 +295,12 @@ function escribirEstable(path: string, o: Record<string, unknown>): boolean {
   if (existsSync(path)) {
     const prev = JSON.parse(readFileSync(path, 'utf8'));
     if (sinFecha(prev) === sinFecha(o)) return false;
+    // Guardia: una caída de más de la mitad casi siempre es un feed roto, no un cambio real
+    for (const k of ['paradas', 'patrones'] as const) {
+      const [antes, ahora] = [prev.totales?.[k] ?? 0, (o.totales as Record<string, number>)[k]];
+      if (antes && ahora < antes / 2 && !process.argv.includes('--forzar'))
+        throw new Error(`${k} cae de ${antes} a ${ahora}: no escribo ${path}. Revisa el feed o usa --forzar.`);
+    }
   }
   writeFileSync(path, serializar(o));
   return true;

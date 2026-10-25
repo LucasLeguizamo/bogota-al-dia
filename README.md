@@ -17,7 +17,7 @@ Visita [bogota-al-dia.vercel.app](https://bogota-al-dia.vercel.app) para navegar
 ### Cómo llegar (API para bots)
 
 ```bash
-curl 'https://bogota-al-dia.vercel.app/api/viaje?origen=Portal%20Norte&destino=Calle%2026&formato=texto'
+curl -L 'https://bogota-al-dia.vercel.app/api/viaje/?origen=Portal%20Norte&destino=Calle%2026&formato=texto'
 node bin/bogota.mjs viaje "Portal Norte" "Calle 26" --hora 07:30
 ```
 
